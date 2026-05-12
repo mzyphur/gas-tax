@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="623.872656pt" height="358.691375pt" viewBox="0 0 623.872656 358.691375" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-05-12T22:24:06.741073</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 358.691375 
+L 623.872656 358.691375 
+L 623.872656 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 58.672656 282.816 
+L 616.672656 282.816 
+L 616.672656 7.2 
+L 58.672656 7.2 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 84.036293 282.816 
+L 264.036293 282.816 
+L 264.036293 38.908035 
+L 84.036293 38.908035 
+z
+" clip-path="url(#p5d985e859c)" style="fill: #00547b; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 411.30902 282.816 
+L 591.30902 282.816 
+L 591.30902 277.853905 
+L 411.30902 277.853905 
+z
+" clip-path="url(#p5d985e859c)" style="fill: #c5283d; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="md0c1081fd3" d="M 0 0 
+L 0 3 
+" style="stroke: #525560; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#md0c1081fd3" x="174.036293" y="282.816" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(157.514261 295.8635)">Norway</text>
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(99.81723 305.762656)">(Government Pension Fund Global,</text>
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(122.524652 315.937156)">entirely from petroleum)</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#md0c1081fd3" x="501.30902" y="282.816" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(482.768317 295.8635)">Australia</text>
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(430.772223 306.038)">(Future Fund — general purpose,</text>
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(457.834801 315.837031)">not a resource fund)</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_3">
+      <path d="M 58.672656 282.816 
+L 616.672656 282.816 
+" clip-path="url(#p5d985e859c)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #525560" x="55.172656" y="286.129828" transform="rotate(-0 55.172656 286.129828)">A$0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <path d="M 58.672656 233.441918 
+L 616.672656 233.441918 
+" clip-path="url(#p5d985e859c)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_4">
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #525560" x="55.172656" y="236.755746" transform="rotate(-0 55.172656 236.755746)">A$100k</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <path d="M 58.672656 184.067836 
+L 616.672656 184.067836 
+" clip-path="url(#p5d985e859c)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_5">
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #525560" x="55.172656" y="187.381664" transform="rotate(-0 55.172656 187.381664)">A$200k</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_9">
+      <path d="M 58.672656 134.693754 
+L 616.672656 134.693754 
+" clip-path="url(#p5d985e859c)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_6">
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #525560" x="55.172656" y="138.007582" transform="rotate(-0 55.172656 138.007582)">A$300k</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_11">
+      <path d="M 58.672656 85.319672 
+L 616.672656 85.319672 
+" clip-path="url(#p5d985e859c)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_7">
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #525560" x="55.172656" y="88.633501" transform="rotate(-0 55.172656 88.633501)">A$400k</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_13">
+      <path d="M 58.672656 35.94559 
+L 616.672656 35.94559 
+" clip-path="url(#p5d985e859c)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_8">
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #525560" x="55.172656" y="39.259419" transform="rotate(-0 55.172656 39.259419)">A$500k</text>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font-weight: 500; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="14.920312" y="145.008" transform="rotate(-90 14.920312 145.008)">Sovereign wealth fund AUM per resident (AUD)</text>
+    </g>
+   </g>
+   <g id="patch_5">
+    <path d="M 58.672656 282.816 
+L 58.672656 7.2 
+" style="fill: none; stroke: #525560; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 58.672656 282.816 
+L 616.672656 282.816 
+" style="fill: none; stroke: #525560; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #1f2024" x="174.036293" y="32.983146" transform="rotate(-0 174.036293 32.983146)">A$494,000</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #1f2024" x="501.30902" y="271.929015" transform="rotate(-0 501.30902 271.929015)">A$10,050</text>
+   </g>
+   <g id="text_12">
+    <text style="font-style: italic; font-size: 11px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #1f2024" x="288.581747" y="65.57004" transform="rotate(-0 288.581747 65.57004)">≈ 49× Australia</text>
+   </g>
+  </g>
+  <g id="text_13">
+   <text style="font-style: italic; font-size: 8.5px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #1f2024" transform="translate(120.205508 339.265187)">Note: Australia's Future Fund is general-purpose (Telstra IPO + budget surpluses), not a resource fund.</text>
+   <text style="font-style: italic; font-size: 8.5px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #1f2024" transform="translate(63.161875 349.632)">A counterfactual gas-rent fund built at Qatar take-rates since 2010 would be of order A$700-900 bn (~A$26k–A$34k per resident).</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5d985e859c">
+   <rect x="58.672656" y="7.2" width="558" height="275.616"/>
+  </clipPath>
+ </defs>
+</svg>

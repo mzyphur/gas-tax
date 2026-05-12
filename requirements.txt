@@ -1,0 +1,5 @@
+# Public chart/data dependencies.
+matplotlib>=3.10,<4.0
+numpy>=2.3,<3.0
+pandas>=2.3,<3.0
+PyYAML>=6.0,<7.0

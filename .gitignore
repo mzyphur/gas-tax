@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Build artefacts that should be regenerated
+final/report.html
+final/report.pdf
+
+# Large primary-source dumps kept for verification but not necessarily small
+sources/*.pdf.txt
+sources/*.tmp
+
+# macOS / Google Drive crud
+.DS_Store
+.gdoc
+.gsheet
+.gslides
+Icon?
+
+# MS Word lockfiles (~$foo.docx) — created when Word has the file open
+~$*
+*.tmp.docx
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Local scratch and private files.
+/tmp/
+private/
+*.private.*
+*.internal.*

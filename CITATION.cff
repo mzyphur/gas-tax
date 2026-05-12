@@ -1,0 +1,47 @@
+# Machine-readable citation file for github.com/mzyphur/gas-tax.
+# Renders as a "Cite this repository" button in the GitHub repo sidebar.
+# Schema: https://citation-file-format.github.io/
+cff-version: 1.2.0
+title: "Australia's Gas Export Tax Revenue: The Definitive Accounting"
+message: "If you use this work, please cite it using the metadata below."
+type: report
+authors:
+  - family-names: "Zyphur"
+    given-names: "Michael J."
+    affiliation: "Instats"
+    email: "support@instats.org"
+    orcid: "https://orcid.org/0000-0003-3237-7892"
+repository-code: "https://github.com/mzyphur/gas-tax"
+url: "https://mzyphur.github.io/gas-tax/"
+abstract: >-
+  Forensic accounting of Australia's offshore-gas fiscal regime —
+  Petroleum Resource Rent Tax, company income tax, state royalties,
+  and the grandfathered North West Shelf Commonwealth royalty —
+  against the 2025-26 Commonwealth Budget and against the
+  fiscal-architecture documents of Norway, Qatar, the United States,
+  the United Kingdom, Malaysia, and Japan (the latter as the
+  destination-market angle). Quantifies the gap between Australia's
+  per-tonne state take (~A$49/t) and Norway's (~A$491/t), Qatar's
+  (~A$725/t), and the United States' (~A$61/t); enumerates what a
+  25 per cent levy on the gross value of LNG exports would raise
+  (~A$17 bn/yr) and what current Australian budget costings show
+  that figure would fund.
+keywords:
+  - public policy
+  - Australia
+  - energy policy
+  - fiscal policy
+  - LNG
+  - PRRT
+  - Petroleum Resource Rent Tax
+  - sovereign wealth fund
+  - Norway
+  - open data
+  - reproducible research
+  - INSTATS-PS-2026-03
+license: CC-BY-NC-4.0
+date-released: "2026-05-12"
+version: "3.1.0"
+# DOI to be minted through Instats/CrossRef after release.
+# Update this field with the assigned DOI when available.
+# doi: "10.XXXX/instats.lng-tax.v3.1.0"

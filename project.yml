@@ -1,0 +1,22 @@
+# Public project metadata for the report and citation package.
+
+project:
+  title: "Australia's Gas Export Tax Revenue"
+  subtitle: "The Definitive Accounting"
+  short_title: "Australia's gas export tax revenue"
+  series: "Instats Policy Series"
+  series_kicker: "INSTATS POLICY SERIES"
+  date_display: "May 2026"
+  author: "Michael J. Zyphur, PhD"
+  author_affiliation: "Instats"
+  contact_email: "support@instats.org"
+  github_url: "https://github.com/mzyphur/gas-tax"
+  pages_url: "https://mzyphur.github.io/gas-tax/"
+  pdf_filename: "report.pdf"
+  description: "How much does Australia actually collect from its gas exports? A fully sourced policy analysis with public source notes, chart data, and three deliverable formats."
+  og_title: "Australia's Gas Export Tax Revenue: The Definitive Accounting"
+  og_description: "How much does Australia actually collect from its gas exports? A fully sourced policy analysis with public source notes, chart data, and three deliverable formats."
+  docx_subject: "Public policy analysis — Australian LNG export taxation"
+  docx_keywords: "PRRT, LNG, gas tax, Australia, public policy, sovereign wealth"
+  instats_publication_url: "https://instats.org/publications/gas-tax/"
+  absolute_asset_base: "https://mzyphur.github.io/gas-tax/"

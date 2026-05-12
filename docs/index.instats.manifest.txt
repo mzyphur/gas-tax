@@ -1,0 +1,22 @@
+# Absurl variant — every public asset URL rewritten for the hosted drop-in.
+# base = https://mzyphur.github.io/gas-tax/
+# count = 17
+# Listed in document order; one rewrite per line.
+
+assets/instats_logo.png  ->  https://mzyphur.github.io/gas-tax/assets/instats_logo.png
+charts/png/01_prrt_revenue_history.png  ->  https://mzyphur.github.io/gas-tax/charts/png/01_prrt_revenue_history.png
+charts/png/10_lng_volume_vs_prrt.png  ->  https://mzyphur.github.io/gas-tax/charts/png/10_lng_volume_vs_prrt.png
+charts/png/02_prrt_share_of_lng_value.png  ->  https://mzyphur.github.io/gas-tax/charts/png/02_prrt_share_of_lng_value.png
+charts/png/09_entity_level_zeros.png  ->  https://mzyphur.github.io/gas-tax/charts/png/09_entity_level_zeros.png
+charts/png/05_beer_vs_prrt.png  ->  https://mzyphur.github.io/gas-tax/charts/png/05_beer_vs_prrt.png
+charts/png/06_comparators_bar.png  ->  https://mzyphur.github.io/gas-tax/charts/png/06_comparators_bar.png
+charts/png/03_per_tonne_state_take.png  ->  https://mzyphur.github.io/gas-tax/charts/png/03_per_tonne_state_take.png
+charts/png/12_aud_international_revenue.png  ->  https://mzyphur.github.io/gas-tax/charts/png/12_aud_international_revenue.png
+charts/png/07_norway_vs_australia_swf.png  ->  https://mzyphur.github.io/gas-tax/charts/png/07_norway_vs_australia_swf.png
+charts/png/11_buyer_country_tax.png  ->  https://mzyphur.github.io/gas-tax/charts/png/11_buyer_country_tax.png
+charts/png/08_aep_decomposition.png  ->  https://mzyphur.github.io/gas-tax/charts/png/08_aep_decomposition.png
+charts/png/04_what_17b_buys.png  ->  https://mzyphur.github.io/gas-tax/charts/png/04_what_17b_buys.png
+assets/instats_logo.png  ->  https://mzyphur.github.io/gas-tax/assets/instats_logo.png
+report.css  ->  https://mzyphur.github.io/gas-tax/report.css
+assets/instats_logo.png  ->  https://mzyphur.github.io/gas-tax/assets/instats_logo.png
+report.pdf  ->  https://mzyphur.github.io/gas-tax/report.pdf
