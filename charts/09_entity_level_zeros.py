@@ -63,7 +63,7 @@ def main() -> None:
         "Six APPEA members combined:\n"
         "A$196 bn revenue\n"
         "A$6 million income tax",
-        xy=(2, 60), xytext=(2.2, 55),
+        xy=(2, 60), xytext=(2.2, 61.5),
         fontsize=10, color=COLORS["ink"], style="italic",
         bbox=dict(boxstyle="square,pad=0.5", fc="none", ec=COLORS["ink_soft"], lw=0.5),
     )

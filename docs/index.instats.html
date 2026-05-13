@@ -16,7 +16,7 @@
 </head>
 <body>
 
-<!-- Public web layout — sticky header bar.
+<!-- DESIGN_FEEDBACK §15.4 — sticky header bar.
      Appears only after the reader has scrolled past the cover. Carries
      the report's title (left), series + version (right) and a
      Download PDF button (far right). Hidden in @media print. -->
@@ -26,12 +26,12 @@
   <a class="sh-download" href="https://mzyphur.github.io/gas-tax/report.pdf" download>Download PDF</a>
 </header>
 
-<!-- Public web layout — reading progress bar.
+<!-- DESIGN_FEEDBACK §7.4 — reading progress bar.
      3px hairline, primary blue, fixed at top of viewport. Driven by JS
      that tracks scroll position. Hidden in @media print. -->
 <div id="progress-bar" class="web-only" aria-hidden="true"></div>
 
-<!-- Public web layout — sticky left-rail TOC.
+<!-- DESIGN_FEEDBACK §7.4 — sticky left-rail TOC.
      Auto-populated from H2 headings in the body. Only appears on
      viewports > 1100px (CSS media query); collapses to inline TOC
      on narrower screens via the existing .toc block in the body. -->

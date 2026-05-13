@@ -56,7 +56,7 @@ def main() -> None:
     set_chart_title(ax, "PRRT cash receipts did not rise with the LNG boom")
 
     ax.axvspan(14.5, 18.5, color=COLORS["neutral_mid"], alpha=0.08, zorder=0)
-    ax.text(16.5, 2450, "Forward estimates\n(Budget 2025-26 BP1)",
+    ax.text(16.5, 2530, "Forward estimates\n(Budget 2025-26 BP1)",
             ha="center", va="top", fontsize=9, color=COLORS["ink_soft"],
             style="italic")
 

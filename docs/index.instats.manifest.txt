@@ -1,4 +1,4 @@
-# Absurl variant — every public asset URL rewritten for the hosted drop-in.
+# Absurl variant — every URL rewritten by publish_pages.py.
 # base = https://mzyphur.github.io/gas-tax/
 # count = 17
 # Listed in document order; one rewrite per line.
