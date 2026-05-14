@@ -19,4 +19,3 @@ project:
   docx_subject: "Public policy analysis — Australian LNG export taxation"
   docx_keywords: "PRRT, LNG, gas tax, Australia, public policy, sovereign wealth"
   instats_publication_url: "https://instats.org/publications/gas-tax/"
-  absolute_asset_base: "https://mzyphur.github.io/gas-tax/"

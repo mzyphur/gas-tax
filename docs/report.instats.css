@@ -1,4 +1,3 @@
-/* Instats-hosted scoped stylesheet. */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Montserrat:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,500&display=swap");
 
 .instats-report {
@@ -92,37 +91,6 @@
   font-variant-numeric: oldstyle-nums;
   hanging-punctuation: first last;
 }
-
-.instats-report .instats-embed-actions {
-  max-width: 880px;
-  margin: 0 auto;
-  padding: 22px 36px 0;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.instats-report .instats-embed-download {
-  font-family: var(--sans);
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  line-height: 1;
-  text-transform: uppercase;
-  color: white;
-  background: var(--instats-primary);
-  border-radius: 3px;
-  padding: 8px 14px;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.instats-report .instats-embed-download:hover,
-.instats-report .instats-embed-download:focus {
-  background: var(--instats-secondary);
-  color: white;
-  text-decoration: none;
-}
-
 
 .instats-report td, .instats-report th, .instats-report .stat, .instats-report .keyfacts .num, .instats-report .figure-num, .instats-report .tablewrap td, .instats-report .tablewrap th {
   font-variant-numeric: tabular-nums;
@@ -868,7 +836,7 @@
     line-height: 1.5;
     background: white;
   }
-  .instats-report .instats-embed-actions {
+  .instats-report .instats-publication-actions {
     display: none;
   }
   .instats-report {
@@ -1068,8 +1036,70 @@
   .instats-report .sticky-toc { display: block; }
 }
 
+.instats-publication-actions,
+.instats-report .instats-publication-actions {
+  max-width: 880px;
+  margin: 26px auto 18px;
+  padding: 0 36px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.instats-pdf-download,
+.instats-report .instats-pdf-download {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 18px;
+  border: 1px solid var(--instats-primary, #00547B);
+  border-radius: 6px;
+  background: var(--instats-primary, #00547B) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 8px 20px rgba(0, 84, 123, 0.18);
+  font-family: var(--sans, "Montserrat", "Inter", "Helvetica Neue", Arial, sans-serif) !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em;
+  line-height: 1 !important;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+
+.instats-pdf-download:hover,
+.instats-pdf-download:focus,
+.instats-report .instats-pdf-download:hover,
+.instats-report .instats-pdf-download:focus {
+  background: var(--instats-secondary, #3092B1) !important;
+  border-color: var(--instats-secondary, #3092B1);
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+  transform: translateY(-1px);
+}
+
+.instats-pdf-download:focus-visible,
+.instats-report .instats-pdf-download:focus-visible {
+  outline: 3px solid rgba(48, 146, 177, 0.35);
+  outline-offset: 3px;
+}
+
+@media (max-width: 720px) {
+  .instats-publication-actions,
+  .instats-report .instats-publication-actions {
+    justify-content: flex-start;
+    margin: 18px auto 14px;
+    padding: 0 24px;
+  }
+}
 
 @media print {
+
+  .instats-publication-actions,
+  .instats-report .instats-publication-actions {
+    display: none;
+  }
 
   .instats-report figure, .instats-report table, .instats-report blockquote, .instats-report .colophon, .instats-report .toc { page-break-inside: avoid; }
   .instats-report h1 { page-break-before: always; }
