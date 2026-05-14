@@ -110,7 +110,7 @@
 .instats-report .wrap {
   max-width: 880px;
   margin: 0 auto;
-  padding: 56px 36px 96px 36px;
+  padding: 0 36px 96px 36px;
 }
 
 
@@ -1039,7 +1039,7 @@
 .instats-publication-actions,
 .instats-report .instats-publication-actions {
   max-width: 880px;
-  margin: 74px auto 18px;
+  margin: 0 auto;
   padding: 0 36px;
   display: flex;
   justify-content: center;
@@ -1089,7 +1089,7 @@
   .instats-publication-actions,
   .instats-report .instats-publication-actions {
     justify-content: center;
-    margin: 48px auto 14px;
+    margin: 0 auto;
     padding: 0 24px;
   }
 }
