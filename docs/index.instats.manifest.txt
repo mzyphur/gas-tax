@@ -17,6 +17,6 @@ charts/png/11_buyer_country_tax.png  ->  https://mzyphur.github.io/gas-tax/chart
 charts/png/08_aep_decomposition.png  ->  https://mzyphur.github.io/gas-tax/charts/png/08_aep_decomposition.png
 charts/png/04_what_17b_buys.png  ->  https://mzyphur.github.io/gas-tax/charts/png/04_what_17b_buys.png
 assets/instats_logo.png  ->  https://mzyphur.github.io/gas-tax/assets/instats_logo.png
-report.css  ->  https://mzyphur.github.io/gas-tax/report.css
+report.instats.css  ->  https://mzyphur.github.io/gas-tax/report.instats.css
 assets/instats_logo.png  ->  https://mzyphur.github.io/gas-tax/assets/instats_logo.png
 report.pdf  ->  https://mzyphur.github.io/gas-tax/report.pdf

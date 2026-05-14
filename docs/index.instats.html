@@ -12,24 +12,15 @@
   <meta property="og:url" content="https://mzyphur.github.io/gas-tax/">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="https://mzyphur.github.io/gas-tax/assets/instats_logo.png">
-  <link rel="stylesheet" href="https://mzyphur.github.io/gas-tax/report.css">
+  <link rel="stylesheet" href="https://mzyphur.github.io/gas-tax/report.instats.css">
 </head>
 <body>
+<div class="instats-report">
+<div class="instats-embed-actions" aria-label="Report actions">
+  <a class="instats-embed-download" href="https://mzyphur.github.io/gas-tax/report.pdf" download>Download PDF</a>
+</div>
 
-<!-- DESIGN_FEEDBACK §15.4 — sticky header bar.
-     Appears only after the reader has scrolled past the cover. Carries
-     the report's title (left), series + version (right) and a
-     Download PDF button (far right). Hidden in @media print. -->
-<header id="sticky-header" class="sticky-header web-only" aria-hidden="false">
-  <div class="sh-title">Australia's Gas Export Tax Revenue</div>
-  <div class="sh-meta">Instats Policy Series · v3.1.0</div>
-  <a class="sh-download" href="https://mzyphur.github.io/gas-tax/report.pdf" download>Download PDF</a>
-</header>
 
-<!-- DESIGN_FEEDBACK §7.4 — reading progress bar.
-     3px hairline, primary blue, fixed at top of viewport. Driven by JS
-     that tracks scroll position. Hidden in @media print. -->
-<div id="progress-bar" class="web-only" aria-hidden="true"></div>
 
 <div class="wrap">
 <div class="cover">
@@ -1134,75 +1125,6 @@ A$17 billion a year is 2.3 per cent of Commonwealth receipts, equal to total Chi
 </div>
 </div>
 
-<script>
-(function() {
-  // Sticky header — show only after the reader scrolls past the cover.
-  const header = document.getElementById('sticky-header');
-  const cover = document.querySelector('.cover');
-  const showHeader = () => {
-    if (!header || !cover) return;
-    const coverBottom = cover.getBoundingClientRect().bottom + window.scrollY;
-    header.classList.toggle('visible', window.scrollY > coverBottom - 40);
-    header.classList.toggle('scrolled', window.scrollY > 0);
-  };
-  document.addEventListener('scroll', showHeader, { passive: true });
-  showHeader();
-
-  // Progress bar
-  const bar = document.getElementById('progress-bar');
-  if (bar) {
-    const update = () => {
-      const h = document.documentElement;
-      const scrolled = h.scrollTop;
-      const max = h.scrollHeight - h.clientHeight;
-      const pct = max > 0 ? (scrolled / max) * 100 : 0;
-      bar.style.width = pct + '%';
-    };
-    document.addEventListener('scroll', update, { passive: true });
-    update();
-  }
-
-  // Sticky TOC — server-rendered at build time per v2.2.0 design
-  // review §6 #1. If the rail already has children, this JS does
-  // scroll-spy `.active` highlighting only. The legacy client-side
-  // populate runs only as a fallback for HTML built before the
-  // server-rendered TOC landed.
-  const tocEl = document.querySelector('#sticky-toc ol');
-  if (tocEl) {
-    if (tocEl.children.length === 0) {
-      const skip = ['cover', 'colophon', 'toc', 'exec', 'abstract'];
-      const h2s = [...document.querySelectorAll('h2')].filter(h => {
-        let n = h.parentElement;
-        while (n) {
-          if (n.classList && skip.some(c => n.classList.contains(c))) return false;
-          n = n.parentElement;
-        }
-        return true;
-      });
-      h2s.forEach((h, idx) => {
-        if (!h.id) h.id = 'sec-' + idx;
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.href = '#' + h.id;
-        a.textContent = h.textContent.trim();
-        li.appendChild(a);
-        tocEl.appendChild(li);
-      });
-    }
-
-    // Highlight the current section as the reader scrolls
-    const links = [...tocEl.querySelectorAll('a')];
-    const targets = links.map(a => document.getElementById(a.getAttribute('href').slice(1)));
-    const onScroll = () => {
-      const y = window.scrollY + 120;
-      let active = 0;
-      targets.forEach((t, i) => { if (t && t.offsetTop <= y) active = i; });
-      links.forEach((a, i) => a.classList.toggle('active', i === active));
-    };
-    document.addEventListener('scroll', onScroll, { passive: true });
-    onScroll();
-  }
-})();
-</script>
+</div>
 </body>
 </html>
