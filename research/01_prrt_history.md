@@ -34,16 +34,17 @@ All figures are **cash receipts**, $m AUD, from the *Final Budget Outcome* (FBO)
 - The 2021-22 lift and 2022-23 spike were *oil-price* events, not a structural lift; the ATO explicitly attributes the spike to "energy prices reacting to market volatility created by the Russian invasion of Ukraine"[^16]. On a cash basis, 2022-23 is the only post-2010 year in this series above $2bn.
 - Burke (2023, *Australian Journal of Agricultural and Resource Economics*) summarises the longer arc: "annual liabilities to the Commonwealth under the PRRT indeed more than halved in nominal terms over the first two decades of this century"[^17]. The 2017 Callaghan Review records that PRRT "peaked at almost $2.5 billion in 2000-01"[^18] — i.e. nominal PRRT was higher 25 years ago than at any point in the LNG era except for the 2022 oil spike.
 
-### 1b. Forward estimates (most recent — March 2025 Budget, BP1)
+### 1b. Forward estimates (most recent — Budget 2026-27, BP1)
 
 | FY | PRRT cash receipts ($m, projected) | Source |
 |---|---|---|
-| 2025-26 | 1,950 | Budget 2025-26 BP1 Table 4.7[^13] |
-| 2026-27 | 1,800 | Budget 2025-26 BP1 Table 4.7[^13] |
-| 2027-28 | 1,650 | Budget 2025-26 BP1 Table 4.7[^13] |
-| 2028-29 | 1,450 | Budget 2025-26 BP1 Table 4.7[^13] |
+| 2025-26 | 1,400 | Budget 2026-27 BP1 Statement 5 Table 5.7[^54] |
+| 2026-27 | 1,900 | Budget 2026-27 BP1 Statement 5 Table 5.7[^54] |
+| 2027-28 | 1,750 | Budget 2026-27 BP1 Statement 5 Table 5.7[^54] |
+| 2028-29 | 1,550 | Budget 2026-27 BP1 Statement 5 Table 5.7[^54] |
+| 2029-30 | 1,250 | Budget 2026-27 BP1 Statement 5 Table 5.7[^54] |
 
-For context, the May 2024 Budget had projected $2,650m for 2024-25 and $2,050m for 2025-26[^19]; the FY2024-25 outcome came in at $1,420m receipts — a **$1.23 billion shortfall** vs. the May 2024 Budget estimate, despite the 2023 deductions cap taking effect for the first time. The shortfall is detailed in BP1 2025-26 Statement 4: "Since MYEFO, PRRT receipts have been revised up by $100.0 million in 2025–26 and $750.0 million over the five years from 2024–25 to 2028–29. The upgrade is primarily due to a higher assumed oil price."[^20]
+For context, the May 2024 Budget had projected $2,650m for 2024-25 and $2,050m for 2025-26[^19]; the FY2024-25 outcome came in at $1,420m receipts — a **$1.23 billion shortfall** vs. the May 2024 Budget estimate, despite the 2023 deductions cap taking effect for the first time. Budget 2026-27 then lifted the 2026-27 PRRT estimate by $400m and the five-year total by $1.6bn relative to MYEFO, primarily because of higher oil prices and production volumes under long-term oil-linked LNG contracts.[^54]
 
 ### 1c. ATO PRRT tax-gap series (parallel reconciliation)
 
@@ -256,6 +257,11 @@ The mechanism (legislated by the Treasury Laws Amendment (Tax Accountability and
 - The 2024-25 actual outcome ($1,420m receipts vs $2,650m projected) is **45% below** the May 2024 forecast.
 - *Sydney Morning Herald* / Australia Institute analysis: "the tweaked PRRT would raise $4 billion less over the forward estimates than the government had said in 2023."[^51]
 
+**At Budget 2026-27 (May 2026):**
+- Forecasts moved to FY2025-26 $1,400m, FY2026-27 $1,900m, FY2027-28 $1,750m, FY2028-29 $1,550m and FY2029-30 $1,250m.[^54]
+- Treasury explicitly attributes the near-term PRRT upgrade to higher oil prices and production volumes, noting that most Australian LNG exports are sold through long-term contracts linked to oil prices.[^54]
+- The update improves the 2026-27 point estimate, but does not alter the structural diagnosis: the forward path still fades, and beer excise remains above PRRT in every year of the forward estimates.
+
 ### 6c. What independent analysts say
 
 - **Australia Institute** (*A Stronger PRRT Cap*, May 2024)[^52]: Proposed alternative caps at 80% (additional ~$1bn/year vs the 90% cap) or 60% (~$2-3bn/year). Modelled estimates: 90% cap $0.5bn-$0.8bn/year additional; 80% cap $1.0bn-$1.6bn/year; 60% cap $2.0bn-$3.3bn/year over FY2023-24 to FY2026-27. **Even the 60% cap was a "very small sum compared to projected LNG exports earnings."**
@@ -289,10 +295,11 @@ The mechanism (legislated by the Treasury Laws Amendment (Tax Accountability and
 | 2022-23 | 2,287 | **92,237** | **2.5%** | BP1 2025-26[^13] / REQ[^48] |
 | 2023-24 | 1,144 | **68,588** | **1.7%** | FBO 2023-24[^14] / REQ[^48] |
 | 2024-25 | 1,420 | ~64,000 | **2.2%** | FBO 2024-25[^15] / REQ[^49] |
-| 2025-26 f | 1,950 | ~60,000 | 3.3% | BP1 2025-26[^13] / REQ[^49] |
-| 2026-27 f | 1,800 | ~48,000 | 3.8% | BP1 2025-26[^13] / REQ[^49] |
-| 2027-28 f | 1,650 | (not yet published) | n/a | BP1 2025-26[^13] |
-| 2028-29 f | 1,450 | (not yet published) | n/a | BP1 2025-26[^13] |
+| 2025-26 f | 1,400 | ~60,000 | 2.3% | BP1 2026-27[^54] / REQ[^49] |
+| 2026-27 f | 1,900 | ~48,000 | 4.0% | BP1 2026-27[^54] / REQ[^49] |
+| 2027-28 f | 1,750 | (not yet published) | n/a | BP1 2026-27[^54] |
+| 2028-29 f | 1,550 | (not yet published) | n/a | BP1 2026-27[^54] |
+| 2029-30 f | 1,250 | (not yet published) | n/a | BP1 2026-27[^54] |
 
 **Note on 2015-16 to 2017-18 LNG values:** ABS published HS-2711.11 figures show LNG export value scaling roughly $17.6bn (2014-15) → $20-22bn (2015-16, prices low) → $30-31bn (2017-18, prices recovering and Gorgon/Wheatstone ramping). These are approximate figures from DFAT/BREE composite tables; I did **not** independently retrieve each year from a single ABS table this public dossier — see Confidence Assessment below.
 
@@ -303,14 +310,14 @@ The mechanism (legislated by the Treasury Laws Amendment (Tax Accountability and
 | Item | Confidence | Evidence basis |
 |---|---|---|
 | PRRT receipts FY2010-11 to FY2024-25 | **Very high** | Directly from Treasury FBO PDFs (cross-checked Receipts vs Revenue tables) |
-| PRRT forward estimates FY2025-26 to FY2028-29 | **High** | March 2025 BP1 — the most recent official forecast |
+| PRRT forward estimates FY2025-26 to FY2029-30 | **High** | Budget 2026-27 BP1 Statement 5 Table 5.7 — the most recent official forecast |
 | ATO Corporate Tax Transparency Report PRRT figures FY2019-20 to FY2023-24 | **Very high** | ATO published pages, archived in this public dossier |
 | Callaghan stockpile figure (~$300bn by 2015-16) | **High** | Figure 2.3 y-axis from the official PDF |
 | Project-level zero-PRRT/zero-tax claims (Chevron, Shell, INPEX, Exxon) | **Very high** | Australia Institute table sourced to ATO Corporate Tax Transparency raw data |
 | Chevron first PRRT payment August 2025 | **High** | Chevron's own corporate communications, confirmed via search; consistent with ATO "5 new payers" in FY2023-24 |
 | INPEX FY2023-24 corporate tax jump to $356.7m | **High** | Michael West Media analysis of INPEX tax-transparency reports — single source for the most recent figures, but the Tax Transparency Code reports are public |
 | LNG export value 2022-23, 2023-24, 2024-25 f, 2025-26 f | **Very high** | DISR REQ Dec 2024 Table 6.1, direct from PDF |
-| LNG export value 2010-11 to 2014-15 | **Medium** | DFAT 2003-04 to 2013-14 PDF gives endpoints; intermediate years are interpolated from DFAT/BREE summary text. Not independently verified at single-year-table level from ABS this public dossier. **For the final report, retrieve ABS 5368.0 historical detailed data to firm up these years.** |
+| LNG export value 2010-11 to 2014-15 | **Medium** | DFAT 2003-04 to 2013-14 PDF gives endpoints; intermediate years are interpolated from DFAT/BREE summary text. Not independently verified at single-year-table level from ABS this public dossier. **Future refinement:** retrieve ABS 5368.0 historical detailed data to firm up these years. |
 | LNG export value 2015-16 to 2017-18 | **Medium-Low** | Used DISR REQ summary descriptive text rather than a direct single-year table. Same caveat. |
 | Burke (2023) PRRT halving claim | **High** | Direct quote from peer-reviewed paper |
 | MYEFO 2023-24 wipeout of $2.4bn cap revenue | **Very high** | MYEFO 2023-24 quoted directly in Australia Institute report, with the MYEFO URL[^28] |
@@ -318,11 +325,11 @@ The mechanism (legislated by the Treasury Laws Amendment (Tax Accountability and
 
 ### Items NOT verified this public dossier
 
-- **ABS 5368.0 single-year LNG export value tables** for FY2010-11 through FY2017-18. For the final report, pull these directly from ABS Time Series Spreadsheets to firm up the master data table.
+- **ABS 5368.0 single-year LNG export value tables** for FY2010-11 through FY2017-18. Future refinement: pull these directly from ABS Time Series Spreadsheets to firm up the master data table.
 - **The Callaghan Review's full deduction-stockpile figure with exact year-by-year breakdown** — only the Figure 2.3 chart was extracted (chart axis reaches $300bn). For a precise number, retrieve the Callaghan Appendix B (PRRT data) directly.
 - **Treasury's "three options" presentation to gas companies** referenced by Australia Institute — I did not retrieve the original Treasury document.
-- **Woodside's own PRRT/income-tax payment history** — I have not retrieved Woodside's tax transparency reports for FY2021-22 through FY2024-25 directly. Should be verified for the final report.
-- **PRRT receipts FY2008-09 and earlier** — only have Callaghan's prose statement that PRRT "peaked at almost $2.5 billion in 2000-01." For the final report, pull the historical series from the ATO Taxation Statistics archive.
+- **Woodside's own PRRT/income-tax payment history** — I have not retrieved Woodside's tax transparency reports for FY2021-22 through FY2024-25 directly. Future refinement: verify directly against Woodside's tax transparency reports.
+- **PRRT receipts FY2008-09 and earlier** — only have Callaghan's prose statement that PRRT "peaked at almost $2.5 billion in 2000-01." Future refinement: pull the historical series from the ATO Taxation Statistics archive.
 
 ---
 
@@ -383,3 +390,4 @@ This public dossier preserves the substantive source notes and footnotes needed 
 [^51]: Wright, S. (March 2025), reporting on Budget 2025-26. (Search-result attribution: "the Budget subsequently handed down in March 2025 revealed the tweaked PRRT would raise $4 billion less over the forward estimates than the government had said in 2023.")
 [^52]: Australia Institute (May 2024), *A Stronger PRRT Cap*, op. cit., Table 2: revenue at alternative cap rates 60/70/80/90% from FY2023-24 to FY2026-27.
 [^53]: Keane, B. (May 2023), "Petroleum resource rent tax revenue boost is PR spin", *Crikey*. https://www.crikey.com.au/2023/05/11/petroleum-resource-rent-tax-federal-budget-billions-spin/
+[^54]: Commonwealth of Australia, *Budget Paper No. 1: Budget Strategy and Outlook 2026-27*, Statement 5, Table 5.7, and PRRT narrative. Direct PDF: https://budget.gov.au/content/bp1/download/bp1_bs-5.pdf — PRRT receipts: 2024-25 actual $1,420m; 2025-26 estimate $1,400m; 2026-27 estimate $1,900m; 2027-28 estimate $1,750m; 2028-29 estimate $1,550m; 2029-30 estimate $1,250m. Narrative: PRRT receipts revised up by $400m in 2026-27 and $1.6bn over five years, primarily due to higher near-term oil prices and higher production volumes, with most Australian LNG exports sold under long-term contracts linked to oil prices.

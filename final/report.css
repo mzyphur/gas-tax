@@ -1,70 +1,38 @@
-/* Instats Policy Series — print-quality policy document styling.
- *
- * Brand palette per Instats house style:
- *   Primary    #00547B   (deep teal-navy — used for H1/H2 + key emphasis)
- *   Secondary  #3092B1   (mid teal — links, H3, accents, quote rule)
- *   Background #F5F5F7   (paper / page background)
- *   Tags       #F1F0F1   (callout panels, table-row alt, code blocks)
- *
- * Typography (per publication notes §10.1 and canonical
- * reference stylesheet):
- *   Body:     Source Serif 4 — high-density serif designed for reading
- *             at body sizes; real italics; optical-size axis tunes letter-
- *             shapes for caption/footnote sizes vs. body sizes.
- *   Display:  Montserrat semibold (600) — Grattan / Brookings convention;
- *             Inter is the immediate fallback if Montserrat is not
- *             available in the rendering environment.
- *
- * Typographic hierarchy follows the Grattan / Brookings / Cato
- * convention: serif body for long-form reading, sans-serif headings
- * for hierarchy.
- */
+
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Montserrat:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,500&display=swap");
 
 :root {
-  /* Instats brand — primary palette */
-  --instats-primary:   #00547B;   /* deep teal-navy */
-  --instats-secondary: #3092B1;   /* mid teal */
-  --instats-bg:        #F5F5F7;   /* paper */
-  --instats-tag:       #F1F0F1;   /* tags / chips / alt panel */
+
+  --instats-primary:   #00547B;
+  --instats-secondary: #3092B1;
+  --instats-bg:        #F5F5F7;
+  --instats-tag:       #F1F0F1;
   --instats-primary-dk: #003F5C;
   --instats-secondary-lt: #BFE0EC;
 
-  /* Document */
+
   --ink:        #212529;
   --ink-soft:   #495057;
   --paper:      var(--instats-bg);
   --cover-bg:   #FFFFFF;
-  --accent:     #C5283D;  /* Chart 'gas' red — used sparingly, for emphasis */
+  --accent:     #C5283D;
   --rule:       #DEE2E6;
   --rule-soft:  var(--instats-tag);
   --highlight:  #FFF7E6;
   --quote-bar:  var(--instats-secondary);
   --code-bg:    var(--instats-tag);
 
-  /* Three-family type system per public style guide §3.1.
-     --serif    body, lede, captions over 11pt, blockquotes
-     --sans     cover title, headings, kickers, table headers, chart titles
-     --meta     footnotes, references, source lines, page numbers, fine print
-     --display  alias for --sans (legacy uses) */
+
   --serif:      "Source Serif 4", "Charter", "Iowan Old Style", "Georgia", "Times New Roman", serif;
-  /* Display fallback chain hand-tuned for narrow alternatives. Reviewer
-     machines on Windows without Montserrat installed otherwise resolve
-     to Segoe UI, which has noticeably wider counter-aperture than
-     Montserrat. Helvetica Neue and Arial Narrow read closer at display
-     sizes; the chain places them before the generic sans-serif so the
-     fallback chain produces a similar visual weight. */
+
   --sans:       "Montserrat", "Inter", "Helvetica Neue", "Arial Narrow", "Helvetica", "Arial", sans-serif;
   --meta:       "Inter", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   --display:    var(--sans);
   --mono:       "JetBrains Mono", "SF Mono", "Menlo", monospace;
   --measure:    68ch;
 
-  /* Named type-scale tokens per public style guide §3.2.
-     Single source of truth for size + line-height + weight + family
-     at every typographic role. Use these via var() in CSS rules; never
-     hard-code px values for type. */
+
   --type-display-xl-size:    54px;
   --type-display-xl-lh:      1.05;
   --type-display-xl-weight:  700;
@@ -119,26 +87,18 @@ body {
   background: var(--paper);
   margin: 0;
   line-height: 1.65;
-  /* Source Serif 4 uses an optical-size axis — feed it the actual font size so
-     letterforms tune themselves for the body size (vs. the captions and footnotes). */
+
   font-optical-sizing: auto;
-  /* public style guide §3.3:
-     - oldstyle numerals in running prose (overridden to tabular in tables/.stat)
-     - hung punctuation hangs quotes/parens into the margin, the cheapest
-       single detail that makes a page look set rather than typed */
+
   font-variant-numeric: oldstyle-nums;
   hanging-punctuation: first last;
 }
 
-/* Tabular numerals where columns of figures need to align. */
 td, th, .stat, .keyfacts .num, .figure-num,
 .tablewrap td, .tablewrap th {
   font-variant-numeric: tabular-nums;
 }
 
-/* public style guide §3.3: eliminate orphans + bad rags in body, balance
-   headings so they don't wrap on one weird word. Hyphenation on for
-   body (justified-feel without justification), off for headings. */
 p, li, blockquote, dd {
   text-wrap: pretty;
   hyphens: auto;
@@ -155,25 +115,9 @@ h1, h2, h3, h4 {
   padding: 56px 36px 96px 36px;
 }
 
-/* ─────────────────────────────────────────────────────────────────────
- * COVER PAGE — Instats policy series, single-page composition.
- *
- * Layout (from top to bottom):
- *   1. Thin 6px primary-color rule (page-wide).
- *   2. Logo block: small (180px), left-aligned, generous space below.
- *   3. Kicker: 11px Montserrat 700 caps + tracking, in secondary blue.
- *   4. Title: 44px display, primary blue, very tight leading.
- *   5. Subtitle (italic .cover h2): 22px italic, secondary blue.
- *   6. Abstract: 16px italic, ink-soft, max 60ch.
- *   7. Author block: 13px Montserrat, ink.
- *   8. Bottom: solid primary-color band, 48px tall (visual anchor).
- * ─────────────────────────────────────────────────────────────────────*/
 .cover {
   background: var(--cover-bg);
-  /* Generous internal padding so the logo, kicker, title and abstract
-     don't hug the left edge of the white card. The bottom anchor band
-     (.cover::after) still spans full-width via negative-margin tricks
-     below. */
+
   padding: 0 56px;
   margin-bottom: 0;
   border-top: 6px solid var(--instats-primary);
@@ -186,8 +130,6 @@ h1, h2, h3, h4 {
 
 .cover > * { padding-left: 0; padding-right: 0; }
 
-/* Pull the bottom anchor band back out to the wrap edges so it still
-   reads as a full-width visual full-stop. */
 .cover::after {
   margin-left: -56px;
   margin-right: -56px;
@@ -206,7 +148,6 @@ h1, h2, h3, h4 {
   margin: 56px 0 28px 0;
 }
 
-/* Kicker — small caps series identifier (the bit Grattan / Cato put above the title) */
 .cover .kicker {
   font-family: var(--display);
   font-size: 0.78rem;
@@ -232,12 +173,9 @@ h1, h2, h3, h4 {
   max-width: 18ch;
 }
 
-/* public style guide §5.1 #5: subtitle in italic Source Serif at 26pt,
-   muted grey or secondary blue. Source Serif italic — not display
-   sans — is the deck-style pairing under a sans display title. */
 .cover h2 {
   font-family: var(--serif);
-  font-size: 1.55rem;            /* ~26pt at 18px body */
+  font-size: 1.55rem;
   font-style: italic;
   line-height: 1.3;
   color: var(--instats-secondary);
@@ -248,13 +186,10 @@ h1, h2, h3, h4 {
   letter-spacing: -0.005em;
 }
 
-/* Abstract — public style guide §5.1 #7:
-   19pt italic serif in a 60ch measure, anchored to the left margin
-   with a 2px primary-blue rule running down its left edge. */
 .cover .abstract {
   font-family: var(--serif);
   font-style: italic;
-  font-size: 1.12rem;            /* ~19pt at 18px body */
+  font-size: 1.12rem;
   line-height: 1.55;
   color: var(--ink-soft);
   max-width: 60ch;
@@ -264,7 +199,6 @@ h1, h2, h3, h4 {
 }
 .cover .abstract p { max-width: none; margin: 0; font-family: inherit; font-style: inherit; font-size: inherit; color: inherit; }
 
-/* Author block — flush to bottom, sans-serif, ink */
 .cover .author {
   font-family: var(--display);
   font-size: 0.95rem;
@@ -278,10 +212,6 @@ h1, h2, h3, h4 {
 .cover .author p { margin: 0; max-width: none; font-family: inherit; font-size: inherit; color: inherit; }
 .cover .author strong { color: var(--instats-primary); font-weight: 700; }
 
-/* Visual anchor at the very bottom of the cover.
-   The in-flow band carries the report series identifier; the
-   `.cover::after` rule is kept as a print-only fallback because some
-   print engines do not honour absolutely positioned in-flow descendants. */
 .cover::after {
   content: "";
   display: block;
@@ -290,17 +220,14 @@ h1, h2, h3, h4 {
   background: var(--instats-primary);
 }
 
-/* v3.0.2 cover identifier band (public style guide §5.1 #8 + Design P0-3). */
 .cover .cover-band {
   display: flex;
   align-items: center;
   height: 48px;
-  margin: 56px -56px 0 -56px;   /* match negative margins of .cover::after */
+  margin: 56px -56px 0 -56px;
   padding: 0 24px;
   background: var(--instats-primary);
-  /* This element is the in-flow analogue of .cover::after; together they
-     ensure the band paints whether or not the consuming engine renders
-     ::after descendants reliably. */
+
 }
 .cover .cover-band-id {
   font-family: var(--sans);
@@ -310,14 +237,9 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
   color: #fff;
 }
-/* Avoid double-band: when .cover-band is present, hide the legacy ::after.
-   In WeasyPrint print this still renders the band because .cover-band is
-   itself a block. */
+
 .cover:has(.cover-band)::after { display: none; }
 
-/* ─────────────────────────────────────────────────────────────────────
- * COLOPHON (back of cover)
- * ─────────────────────────────────────────────────────────────────────*/
 .colophon {
   background: var(--rule-soft);
   padding: 32px 36px;
@@ -346,29 +268,14 @@ h1, h2, h3, h4 {
   text-underline-offset: 2px;
 }
 
-/* ─────────────────────────────────────────────────────────────────────
- * EXECUTIVE SUMMARY — public style guide §6
- *
- * Wrap the entire executive summary in a tinted band that bleeds 16px
- * beyond the body column on each side. The tint is the single visual
- * treatment — no icons, no emoji, no traffic-light colour chips, no
- * sans-serif body.
- *
- * The H2 inside the band uses kicker styling per §6.
- * ─────────────────────────────────────────────────────────────────────*/
 .exec {
   background: var(--paper-tint, var(--instats-bg));
-  margin: 56px -52px;            /* 36px wrap padding + 16px bleed each side */
+  margin: 56px -52px;
   padding: 56px 52px 48px;
   border-top: 1px solid var(--rule);
   border-bottom: 1px solid var(--rule);
 }
 
-/* Kicker label sits above the H2 — small caps, 11px Montserrat 700,
-   primary blue. Per v2.2.0 design review §3 #1: the band has both a
-   kicker label AND a display-size H2 (the prior collapse-into-one
-   left the band with no large heading at all and made it read as a
-   tinted paragraph). */
 .exec-kicker {
   display: block;
   font-family: var(--sans);
@@ -381,8 +288,7 @@ h1, h2, h3, h4 {
 }
 
 .exec > h2:first-of-type {
-  /* H2 is the section heading — 22px Montserrat semibold primary
-     blue. The .exec-kicker above provides the small-caps label. */
+
   font-family: var(--sans);
   font-weight: 600;
   font-size: 22px;
@@ -395,10 +301,6 @@ h1, h2, h3, h4 {
   margin: 0 0 24px 0;
 }
 
-/* The first paragraph of .exec wraps the small-caps kicker span (per
-   v2.2.0 design review: kicker AND H2). Reset its wrapping <p> so the
-   italic-serif lede rule below doesn't bleed onto the kicker. The
-   kicker carries all of its display via .exec-kicker on the inner span. */
 .exec > p:first-of-type {
   margin: 0 0 8px 0;
   font-style: normal;
@@ -409,12 +311,6 @@ h1, h2, h3, h4 {
   max-width: none;
 }
 
-/* Lede: the paragraph immediately after the H2 in the exec band, set
-   in 20pt italic serif per public style guide §3.2 and §6. v2.3.0's design
-   review added both a kicker label AND a display H2 to the band — so
-   the lede is the next <p> sibling of the H2, NOT the first <p> child
-   of .exec (which now contains the kicker). The .lede class is the
-   explicit-override fallback for markdown that hand-tags a lede. */
 .exec > h2:first-of-type + p,
 .exec .lede {
   font-family: var(--serif);
@@ -426,12 +322,8 @@ h1, h2, h3, h4 {
   max-width: 60ch;
 }
 
-/* Body paragraphs inside the exec band keep the body serif at body
-   size — public style guide §6 explicitly forbids sans-serif body inside
-   the exec summary. The band's tint is the only signal. */
 .exec p { max-width: 60ch; }
 
-/* The numbered verdicts list — public style guide §8 + §10. */
 .exec ol {
   counter-reset: verdict;
   list-style: none;
@@ -462,13 +354,6 @@ h1, h2, h3, h4 {
   .exec ol > li { padding-left: 44px; }
 }
 
-/* ─────────────────────────────────────────────────────────────────────
- * BOX — methodology / data callout per public style guide §7.3
- *
- * 1px hairline frame OR tinted background, never both. Body text at
- * the same body size as the rest of the document — do not shrink.
- * Use ::: callout fenced div in markdown.
- * ─────────────────────────────────────────────────────────────────────*/
 .callout {
   border: 1px solid var(--rule);
   padding: 24px 28px;
@@ -488,12 +373,6 @@ h1, h2, h3, h4 {
   font-weight: 700;
 }
 
-/* ─────────────────────────────────────────────────────────────────────
- * VERDICT chips — public style guide §10
- *
- * Pill-shaped inline label for fact-checking claims. Use ::: verdict
- * with .true / .mixed / .false / .decomposed modifier classes.
- * ─────────────────────────────────────────────────────────────────────*/
 .verdict, .verdict-pill {
   display: inline-block;
   font-family: var(--sans);
@@ -501,10 +380,7 @@ h1, h2, h3, h4 {
   font-size: 11px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* Asymmetric padding seats the chip on the baseline at body-text
-     x-height — top 2px / bottom 3px gives more room below the glyph
-     where the descender-zone visually weights the chip. Per v2.2.0
-     design review §3 #2. */
+
   padding: 2px 10px 3px;
   border-radius: 3px;
   background: var(--instats-tag);
@@ -512,52 +388,34 @@ h1, h2, h3, h4 {
   margin: 0 4px;
   vertical-align: baseline;
 }
-/* TRUE stays at 18% — green reads stronger at low saturation than
-   the warm-hue MIXED/FALSE pills. MIXED, FALSE, and DECOMPOSED bumped
-   to 22% per v2.2.0 design review §3 #3 (print legibility). */
+
 .verdict.true,      .verdict-pill.true      { background: color-mix(in srgb, #1F6E47 22%, white); color: #1F6E47; }
 .verdict.mixed,     .verdict-pill.mixed     { background: color-mix(in srgb, #8C5A12 22%, white); color: #8C5A12; }
 .verdict.false,     .verdict-pill.false     { background: color-mix(in srgb, #963A2C 22%, white); color: #963A2C; }
 .verdict.decomposed,.verdict-pill.decomposed{ background: color-mix(in srgb, var(--instats-secondary) 22%, white); color: var(--instats-primary); }
 
-/* ─────────────────────────────────────────────────────────────────────
- * PULL QUOTE — public style guide §10
- *
- * 28pt serif italic, 80%-of-body-column width, primary-blue rule
- * flush-left of the first line. Use markdown blockquote (>) for it;
- * this rule restyles the default blockquote to spec.
- * ─────────────────────────────────────────────────────────────────────*/
 blockquote.pullquote, .pullquote {
   position: relative;
   font-family: var(--serif);
   font-style: italic;
-  font-size: 1.55rem;          /* ~28pt at 18px body */
+  font-size: 1.55rem;
   line-height: 1.35;
   color: var(--ink);
   margin: 40px 10% 40px 0;
   padding: 4px 0 4px 24px;
-  border-left: 0;               /* full-height slab removed in v2.1.1 */
+  border-left: 0;
   background: transparent;
   max-width: none;
 }
 
-/* public style guide §10 — the rule is "a 12pt primary-blue rule, 1.5em
-   tall, sitting flush-left of the first line — not a full quote-mark
-   glyph." Implemented as a short ::before bar at the cap-height of
-   the opening line so the mark anchors to the prose rather than
-   running the full height of the quote. */
 blockquote.pullquote::before, .pullquote::before {
   content: "";
   position: absolute;
   left: 0;
-  /* Anchor the bar to the opening line only — explicit `bottom: auto`
-     plus a fixed `height` clamp so the bar doesn't grow to full
-     paragraph height on four- and five-line pull quotes (where it
-     reads as a heavy left rail rather than a quote mark). Per v2.2.0
-     design review §5 pull-quote defect. */
-  top: 0.2em;                   /* aligns to cap height of first line */
+
+  top: 0.2em;
   bottom: auto;
-  width: 4px;                   /* 12pt rule weight at 1rem ≈ 4px wide */
+  width: 4px;
   height: 1.6em;
   background: var(--instats-primary);
 }
@@ -573,9 +431,6 @@ blockquote.pullquote cite, .pullquote cite {
   color: var(--ink-soft);
 }
 
-/* ─────────────────────────────────────────────────────────────────────
- * TABLE OF CONTENTS — hand-rendered, static, present in DOCX + HTML alike
- * ─────────────────────────────────────────────────────────────────────*/
 .toc {
   font-family: var(--display);
   font-size: 0.95rem;
@@ -587,13 +442,10 @@ blockquote.pullquote cite, .pullquote cite {
   line-height: 1.5;
 }
 
-/* public style guide §3.2: the TOC heading is a section label, not a peer
-   of body H1s. Treat as a kicker (caps, tracked, primary blue). The
-   2px primary-blue bottom rule is the visual anchor instead of size. */
 .toc h1 {
   font-family: var(--display);
   font-weight: 700;
-  font-size: 0.85rem;            /* ~14px at body 16.5px */
+  font-size: 0.85rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--instats-primary);
@@ -602,7 +454,6 @@ blockquote.pullquote cite, .pullquote cite {
   border-bottom: 2px solid var(--instats-primary);
 }
 
-/* H4 inside TOC = Part / Section header in TOC */
 .toc h4 {
   font-family: var(--display);
   font-weight: 700;
@@ -613,10 +464,6 @@ blockquote.pullquote cite, .pullquote cite {
   margin: 18px 0 4px 0;
 }
 
-/* v3.0.8 TOC clickability — entries are anchor-wrapped in drafts/report.md;
-   this rule makes the links visually identical to the existing TOC text at
-   rest, with a subtle hover affordance (color shift + dotted underline).
-   Same rule applies inside h1, h4, and li.toc descendants. */
 .toc a,
 .toc a:visited {
   color: inherit;
@@ -631,7 +478,6 @@ blockquote.pullquote cite, .pullquote cite {
   outline: none;
 }
 
-/* Sub-entries within a part — proper bulleted list, one per line. */
 .toc ul {
   list-style: none;
   padding-left: 18px;
@@ -658,7 +504,6 @@ blockquote.pullquote cite, .pullquote cite {
   font-size: 1.1em;
 }
 
-/* Any stray paragraphs inside .toc (shouldn't happen but defend) */
 .toc p {
   margin: 4px 0 4px 18px;
   font-size: 0.95rem;
@@ -667,13 +512,6 @@ blockquote.pullquote cite, .pullquote cite {
   line-height: 1.45;
 }
 
-/* ─────────────────────────────────────────────────────────────────────
- * HEADINGS — body
- * ─────────────────────────────────────────────────────────────────────*/
-/* public style guide §4.3: white space is structural, not residual.
-   - 96px above every H1 (was 56px)
-   - 72px before every H2 (was 40px)
-   - 48px before every H3 (was 28px) */
 h1 {
   font-family: var(--sans);
   font-weight: 700;
@@ -719,9 +557,6 @@ h4 {
   margin: 22px 0 8px 0;
 }
 
-/* ─────────────────────────────────────────────────────────────────────
- * BODY TEXT
- * ─────────────────────────────────────────────────────────────────────*/
 p {
   max-width: var(--measure);
   margin: 0 0 14px 0;
@@ -735,11 +570,6 @@ ul, ol {
 
 li { margin-bottom: 5px; }
 
-/* Block quotations — Source Serif 4 italic with a quiet secondary-blue
-   left rule. The cyan gradient that used to live here was deleted in
-   v2.1.1 per public style guide §16 ("Gradients of any kind … on
-   backgrounds") and publication notes §6 ("Coloured backgrounds on body
-   paragraphs"). The 4px solid rule does the signalling. */
 blockquote {
   font-family: var(--serif);
   font-style: italic;
@@ -762,7 +592,6 @@ blockquote cite {
   margin-top: 8px;
 }
 
-/* Tables */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -788,29 +617,12 @@ th {
 
 td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 
-/* Subtle row-hover on screen only, gated to fine-pointer devices so the
-   table still prints (and reads on touch) as a quiet data block. The
-   alpha is below threshold-of-perception until the user actually
-   hovers a row — public style guide §16 wants nothing showy here. */
 @media (hover: hover) and (pointer: fine) {
   tr:hover td { background: rgba(75, 145, 179, 0.02); }
 }
 
-/* Figures */
-/* public style guide §4.3 + §8.2: 32px of internal whitespace below
-   charts/tables before body resumes; chart+caption read as a single
-   composed unit. */
 figure { margin: 40px 0 44px 0; padding: 0; }
 
-/* ─────────────────────────────────────────────────────────────────────
- * Chart caption frame — public style guide §8.2
- *
- *   FIGURE 1                       ← kicker, Montserrat caps tracked
- *   Bold one-line title            ← Montserrat 600, body size
- *   [chart PNG]                    ← 32px above + below
- *   Italic interpretation line     ← body-small serif italic
- *   SOURCE · PRIMARY-SOURCE LINE   ← Inter caps tracked
- * ─────────────────────────────────────────────────────────────────────*/
 figure.chart {
   margin: 56px 0 64px 0;
   padding: 0;
@@ -881,15 +693,6 @@ p > img + em {
   display: block;
 }
 
-/* Footnote refs — public style guide §3.1 + §11: Inter (metadata family),
-   primary-blue per §11 ("Superscript markers in body … primary-blue").
-   Was secondary in v2.1.0; corrected in v2.1.1 after the design review.
-   Separator commas between adjacent refs use `.footnote-sep` and share
-   the same marker treatment, avoiding baseline body punctuation between
-   superscripts. Belt-and-braces: explicit `line-height: 0` + `position:
-   relative` offset on the `<sup>` wrapper so WeasyPrint (and other
-   engines that don't honour `vertical-align: super` cleanly) don't push
-   the reference onto its own visual line in PDF render. */
 sup { line-height: 0; vertical-align: baseline; font-size: 100%; }
 .footnote-ref,
 sup a,
@@ -909,7 +712,6 @@ sup a,
 
 sup a:hover, .footnote-ref:hover { text-decoration: underline; }
 
-/* Inline links */
 a {
   color: var(--instats-secondary);
   text-decoration: underline;
@@ -919,9 +721,6 @@ a {
 
 a:hover { color: var(--instats-primary); }
 
-/* Inline repo paths / manifest keys. Browser defaults make <code> look
-   oversized in caption and source lines; keep these as compact metadata
-   chips so paths like `sources/fx_rates.md` do not dominate the prose. */
 code, kbd, samp {
   font-family: var(--mono);
   font-size: 0.84em;
@@ -939,24 +738,16 @@ pre code {
   white-space: pre-wrap;
 }
 
-/* Sources / footnotes — public style guide §11: Inter (metadata family), 9pt
-   with 13pt leading, top 32px-tall margin and a 1px hairline rule across
-   the body measure.
-   Selector note: python-markdown's footnotes extension emits the
-   bottom-of-document block as <div class="footnote"> (singular). Pandoc
-   emits <div class="footnotes"> (plural). We target both so the rule
-   applies regardless of which markdown processor produced the HTML. */
 .sources, .footnotes, .footnote {
   font-family: var(--meta);
   font-size: 0.83rem;
   color: var(--ink-soft);
-  line-height: 1.44;        /* 13pt / 9pt ≈ 1.44 */
+  line-height: 1.44;
   margin-top: 80px;
   padding-top: 32px;
   border-top: 1px solid var(--rule);
 }
 
-/* Number set in Inter 600 with hanging indent — public style guide §11. */
 .sources ol, .footnotes ol, .footnote ol {
   padding-left: 2.2em;
 }
@@ -973,38 +764,8 @@ pre code {
 
 .footnotes hr { display: none; }
 
-/* .caveat was deleted in v2.1.1 — the rule combined rounded corners,
-   a warm-yellow fill, an off-palette orange accent stripe, and a
-   coloured background on body content. Every one of those is a
-   public style guide §16 / publication notes §6 anti-pattern. Any content
-   previously inside a .caveat block should be either:
-     - a methodology Box (::: callout / .callout)
-     - an italic-serif paragraph, or
-     - a footnote.
-   No replacement rule is provided on purpose. */
-
-/* Page-break helpers */
 .pagebreak { page-break-after: always; break-after: page; }
 
-/* ─────────────────────────────────────────────────────────────────────
- * Print stylesheet — public style guide §15.3
- *
- * Goal: when the reader hits Cmd-P → Save as PDF, the result is a
- * publication-quality document, not a webpage forced onto A4.
- * ─────────────────────────────────────────────────────────────────────*/
-/* Base @page declaration. Carries:
-   1. A4 page geometry + margins.
-   2. The running header in the top-right margin box. WeasyPrint
-      r57+ honours @top-right content set on the base @page and
-      cleared on @page :first. The previous v2.2.x form using
-      `@page :not(:first) { @top-right { ... } }` did not render
-      in WeasyPrint — verified absent from PDF via pdftotext. Fixed
-      per v2.3.0 design review §C.5: declare on base @page, suppress
-      on first page.
-   3. The footnote-block separator rule. Per v2.2.0 design review
-      §7 #3 and public style guide §15.3: 0.4pt hairline at 25mm,
-      6pt above the first footnote. CSS3 Generated Content for
-      Paged Media. */
 @page {
   size: A4;
   margin: 22mm 22mm 25mm 22mm;
@@ -1022,19 +783,6 @@ pre code {
   }
 }
 
-/* Cover page suppresses the running header — the brand identifier
-   appears in the cover layout itself, not in the margin box. The
-   primary-blue brand band (public style guide §5.1 #8) is painted by
-   the @bottom-center margin box at the actual page bottom; the
-   in-flow .cover::after is hidden in print via the @media print
-   rule further down. This routes around WeasyPrint 68's incomplete
-   flexbox auto-margin column support, which otherwise leaves the
-   in-flow band floating mid-page (per v2.3.0 §C.6).
-
-   Layout numbers: bottom @page margin is 25mm; the band itself
-   is 13mm tall (≈ the 48px web spec at 96dpi → 12.7mm). margin-top
-   gives the band a 12mm gap from the cover content; the bottom of
-   the band aligns with the bottom @page margin edge. */
 @page :first {
   @top-right { content: ""; }
   @bottom-center {
@@ -1047,7 +795,7 @@ pre code {
 }
 
 @media print {
-  /* Body type: 11pt serif at 1.5 leading, oldstyle nums retained. */
+
   html, body {
     font-size: 11pt;
     line-height: 1.5;
@@ -1059,55 +807,35 @@ pre code {
     print-color-adjust: exact;
   }
 
-  /* Cover page anchor band fix — v2.3.0 §C.6.
-     The 48px primary-blue .cover::after band floats mid-page in PDF
-     render rather than sitting at the bottom of page 1: the cover
-     uses display:flex column with auto-margin tricks for web, but
-     WeasyPrint 68's flexbox auto-margin in column direction is
-     incomplete, landing the band ~60% down the page.
-     The brief's first fix candidate (force .cover to fill the page
-     with `min-height: 250mm`) gives the flex column the full A4
-     printable height to lay out in. We keep that change here for
-     consistency with web layout. The brand band itself, however, is
-     rendered for print via the @page :first @bottom-center margin
-     box (further down in this stylesheet) — that mechanism is
-     reliable in WeasyPrint and positions the band against the
-     actual bottom edge of page 1 regardless of flex content height.
-     We then hide the in-flow .cover::after in print so we don't get
-     a double band. */
+
   .cover {
     min-height: 250mm;
   }
-  /* Hide the in-flow band in print — the @bottom-center @page rule
-     paints the brand stripe at the actual page bottom. */
+
   .cover::after {
     display: none;
   }
 
-  /* Strip web-only chrome: anything tagged as nav, sticky, or progress. */
+
   .sticky-toc, .progress-bar, .site-nav, nav.navbar, .web-only {
     display: none !important;
   }
 
-  /* Layout: remove web column width — pandoc/pages will use @page margins. */
+
   .wrap { padding: 0; max-width: none; }
 
-  /* Section breaks. Every H1 starts on a new page; H2 stays with following
-     content; footnotes block break to its own page. */
+
   h1 { break-before: page; }
   h1, h2, h3 { break-after: avoid; }
   figure, .tablewrap, table, blockquote, .colophon, .toc, .callout {
     break-inside: avoid;
   }
-  /* Widow/orphan control on body paragraphs — three-line minimum either
-     side of a page break. Resolves the v2.2.0 design review §7 #2
-     "figkicker stranded at the bottom" pattern. */
+
   p, li {
     widows: 3;
     orphans: 3;
   }
-  /* Belt-and-braces on figures: paragraph just before a figure should
-     not strand its tail line at the top of the next page. */
+
   figure {
     break-before: auto;
     page-break-before: auto;
@@ -1116,13 +844,13 @@ pre code {
   }
   .footnotes, .footnote, .sources { break-before: page; }
 
-  /* Links: tone down (no coloured links in print, but keep underline). */
+
   a {
     color: var(--ink);
     text-decoration: underline;
     text-decoration-thickness: 0.5px;
   }
-  /* External links: show the URL inline so the PDF is still useful printed. */
+
   a[href^="http"]::after {
     content: " (" attr(href) ")";
     font-family: var(--meta);
@@ -1130,44 +858,24 @@ pre code {
     color: var(--ink-soft);
     word-break: break-all;
   }
-  /* …but suppress URL-printing in blocks where it would be cosmetic
-     clutter rather than useful information:
-       - The footnotes block already prints the full URL as citation.
-       - The cover, author block, and colophon all use short
-         human-readable link text like "instats.org" — printing the
-         full URL after it just doubles the same string. */
+
   .footnotes a[href^="http"]::after,
   .footnote a[href^="http"]::after,
   .sources a[href^="http"]::after,
   .cover a[href^="http"]::after,
   .colophon a[href^="http"]::after,
   .author a[href^="http"]::after,
-  /* Also suppress on links that wrap an image (e.g. the logo). */
+
   a:has(img)[href^="http"]::after { content: ""; }
 }
 
-/* ─────────────────────────────────────────────────────────────────────
- * Web-only chrome — public style guide §7.4 + §15.4
- *
- *   Four interactive elements, no more:
- *     1. Sticky header bar (not implemented here — kept simple)
- *     2. Reading progress bar (3px, primary blue, top edge)
- *     3. Sticky left-rail TOC (desktop only; >1100px viewport)
- *     4. Footnote backlinks (handled by markdown processor)
- *
- *   All hidden in @media print via the .web-only class.
- * ─────────────────────────────────────────────────────────────────────*/
-/* Sticky header — appears after the reader scrolls past the cover.
-   JS toggles .visible based on scroll position. */
 .sticky-header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 56px;
-  /* v2.1.1: solid white instead of the previous translucent-with-blur
-     treatment. public style guide §16 explicitly forbids glass-morphism /
-     frosted backdrops. The header is 56px tall — solid is fine. */
+
   background: #FFFFFF;
   border-bottom: 1px solid var(--rule-soft);
   display: flex;
@@ -1179,12 +887,7 @@ pre code {
   transition: transform 0.18s ease;
 }
 .sticky-header.visible { transform: translateY(0); }
-/* Visual detachment from body when scrolled past the cover. Without
-   this, the sticky header sits flush against the body and the eye
-   sometimes mis-parses the header title as a section heading. The
-   shadow is a hairline-equivalent (1px ink-soft at 0.06 alpha) — not
-   a drop shadow per public style guide §16. Per v2.2.0 design review
-   §1 #4 / §6 polish item. */
+
 .sticky-header.scrolled {
   box-shadow: 0 1px 0 var(--rule), 0 1px 4px rgba(31, 32, 36, 0.06);
 }
@@ -1236,23 +939,18 @@ pre code {
   top: 0;
   left: 0;
   height: 3px;
-  width: 0;                          /* JS sets this to scroll percentage */
+  width: 0;
   background: var(--instats-primary);
-  z-index: 100;                      /* above the sticky header */
+  z-index: 100;
   transition: width 0.06s linear;
   pointer-events: none;
 }
 
 .sticky-toc {
-  display: none;                     /* hidden by default; CSS @media shows it */
+  display: none;
   position: fixed;
   top: 80px;
-  /* Position to the LEFT of the centred body column with a 24px gutter.
-     The body column is 880px wide and centred, so its left edge sits at
-     calc((100% - 880px) / 2). Place the TOC 280px to the left of that,
-     but never below a 16px viewport-edge gutter — at narrow viewports
-     the calc can otherwise resolve negative and clip the TOC off the
-     left edge. */
+
   left: max(16px, calc((100% - 880px) / 2 - 280px));
   width: 240px;
   max-height: calc(100vh - 160px);
@@ -1299,20 +997,12 @@ pre code {
   font-weight: 600;
 }
 
-/* Show the sticky TOC only when the viewport is wide enough that a
-   240px TOC + 24px gutter fits to the LEFT of the centred 880px body
-   column without overlapping it. Math:
-       (viewport - 880) / 2  >=  240 + 24
-       viewport             >=  1408px
-   Below that threshold the inline TOC (.toc block in the body) is
-   sufficient — the sticky rail just clips into the prose otherwise. */
 @media (min-width: 1408px) {
   .sticky-toc { display: block; }
 }
 
-/* Legacy minimal-print fallback — older browsers without @page support. */
 @media print {
-  /* belt-and-braces page-break aliases for older render engines */
+
   figure, table, blockquote, .colophon, .toc { page-break-inside: avoid; }
   h1 { page-break-before: always; }
   h2, h3 { page-break-after: avoid; }

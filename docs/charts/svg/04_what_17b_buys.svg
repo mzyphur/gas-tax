@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="945.8255pt" height="370.292625pt" viewBox="0 0 945.8255 370.292625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="786.3754pt" height="354.216812pt" viewBox="0 0 786.3754 354.216812" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-05-12T22:24:05.259449</dc:date>
+    <dc:date>2026-05-16T01:10:58.111885</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,274 +21,288 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M -0 370.292625 
-L 945.8255 370.292625 
-L 945.8255 0 
-L -0 0 
+   <path d="M 0 354.216812 
+L 786.3754 354.216812 
+L 786.3754 0 
+L 0 0 
 z
 " style="fill: #ffffff"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 198.85625 334.535125 
-L 812.65625 334.535125 
-L 812.65625 24.071125 
-L 198.85625 24.071125 
+    <path d="M 157.2625 317.664 
+L 771.0625 317.664 
+L 771.0625 7.2 
+L 157.2625 7.2 
 z
 " style="fill: #ffffff"/>
    </g>
    <g id="patch_3">
-    <path d="M 198.85625 85.223125 
-L 359.12625 85.223125 
-L 359.12625 38.183125 
-L 198.85625 38.183125 
+    <path d="M 157.2625 54.516706 
+L 726.688371 54.516706 
+L 726.688371 21.312 
+L 157.2625 21.312 
 z
-" clip-path="url(#pbb45aed964)" style="fill: #525560; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p170d4a3620)" style="fill: #525560; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
-    <path d="M 198.85625 144.023125 
-L 464.83625 144.023125 
-L 464.83625 96.983125 
-L 198.85625 96.983125 
+    <path d="M 157.2625 96.022588 
+L 487.703535 96.022588 
+L 487.703535 62.817882 
+L 157.2625 62.817882 
 z
-" clip-path="url(#pbb45aed964)" style="fill: #525560; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p170d4a3620)" style="fill: #525560; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
-    <path d="M 198.85625 202.823125 
-L 256.82625 202.823125 
-L 256.82625 155.783125 
-L 198.85625 155.783125 
+    <path d="M 157.2625 137.528471 
+L 484.887276 137.528471 
+L 484.887276 104.323765 
+L 157.2625 104.323765 
 z
-" clip-path="url(#pbb45aed964)" style="fill: #525560; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p170d4a3620)" style="fill: #525560; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
-    <path d="M 198.85625 261.623125 
-L 250.00625 261.623125 
-L 250.00625 214.583125 
-L 198.85625 214.583125 
+    <path d="M 157.2625 179.034353 
+L 464.1625 179.034353 
+L 464.1625 145.829647 
+L 157.2625 145.829647 
 z
-" clip-path="url(#pbb45aed964)" style="fill: #a8aab1; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p170d4a3620)" style="fill: #c5283d; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
-    <path d="M 198.85625 320.423125 
-L 243.18625 320.423125 
-L 243.18625 273.383125 
-L 198.85625 273.383125 
+    <path d="M 157.2625 220.540235 
+L 462.664106 220.540235 
+L 462.664106 187.335529 
+L 157.2625 187.335529 
 z
-" clip-path="url(#pbb45aed964)" style="fill: #a8aab1; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p170d4a3620)" style="fill: #525560; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 157.2625 262.046118 
+L 207.991265 262.046118 
+L 207.991265 228.841412 
+L 157.2625 228.841412 
+z
+" clip-path="url(#p170d4a3620)" style="fill: #525560; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 157.2625 303.552 
+L 191.563088 303.552 
+L 191.563088 270.347294 
+L 157.2625 270.347294 
+z
+" clip-path="url(#p170d4a3620)" style="fill: #525560; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
-       <path id="m3f7b76aa7c" d="M 0 0 
+       <path id="m815d28a5f7" d="M 0 0 
 L 0 3 
 " style="stroke: #525560; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m3f7b76aa7c" x="198.85625" y="334.535125" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
+       <use xlink:href="#m815d28a5f7" x="157.2625" y="317.664" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
-      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="198.85625" y="347.582625" transform="rotate(-0 198.85625 347.582625)">0</text>
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="157.2625" y="330.7115" transform="rotate(-0 157.2625 330.7115)">0</text>
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#m3f7b76aa7c" x="267.05625" y="334.535125" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
+       <use xlink:href="#m815d28a5f7" x="247.527206" y="317.664" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
-      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="267.05625" y="347.582625" transform="rotate(-0 267.05625 347.582625)">2</text>
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="247.527206" y="330.7115" transform="rotate(-0 247.527206 330.7115)">5</text>
      </g>
     </g>
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
-       <use xlink:href="#m3f7b76aa7c" x="335.25625" y="334.535125" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
+       <use xlink:href="#m815d28a5f7" x="337.791912" y="317.664" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_3">
-      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="335.25625" y="347.582625" transform="rotate(-0 335.25625 347.582625)">4</text>
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="337.791912" y="330.7115" transform="rotate(-0 337.791912 330.7115)">10</text>
      </g>
     </g>
     <g id="xtick_4">
      <g id="line2d_4">
       <g>
-       <use xlink:href="#m3f7b76aa7c" x="403.45625" y="334.535125" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
+       <use xlink:href="#m815d28a5f7" x="428.056618" y="317.664" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_4">
-      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="403.45625" y="347.582625" transform="rotate(-0 403.45625 347.582625)">6</text>
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="428.056618" y="330.7115" transform="rotate(-0 428.056618 330.7115)">15</text>
      </g>
     </g>
     <g id="xtick_5">
      <g id="line2d_5">
       <g>
-       <use xlink:href="#m3f7b76aa7c" x="471.65625" y="334.535125" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
+       <use xlink:href="#m815d28a5f7" x="518.321324" y="317.664" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_5">
-      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="471.65625" y="347.582625" transform="rotate(-0 471.65625 347.582625)">8</text>
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="518.321324" y="330.7115" transform="rotate(-0 518.321324 330.7115)">20</text>
      </g>
     </g>
     <g id="xtick_6">
      <g id="line2d_6">
       <g>
-       <use xlink:href="#m3f7b76aa7c" x="539.85625" y="334.535125" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
+       <use xlink:href="#m815d28a5f7" x="608.586029" y="317.664" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_6">
-      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="539.85625" y="347.582625" transform="rotate(-0 539.85625 347.582625)">10</text>
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="608.586029" y="330.7115" transform="rotate(-0 608.586029 330.7115)">25</text>
      </g>
     </g>
     <g id="xtick_7">
      <g id="line2d_7">
       <g>
-       <use xlink:href="#m3f7b76aa7c" x="608.05625" y="334.535125" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
+       <use xlink:href="#m815d28a5f7" x="698.850735" y="317.664" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_7">
-      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="608.05625" y="347.582625" transform="rotate(-0 608.05625 347.582625)">12</text>
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="698.850735" y="330.7115" transform="rotate(-0 698.850735 330.7115)">30</text>
      </g>
     </g>
-    <g id="xtick_8">
-     <g id="line2d_8">
-      <g>
-       <use xlink:href="#m3f7b76aa7c" x="676.25625" y="334.535125" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_8">
-      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="676.25625" y="347.582625" transform="rotate(-0 676.25625 347.582625)">14</text>
-     </g>
-    </g>
-    <g id="xtick_9">
-     <g id="line2d_9">
-      <g>
-       <use xlink:href="#m3f7b76aa7c" x="744.45625" y="334.535125" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_9">
-      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="744.45625" y="347.582625" transform="rotate(-0 744.45625 347.582625)">16</text>
-     </g>
-    </g>
-    <g id="xtick_10">
-     <g id="line2d_10">
-      <g>
-       <use xlink:href="#m3f7b76aa7c" x="812.65625" y="334.535125" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_10">
-      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="812.65625" y="347.582625" transform="rotate(-0 812.65625 347.582625)">18</text>
-     </g>
-    </g>
-    <g id="text_11">
-     <text style="font-weight: 500; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="505.75625" y="361.052" transform="rotate(-0 505.75625 361.052)">Annual cost (A$ billion)</text>
+    <g id="text_8">
+     <text style="font-weight: 500; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #525560" x="464.1625" y="344.859" transform="rotate(-0 464.1625 344.859)">Annual Budget scale (A$ billion)</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
-     <g id="line2d_11">
-      <path d="M 198.85625 61.703125 
-L 812.65625 61.703125 
-" clip-path="url(#pbb45aed964)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+     <g id="line2d_8">
+      <path d="M 157.2625 37.914353 
+L 771.0625 37.914353 
+" clip-path="url(#p170d4a3620)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
      </g>
-     <g id="line2d_12"/>
-     <g id="text_12">
-      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(77.89375 55.174844)">Productivity Commission</text>
-      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(106.257812 65.984531)">universal childcare</text>
-      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(76.525 77.289531)">(+top-up to current CCS)</text>
+     <g id="line2d_9"/>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(44.564062 37.00654)">Underlying cash deficit</text>
+      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(105.403125 47.894353)">(2026-27)</text>
      </g>
     </g>
     <g id="ytick_2">
-     <g id="line2d_13">
-      <path d="M 198.85625 120.503125 
-L 812.65625 120.503125 
-" clip-path="url(#pbb45aed964)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+     <g id="line2d_10">
+      <path d="M 157.2625 79.420235 
+L 771.0625 79.420235 
+" clip-path="url(#p170d4a3620)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
      </g>
-     <g id="line2d_14"/>
-     <g id="text_13">
-      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(71.929687 119.260156)">Universal dental Medicare</text>
-      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(86.651562 130.565156)">(Greens / PBO costing)</text>
+     <g id="line2d_11"/>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(24.651562 78.449142)">JobSeeker Income Support</text>
+      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(105.403125 89.219767)">(2026-27)</text>
      </g>
     </g>
     <g id="ytick_3">
-     <g id="line2d_15">
-      <path d="M 198.85625 179.303125 
-L 812.65625 179.303125 
-" clip-path="url(#pbb45aed964)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+     <g id="line2d_12">
+      <path d="M 157.2625 120.926118 
+L 771.0625 120.926118 
+" clip-path="url(#p170d4a3620)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
      </g>
-     <g id="line2d_16"/>
-     <g id="text_14">
-      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(101.154687 178.121094)">90% bulk-billing GP</text>
-      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(41.615625 189.543281)">rollout (Strengthening Medicare)</text>
+     <g id="line2d_13"/>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(58.415625 120.076899)">Support for Families</text>
+      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(105.403125 130.847524)">(2026-27)</text>
      </g>
     </g>
     <g id="ytick_4">
-     <g id="line2d_17">
-      <path d="M 198.85625 238.103125 
-L 812.65625 238.103125 
-" clip-path="url(#pbb45aed964)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+     <g id="line2d_14">
+      <path d="M 157.2625 162.432 
+L 771.0625 162.432 
+" clip-path="url(#p170d4a3620)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
      </g>
-     <g id="line2d_18"/>
-     <g id="text_15">
-      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(7.2 236.860156)">Mental health Better Access (indicative)</text>
-      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(60.303125 248.165156)">expansion (10→20 sessions)</text>
+     <g id="line2d_15"/>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(52.8875 161.45075)">25% LNG export levy</text>
+      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(7.2 172.260437)">(Australia Institute / ACTU est.)</text>
      </g>
     </g>
     <g id="ytick_5">
-     <g id="line2d_19">
-      <path d="M 198.85625 296.903125 
-L 812.65625 296.903125 
-" clip-path="url(#pbb45aed964)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+     <g id="line2d_16">
+      <path d="M 157.2625 203.937882 
+L 771.0625 203.937882 
+" clip-path="url(#p170d4a3620)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
      </g>
-     <g id="line2d_20"/>
-     <g id="text_16">
-      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(73.098437 295.934375)">Buffer / hospital top-ups /</text>
-      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(111.382812 306.991875)">Indigenous health</text>
+     <g id="line2d_17"/>
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(63.54375 203.01757)">Child Care Subsidy</text>
+      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(105.403125 213.827257)">(2026-27)</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_18">
+      <path d="M 157.2625 245.443765 
+L 771.0625 245.443765 
+" clip-path="url(#p170d4a3620)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_19"/>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(98.451562 244.423452)">Beer excise</text>
+      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(105.403125 255.194077)">(2026-27)</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_20">
+      <path d="M 157.2625 286.949647 
+L 771.0625 286.949647 
+" clip-path="url(#p170d4a3620)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_21"/>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(13.417187 285.929335)">Petroleum Resource Rent Tax</text>
+      <text style="font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #525560" transform="translate(105.403125 296.69996)">(2026-27)</text>
      </g>
     </g>
    </g>
-   <g id="line2d_21">
-    <path d="M 778.55625 334.535125 
-L 778.55625 24.071125 
-" clip-path="url(#pbb45aed964)" style="fill: none; stroke-dasharray: 5.92,2.56; stroke-dashoffset: 0; stroke: #c5283d; stroke-width: 1.6"/>
+   <g id="line2d_22">
+    <path d="M 464.1625 317.664 
+L 464.1625 7.2 
+" clip-path="url(#p170d4a3620)" style="fill: none; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #c5283d; stroke-width: 1.3"/>
    </g>
-   <g id="patch_8">
-    <path d="M 198.85625 334.535125 
-L 198.85625 24.071125 
+   <g id="patch_10">
+    <path d="M 157.2625 317.664 
+L 157.2625 7.2 
 " style="fill: none; stroke: #525560; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
-   <g id="patch_9">
-    <path d="M 198.85625 334.535125 
-L 812.65625 334.535125 
+   <g id="patch_11">
+    <path d="M 157.2625 317.664 
+L 771.0625 317.664 
 " style="fill: none; stroke: #525560; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #1f2024" x="729.9379" y="40.53154" transform="rotate(-0 729.9379 40.53154)">A$31.5 bn</text>
    </g>
    <g id="text_17">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #1f2024" x="365.26425" y="64.320312" transform="rotate(-0 365.26425 64.320312)">A$4.7 bn</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #1f2024" x="490.953065" y="82.037423" transform="rotate(-0 490.953065 82.037423)">A$18.3 bn</text>
    </g>
    <g id="text_18">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #1f2024" x="470.97425" y="123.120312" transform="rotate(-0 470.97425 123.120312)">A$7.8 bn</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #1f2024" x="488.136806" y="123.543305" transform="rotate(-0 488.136806 123.543305)">A$18.1 bn</text>
    </g>
    <g id="text_19">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #1f2024" x="262.96425" y="181.920312" transform="rotate(-0 262.96425 181.920312)">A$1.7 bn</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #1f2024" x="471.744735" y="165.049187" transform="rotate(-0 471.744735 165.049187)">A$17.0 bn</text>
    </g>
    <g id="text_20">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #1f2024" x="256.14425" y="240.720312" transform="rotate(-0 256.14425 240.720312)">A$1.5 bn</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #1f2024" x="470.246341" y="206.55507" transform="rotate(-0 470.246341 206.55507)">A$16.9 bn</text>
    </g>
    <g id="text_21">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #1f2024" x="249.32425" y="299.520312" transform="rotate(-0 249.32425 299.520312)">A$1.3 bn</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #1f2024" x="211.240794" y="248.060952" transform="rotate(-0 211.240794 248.060952)">A$2.8 bn</text>
    </g>
    <g id="text_22">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #c5283d" transform="translate(784.69425 14.475)">Total = A$17.0 bn</text>
-    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; fill: #c5283d" transform="translate(784.69425 26.423125)">Gas tax revenue = A$17.0 bn/yr</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #1f2024" x="194.812618" y="289.566835" transform="rotate(-0 194.812618 289.566835)">A$1.9 bn</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #c5283d" x="471.383676" y="19.236706" transform="rotate(-0 471.383676 19.236706)">A$17.0 bn/yr reference line</text>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="pbb45aed964">
-   <rect x="198.85625" y="24.071125" width="613.8" height="310.464"/>
+  <clipPath id="p170d4a3620">
+   <rect x="157.2625" y="7.2" width="613.8" height="310.464"/>
   </clipPath>
  </defs>
 </svg>

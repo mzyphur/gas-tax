@@ -17,7 +17,7 @@ abstract: >-
   Forensic accounting of Australia's offshore-gas fiscal regime —
   Petroleum Resource Rent Tax, company income tax, state royalties,
   and the grandfathered North West Shelf Commonwealth royalty —
-  against the 2025-26 Commonwealth Budget and against the
+  against Budget 2026-27 and against the
   fiscal-architecture documents of Norway, Qatar, the United States,
   the United Kingdom, Malaysia, and Japan (the latter as the
   destination-market angle). Quantifies the gap between Australia's
@@ -40,8 +40,6 @@ keywords:
   - reproducible research
   - INSTATS-PS-2026-03
 license: CC-BY-NC-4.0
-date-released: "2026-05-12"
-version: "3.1.0"
+date-released: "2026-05-15"
+version: "3.2.0"
 # DOI to be minted through Instats/CrossRef after release.
-# Update this field with the assigned DOI when available.
-# doi: "10.XXXX/instats.lng-tax.v3.1.0"

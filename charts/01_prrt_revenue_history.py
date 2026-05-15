@@ -1,11 +1,11 @@
-"""Chart 01: PRRT cash receipts FY2010-11 → FY2028-29.
+"""Chart 01: PRRT cash receipts FY2010-11 → FY2029-30.
 
 Headline: PRRT did not rise with the LNG boom. The 2022-23 spike was
 an oil-price event, not a structural lift.
 
 Data: FY2010-11 to FY2024-25 from Treasury Final Budget Outcomes
-(sourced via dossier 01_prrt_history.md).  FY2025-26 → FY2028-29 are
-forward estimates from Budget Paper 1 2025-26, Table 4.7.
+(sourced via dossier 01_prrt_history.md). FY2025-26 → FY2029-30 are
+forward estimates from Budget Paper 1 2026-27, Statement 5, Table 5.7.
 """
 
 from __future__ import annotations
@@ -52,17 +52,17 @@ def main() -> None:
     ax.set_xticks(x)
     ax.set_xticklabels(fy, fontsize=9)
     ax.set_ylabel("PRRT cash receipts (A$ million)")
-    ax.set_ylim(0, 2600)
+    ax.set_ylim(0, 2850)
     set_chart_title(ax, "PRRT cash receipts did not rise with the LNG boom")
 
-    ax.axvspan(14.5, 18.5, color=COLORS["neutral_mid"], alpha=0.08, zorder=0)
-    ax.text(16.5, 2530, "Forward estimates\n(Budget 2025-26 BP1)",
+    ax.axvspan(last_outcome_idx + 0.5, len(fy) - 0.5, color=COLORS["neutral_mid"], alpha=0.08, zorder=0)
+    ax.text((last_outcome_idx + len(fy)) / 2, 2780, "Forward estimates\n(Budget 2026-27 BP1)",
             ha="center", va="top", fontsize=9, color=COLORS["ink_soft"],
             style="italic")
 
     ax.annotate(
         "2022-23 spike was an\noil-price event, not a\nstructural lift",
-        xy=(12, 2287), xytext=(8.2, 2400),
+        xy=(12, 2287), xytext=(8.2, 2620),
         arrowprops={"arrowstyle": "-", "lw": 0.6, "color": COLORS["ink"]},
         fontsize=9, color=COLORS["ink"], ha="left",
     )
@@ -74,10 +74,22 @@ def main() -> None:
         f"A${below_fc:.2f} bn BELOW May 2024\n"
         f"Budget forecast of A${may_fc:.2f} bn",
         xy=(last_outcome_idx, receipts[last_outcome_idx]),
-        xytext=(last_outcome_idx - 0.5, 2300),
+        xytext=(last_outcome_idx - 3.25, 2010),
         arrowprops={"arrowstyle": "-", "lw": 0.6, "color": COLORS["ink"]},
         fontsize=9, color=COLORS["ink"], ha="left", va="top",
+        bbox=dict(boxstyle="square,pad=0.25", fc=COLORS["paper"], ec="none", alpha=0.86),
     )
+    if "26-27" in fy and "29-30" in fy:
+        y_2627 = receipts[fy.index("26-27")]
+        ax.annotate(
+            "2026-27 bump is oil-linked;\n"
+            "forward estimates then fade",
+            xy=(fy.index("26-27"), y_2627),
+            xytext=(fy.index("26-27") + 0.45, 2190),
+            arrowprops={"arrowstyle": "-", "lw": 0.6, "color": COLORS["ink"]},
+            fontsize=9, color=COLORS["ink"], ha="left", va="top",
+            bbox=dict(boxstyle="square,pad=0.25", fc=COLORS["paper"], ec="none", alpha=0.86),
+        )
 
     SVG.mkdir(parents=True, exist_ok=True)
     fig.savefig(OUT / "01_prrt_revenue_history.png")

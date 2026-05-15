@@ -33,9 +33,8 @@ for any tooling that wants to enumerate them but does not draw on
 the figure.
 
 Source lines are NOT rendered in the PNG (§8.2) — the markdown
-caption supplies them. The legacy `add_footer()` is kept as a no-op
-shim for backwards compatibility with chart scripts that still call
-it; remove the calls when each script is touched next.
+caption supplies them. `add_footer()` remains a no-op compatibility
+shim for older scripts; new or touched charts should rely on captions.
 """
 
 from __future__ import annotations

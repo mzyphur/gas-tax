@@ -7,10 +7,7 @@ Data (FX per data/values.yml.fx_rates, RBA F11.1 daily fix):
 - Norway GPFG end-2025: NOK 21,268 bn x 0.130 AUD/NOK.
   Output: A$2.76 trillion; population 5.59 m.  # not-fx
 - Australia main Future Fund 31 Dec 2025: A$267.4 bn (native AUD). Pop 26.6 m.
-  (v3.0.4 Bucket C correction: previously used A$335.3 bn, which is the Future
-  Fund Board's total managed funds — Medical Research Future Fund, DisabilityCare
-  Australia Fund, Future Drought Fund, etc., combined. The headline "Australia's
-  Future Fund" in prose refers to the main Fund only.)
+  Uses the main Future Fund balance, not all Future Fund Board-managed funds.
 - Per-resident in AUD: Norway A$494,000 (NOK 21,268 bn x 0.130 / 5.59m);
   Australia A$10,050 (A$267.4 bn / 26.6m).
 - (Per-resident in USD: see dossier 08.)
@@ -58,9 +55,9 @@ def main() -> None:
                 xy=(0, per_resident_aud[0]), xytext=(0.35, per_resident_aud[0] - 54_000),  # not-fx; annotation x-position
                 fontsize=11, color=COLORS["ink"], style="italic")
     fig.text(0.5, 0.06,  # not-fx; figure text position
-            "Note: Australia's Future Fund is general-purpose (Telstra IPO + budget surpluses), not a resource fund.\n"
-            "A counterfactual gas-rent fund built at Qatar take-rates since 2010 would be of order A$700-900 bn "
-            "(~A$26k–A$34k per resident).",
+            "Note: Australia's Future Fund is general-purpose, not a petroleum-revenue fund.\n"
+            "Counterfactual Australian resource-fund balances are illustrative and depend on prices, "
+            "tax design, project timing and investment returns.",
             fontsize=8.5, color=COLORS["ink"], style="italic",
             ha="center", parse_math=False)
     fig.subplots_adjust(bottom=0.22)  # not-fx; layout margin

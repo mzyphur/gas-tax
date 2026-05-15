@@ -1,3 +1,5 @@
+
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Montserrat:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,500&display=swap");
 
 .instats-report {
@@ -92,6 +94,7 @@
   hanging-punctuation: first last;
 }
 
+
 .instats-report td, .instats-report th, .instats-report .stat, .instats-report .keyfacts .num, .instats-report .figure-num, .instats-report .tablewrap td, .instats-report .tablewrap th {
   font-variant-numeric: tabular-nums;
 }
@@ -110,7 +113,7 @@
 .instats-report .wrap {
   max-width: 880px;
   margin: 0 auto;
-  padding: 0 36px 96px 36px;
+  padding: 56px 36px 96px 36px;
 }
 
 
@@ -720,7 +723,7 @@
 }
 
 
-.instats-report sup { line-height: 0; vertical-align: baseline; font-size: 100%; position: static !important; top: auto !important; bottom: auto !important; }
+.instats-report sup { line-height: 0; vertical-align: baseline; font-size: 100%; }
 .instats-report .footnote-ref, .instats-report sup a, .instats-report .footnote-sep {
   font-family: var(--meta);
   color: var(--instats-primary);
@@ -836,9 +839,6 @@
     line-height: 1.5;
     background: white;
   }
-  .instats-report .instats-publication-actions {
-    display: none;
-  }
   .instats-report {
     color: #000;
     -webkit-print-color-adjust: exact;
@@ -897,8 +897,7 @@
     word-break: break-all;
   }
 
-  .instats-report .footnotes a[href^="http"]::after, .instats-report .footnote a[href^="http"]::after, .instats-report .sources a[href^="http"]::after, .instats-report .cover a[href^="http"]::after, .instats-report .colophon a[href^="http"]::after, .instats-report .author a[href^="http"]::after, .instats-report
-  a:has(img)[href^="http"]::after { content: ""; }
+  .instats-report .footnotes a[href^="http"]::after, .instats-report .footnote a[href^="http"]::after, .instats-report .sources a[href^="http"]::after, .instats-report .cover a[href^="http"]::after, .instats-report .colophon a[href^="http"]::after, .instats-report .author a[href^="http"]::after, .instats-report a:has(img)[href^="http"]::after { content: ""; }
 }
 
 
@@ -1036,6 +1035,25 @@
   .instats-report .sticky-toc { display: block; }
 }
 
+
+@media print {
+
+  .instats-report figure, .instats-report table, .instats-report blockquote, .instats-report .colophon, .instats-report .toc { page-break-inside: avoid; }
+  .instats-report h1 { page-break-before: always; }
+  .instats-report h2, .instats-report h3 { page-break-after: avoid; }
+}
+
+
+.instats-report sup {
+  position: static !important;
+  top: auto !important;
+  bottom: auto !important;
+}
+
+.instats-report .wrap {
+  padding-top: 0;
+}
+
 .instats-publication-actions,
 .instats-report .instats-publication-actions {
   max-width: 880px;
@@ -1095,13 +1113,8 @@
 }
 
 @media print {
-
   .instats-publication-actions,
   .instats-report .instats-publication-actions {
     display: none;
   }
-
-  .instats-report figure, .instats-report table, .instats-report blockquote, .instats-report .colophon, .instats-report .toc { page-break-inside: avoid; }
-  .instats-report h1 { page-break-before: always; }
-  .instats-report h2, .instats-report h3 { page-break-after: avoid; }
 }

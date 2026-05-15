@@ -1,6 +1,6 @@
 # Pocock & The Australia Institute: Evidence Dossier on Gas Tax Claims
 
-**Compiled:** 11 May 2026  
+**Compiled:** 11 May 2026
 **Scope:** Primary-source verification of Senator David Pocock's verbatim public statements on Petroleum Resource Rent Tax (PRRT) and gas-export taxation, plus the Australia Institute's 25% gas-export-tax proposal and supporting research. Cross-checked against Australian Energy Producers (AEP/formerly APPEA), IEEFA, and the parliamentary record where accessible.
 
 ---
@@ -23,7 +23,9 @@ The viral moment was a 57-second exchange in Senate Economics Estimates between 
 
 > "How do we live in a country, one of the biggest gas exporters in the world, and we're getting more tax from beer than PRRT?"[^4][^5]
 
-The exchange was the basis for Pocock's subsequent Senate motion (12 March 2026) to establish a Select Committee titled — non-ironically — **"Select Committee on Why Gas Companies Pay Less for Offshore Liquefied Natural Gas than Australians Pay in Beer Excise"**. The committee comprises 2 Labor, 2 Coalition and 1 crossbench senator, with Pocock as Chair, reporting May 2026.[^6][^7]
+The exchange was the basis for Pocock's subsequent Senate motion (12 March 2026) using the satirical short title **"Select Committee on Why Gas Companies Pay Less for Offshore Liquefied Natural Gas than Australians Pay in Beer Excise"**. The body actually established was the **Select Committee on the Taxation of Gas Resources**. The official APH membership page lists Senator Steph Hodgins-May as chair and Senator David Pocock as a member/supporter, not the chair.[^6][^7][^35]
+
+Budget 2026-27 supersedes the 2025-26 Budget forecast but reinforces the comparison. Treasury now estimates PRRT at $1.4bn in 2025-26 and $1.9bn in 2026-27, while beer excise is estimated at $2.71bn and $2.81bn respectively. Beer excise remains above PRRT in every Budget 2026-27 forward-estimates year to 2029-30.[^34]
 
 ### 1.2 The earlier nurses / HECS / beer comparison — Dissenting Report (May 2024)
 
@@ -67,9 +69,9 @@ On his petition page (no specific date; "Stop the Aussie gas scam"):
 
 In an urgency motion in the Senate on 4 November 2025 (Hansard via OpenAustralia.org), Pocock said:[^12]
 
-> "Wholesale gas prices in Australia are more than three times higher than in the USA."[^12]  
-> "Seven times higher than in Qatar and Canada."[^12]  
-> "Eighty-three per cent of gas extracted in Australia is used for LNG export."[^12]  
+> "Wholesale gas prices in Australia are more than three times higher than in the USA."[^12]
+> "Seven times higher than in Qatar and Canada."[^12]
+> "Eighty-three per cent of gas extracted in Australia is used for LNG export."[^12]
 > "We export more than four times as much gas as is used domestically."[^12]
 
 He cited the ACCC June 2025 report: "122 petajoules of uncontracted gas in 2024" and "79 per cent of that was exported", framing the situation as "not a gas supply problem … a gas export problem".[^12]
@@ -104,8 +106,8 @@ I could not locate verbatim Pocock quotes specifically comparing PRRT to **tobac
 
 ### 2.1 "A stronger PRRT cap: A fairer way to tax gas super profits" (May 2024)
 
-**Author:** Greg Jericho (Chief Economist).  
-**Publisher:** The Australia Institute.  
+**Author:** Greg Jericho (Chief Economist).
+**Publisher:** The Australia Institute.
 **Date:** May 2024.[^13]
 
 Key headline findings, verbatim from the discussion paper:
@@ -258,7 +260,8 @@ Context: From 1 August 2025 the Albanese Government paused draught beer excise i
 
 **Yes — under the narrow framing.** When the comparison is PRRT-only vs beer excise:
 
-- In 2025-26 (forecast): Beer **$2.7b** > PRRT **$1.5b** — beer wins by $1.2b.[^3]
+- In the 2025-26 Senate Estimates exchange: Beer **$2.7b** > PRRT **$1.5b** — beer wins by $1.2b.[^3]
+- In Budget 2026-27: Beer **$2.81b** > PRRT **$1.90b** in 2026-27, and beer remains above PRRT in every forward-estimates year to 2029-30.[^34]
 - In 2022-23 (peak windfall year): Beer **$2.6b** > PRRT **$2.4b** — beer still wins, just.[^8]
 - In 2024-25: Beer ~$2.7b > PRRT **$1.48b** — beer wins.[^10]
 
@@ -280,15 +283,15 @@ Note: **Wine Equalisation Tax (WET)** is *additional* to beer excise and should 
 
 ## 4. "Amusing comparators" table — annual revenue vs PRRT
 
-The table below compiles the comparator revenue sources circulating in the debate. Figures are most-recent-available (2022-23 to 2025-26 mix); all in AUD billions per year.
+The table below separates the current Budget comparator from older figures circulating in the debate. Figures are AUD billions per year unless stated otherwise.
 
 | Revenue source | Annual AUD | Year | Ratio to PRRT | Source |
 |---|---|---|---|---|
-| **Petroleum Resource Rent Tax (PRRT)** | $1.5b | 2025-26 forecast | 1.0× (baseline) | Treasury/Estimates[^3] |
-| Beer excise | $2.7b | 2025-26 forecast | 1.8× | Treasury/Estimates[^3] |
-| Tobacco excise | ~$13b | 2022-23 | ~9× | (Treasury Budget Papers; cited via Jericho 2024)[^13] |
-| Fuel excise (net of refunds) | ~$15b | 2022-23 | ~10× | (Treasury Budget Papers) |
-| HECS/HELP repayments | $4.9b | 2022-23 | 3.3× | Pocock Dissenting Report[^8] |
+| **Petroleum Resource Rent Tax (PRRT)** | $1.90b | 2026-27 Budget estimate | 1.0× (baseline) | BP1 Statement 5[^34] |
+| Beer excise | $2.81b | 2026-27 Budget estimate | 1.5× | BP1 Statement 5[^34] |
+| Tobacco excise | $3.56b | 2026-27 Budget estimate | 1.9× | BP1 Statement 5[^34] |
+| Fuel excise (gross) | $27.88b | 2026-27 Budget estimate | 14.7× | BP1 Statement 5[^34] |
+| HECS/HELP repayments | $5.1b | 2023-24 ATO actual | 2.7× | ATO Taxation Statistics / dossier 06[^23] |
 | HECS/HELP (7-yr cumulative vs PRRT 7-yr) | +$14,962m | 7yr to 2022-23 | 2.68× | Jericho/Thrower[^23] |
 | School teachers' personal income tax | $9.5b | pre-war annual avg | 6.3× | Campbell, May 2024[^18] |
 | Nurses' personal income tax | $5.4b | 2020-21 | 3.6× | Pocock Dissenting Report[^8] |
@@ -385,7 +388,7 @@ Per the IEEFA submission (April 2026), One Nation supports a **volume-based gas 
 
 ### 6.5 The Crossbench / Independents
 
-Pocock chairs the Select Committee on Gas Taxation (March-May 2026), with the report intended to land before the 12 May 2026 federal budget.[^7] Three of the five committee seats are non-crossbench (2 Labor + 2 Coalition); only one crossbench in addition to Pocock as chair — committee makeup limits the radical recommendations possible.[^7]
+Pocock was a member and public driver of the Select Committee on the Taxation of Gas Resources (March-May 2026); Greens Senator Steph Hodgins-May was the chair. The report landed before the 12 May 2026 federal Budget.[^7] Three of the five committee seats were non-crossbench (2 Labor + 2 Coalition), so the committee makeup limited the radical recommendations possible.
 
 ### 6.6 2026 election commitments
 
@@ -430,3 +433,5 @@ This public dossier preserves the substantive source notes and footnotes needed 
 [^31]: https://energyproducers.au/wp-content/uploads/2025/02/Economics-of-Gas-Industry-KPMG-Final-Report_18Dec2024.pdf — KPMG, *Economic contribution of the gas industry: Final report*, prepared for Australian Energy Producers, 18 December 2024.
 [^32]: https://greens.org.au/news/media-release/greens-make-gas-corporations-pay-their-fair-share-tax — Australian Greens media release, Adam Bandt, 20 April 2022; updated framing in Bandt's "Robin Hood reforms" announcement, https://greens.org.au/news/media-release/adam-bandt-announce-robin-hood-tax-plan-take-big-corporations-national-press.
 [^33]: https://www.facebook.com/SenatorCanavan/posts/david-pococks-claim-that-we-pay-more-tax-on-beer-than-gas-companies-pay-is-just-/1455567462590014/ — Senator Matt Canavan Facebook post rebutting Pocock.
+[^34]: Commonwealth of Australia, *Budget Paper No. 1: Budget Strategy and Outlook 2026-27*, Statement 5, Table 5.7. Direct PDF: https://budget.gov.au/content/bp1/download/bp1_bs-5.pdf — PRRT: 2025-26 $1,400m; 2026-27 $1,900m; 2027-28 $1,750m; 2028-29 $1,550m; 2029-30 $1,250m. Beer excise: 2025-26 $2,710m; 2026-27 $2,810m; 2027-28 $2,890m; 2028-29 $2,990m; 2029-30 $3,100m.
+[^35]: Parliament of Australia, Select Committee on the Taxation of Gas Resources, Committee Membership. https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Taxation_of_Gas_Resources/Committee_Membership — lists Senator Steph Hodgins-May as Chair and Senator David Pocock as Member.

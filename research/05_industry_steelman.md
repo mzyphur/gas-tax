@@ -14,7 +14,7 @@ The peak industry body Australian Petroleum Production & Exploration Association
 
 ### 1.1 Headline tax contribution figures (from AEP's most recent surveys)
 
-AEP's October 2025 media release "Australian oil & gas industry delivers record $22 billion in taxes and royalties to government revenues in 2024-25" reports:[^1]
+AEP's July 2025 media release "Australian oil & gas industry delivers record $22 billion in taxes and royalties to government revenues in 2024-25" reports:[^1]
 
 | Component | 2024-25 forecast | 2023-24 actual |
 |---|---|---|
@@ -171,6 +171,8 @@ From Wood Mackenzie / IEEFA data summarised across multiple recent reports:[^18]
 - **Spot/uncontracted volumes** rose to **~25% of total Australian LNG exports in 2024**.
 - The remaining **~75%** is sold under long-term contracts, largely to Northeast Asian buyers, predominantly oil-indexed.
 - The industry's strongest version: **a 25% export-revenue tax taxes the headline export value, not the realised contract price**, which can be materially below spot.
+
+Budget 2026-27 partly validates the contract-structure point while also showing its fiscal limit. Treasury says PRRT receipts have been revised up by $400m in 2026-27 and $1.6bn over the five years to 2029-30, primarily because of higher near-term oil prices and higher production volumes. It also notes that most Australian LNG exports are sold under long-term contracts linked to oil prices.[^27] In other words, oil linkage can lift PRRT when oil prices rise, but the lift in the current Budget is modest relative to LNG export value and does not remove the case for structural design reform.
 
 ### 5.3 The counter-fact, fairly stated
 
@@ -363,7 +365,7 @@ They disagree on **what those facts mean** and **what policy should follow**. Th
 
 This public dossier preserves the substantive source notes and footnotes needed to inspect the report's factual claims.
 
-[^1]: Australian Energy Producers, "Media release: Australian oil & gas industry delivers record $22 billion in taxes and royalties to government revenues in 2024-25" (Oct 2025). https://energyproducers.au/news/all_news/media-release-australian-oil-gas-industry-delivers-record-22-billion-in-taxes-and-royalties-to-government-revenues-in-2024-25
+[^1]: Australian Energy Producers, "Media release: Australian oil & gas industry delivers record $22 billion in taxes and royalties to government revenues in 2024-25" (July 2025). https://energyproducers.au/news/all_news/media-release-australian-oil-gas-industry-delivers-record-22-billion-in-taxes-and-royalties-to-government-revenues-in-2024-25
 
 [^2]: Australian Energy Producers, "Media Release: Gas sector to deliver $16 billion to governments as contribution almost triples." https://energyproducers.au/all_news/media-release-gas-sector-to-deliver-16-billion-to-governments-as-contribution-almost-triples/
 
@@ -414,3 +416,4 @@ This public dossier preserves the substantive source notes and footnotes needed 
 [^25]: PwC, *Value-adding: Australian Oil and Gas Industry* (September 2014, for APPEA). https://www.appea.com.au/wp-content/uploads/2014/11/PwC-Report-Oil-and-Gas-Industry-Sept-2014-FINAL.pdf — EY, *The economic contribution of Queensland's oil and gas industry* (Sept 2021). https://www.appea.com.au/wp-content/uploads/2021/09/QLD-investment-analysis-EY-final-report.pdf — Deloitte APPEA 2019 Conference. https://www2.deloitte.com/au/en/pages/energy-and-resources/articles/appea.html
 
 [^26]: EY, *Australia's oil and gas industry: kickstarting recovery from COVID-19* (Nov 2020, for APPEA). https://www.appea.com.au/wp-content/uploads/2020/11/EY-Report-Australias-oil-and-gas-industry-Kickstarting-recovery-from-COVID-19.pdf
+[^27]: Commonwealth of Australia, *Budget Paper No. 1: Budget Strategy and Outlook 2026-27*, Statement 5, PRRT narrative. Direct PDF: https://budget.gov.au/content/bp1/download/bp1_bs-5.pdf

@@ -3,8 +3,7 @@
 Headline: Industry's headline number is real, but PRRT is only A$1.35 bn
 of it — and royalties aren't a tax, they're a purchase price.
 
-v1.1 fix: switch from stacked-bar to grouped-vertical-bars to fix the
-overlapping value-label problem observed in internal publication QA.
+Uses grouped vertical bars so each component and value label remains legible.
 
 Data: AEP media release 27 July 2025 (2024-25 figures); Australia Institute
 critique (Campbell May 2024).
@@ -52,19 +51,14 @@ def main() -> None:
     ax.set_xticklabels(labels, fontsize=10.5)
     ax.set_ylim(0, max(values) * 1.18)
     ax.set_ylabel("Contribution to government (A$ billion, 2024-25)")
-    # Title belongs OUTSIDE the PNG per public style guide §8.3 — register
-    # in CHART_TITLES (no-op for the figure).
     set_chart_title(ax, f"Of the gas industry's A${total:.2f} bn 'contribution', PRRT is just A${values[2]:.2f} bn.")
 
-    # Inline annotation reset to spec — no fill, 0.5pt ink-soft hairline
-    # frame, ink-soft italic text per public style guide §8.1 (yellow is not
-    # in the 5-colour palette). The Grattan-style field-note.
     ax.annotate(
         "Australia Institute critique: royalties\n"
         "are 'a purchase price for petroleum\n"
         "resources owned by the community',\n"
         "not a tax (Campbell, May 2024).",
-        xy=(1, 6.62), xytext=(1.65, 9.5),
+        xy=(1.18, values[1] - 0.7), xytext=(1.70, 9.55),
         arrowprops={"arrowstyle": "-", "lw": 0.6, "color": COLORS["ink_soft"]},
         fontsize=9.5, color=COLORS["ink_soft"], style="italic", ha="left",
         bbox=dict(boxstyle="square,pad=0.5", fc="none", ec=COLORS["ink_soft"], lw=0.5),

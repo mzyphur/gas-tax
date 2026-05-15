@@ -7,7 +7,7 @@
 # Australia's Gas Export Tax Revenue
 ## *The Definitive Accounting*
 
-**A fully sourced policy analysis of how much revenue Australia actually collects from its gas exports, set against beer excise, HECS, the Norwegian Government Pension Fund Global, the Qatar fiscal regime, and the 2025-26 Commonwealth Budget.**
+**A source-documented policy analysis of how much revenue Australia actually collects from its gas exports, set against beer excise, HECS, the Norwegian Government Pension Fund Global, the Qatar fiscal regime, and Budget 2026-27.**
 
 <p>
   <a href="https://mzyphur.github.io/gas-tax/">
@@ -31,7 +31,7 @@
 
 ## What this is
 
-In the 2025-26 financial year, Australia will collect approximately **A$1.5-1.95 billion** from the Petroleum Resource Rent Tax (PRRT). In the same year, Australians will pay **A$2.7 billion in excise on beer**.
+In 2026-27, Australia is expected to collect **A$1.9 billion** from the Petroleum Resource Rent Tax (PRRT). In the same year, Australians are expected to pay **A$2.81 billion in excise on beer**.
 
 This report explains how a country that is the world's second-largest LNG exporter, with current export volumes of roughly 80 million tonnes a year worth ~A$64-92 billion, ends up collecting more tax from beer drinkers than it does in PRRT, the headline federal rent tax on offshore gas exports. It also sets out what a 25% LNG export levy could fund.
 
@@ -54,10 +54,10 @@ Instats publishes the report source, numerical manifest, chart code, rendered ch
 | **Read online** | **<https://mzyphur.github.io/gas-tax/>** |
 | Microsoft Word (.docx) | [Latest release ->](https://github.com/mzyphur/gas-tax/releases/latest) |
 | PDF | [Latest release ->](https://github.com/mzyphur/gas-tax/releases/latest) |
-| HTML (single file) | [Latest release ->](https://github.com/mzyphur/gas-tax/releases/latest) |
+| Web edition | [`docs/index.html`](docs/index.html) for Pages; [`final/report.html`](final/report.html) for repository-relative rendering |
 | Markdown source | [`drafts/report.md`](drafts/report.md) |
 
-**Citation.** Zyphur, M. J. (2026). *Australia's Gas Export Tax Revenue: The Definitive Accounting.* Instats Policy Series, v3.1.0. <https://github.com/mzyphur/gas-tax>. ORCID: [0000-0003-3237-7892](https://orcid.org/0000-0003-3237-7892). DOI: forthcoming via CrossRef.
+**Citation.** Zyphur, M. J. (2026). *Australia's Gas Export Tax Revenue: The Definitive Accounting.* Instats Policy Series, v3.2.0. <https://github.com/mzyphur/gas-tax>. ORCID: [0000-0003-3237-7892](https://orcid.org/0000-0003-3237-7892). DOI: forthcoming via CrossRef.
 
 BibTeX:
 
@@ -67,7 +67,7 @@ BibTeX:
   title       = {Australia's Gas Export Tax Revenue: The Definitive Accounting},
   institution = {Instats},
   type        = {Instats Policy Series},
-  number      = {v3.1.0},
+  number      = {v3.2.0},
   year        = {2026},
   url         = {https://github.com/mzyphur/gas-tax},
   note        = {ORCID: 0000-0003-3237-7892. DOI forthcoming via CrossRef.}

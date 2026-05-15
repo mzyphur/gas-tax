@@ -10,7 +10,7 @@ INSTATS POLICY SERIES &nbsp;·&nbsp; May 2026
 ## *The Definitive Accounting*
 
 ::: abstract
-How much does Australia actually collect from its gas exports? And what does that look like next to a beer, a HECS debt, a Norwegian sovereign wealth fund, or a single year of universal childcare? **The short answer: less than the country collects from beer; about a tenth of what Norway collects per tonne; and roughly A$17 billion a year less than a 25 per cent export tax would raise — enough every year to fund universal childcare, universal dental, an indicative mental health expansion (see Figure 4 caveat), and 90 per cent bulk-billing combined.**
+How much does Australia actually collect from its gas exports? And what does that look like next to a beer, a HECS debt, a Norwegian sovereign wealth fund, or the choices in the current Commonwealth Budget? **The short answer: less than the country collects from beer; about a tenth of what Norway collects per tonne; and roughly A$17 billion a year less than a 25 per cent export tax would raise — a sum roughly equal to annual Child Care Subsidy spending and more than half the 2026-27 underlying cash deficit.**
 :::
 
 ::: author
@@ -26,11 +26,11 @@ Instats &nbsp;·&nbsp; [instats.org](https://instats.org) &nbsp;·&nbsp; [suppor
 
 ::: colophon
 
-**About this report.** *Australia's Gas Export Tax Revenue: The Definitive Accounting* is published by Instats as a public-interest policy document. It draws together every primary source on Australia's offshore-gas fiscal regime — Treasury Final Budget Outcomes, ATO Corporate Tax Transparency, DISR Resources and Energy Quarterly, the Callaghan and Henry Reviews, Senate Estimates Hansard, and the equivalent fiscal-architecture documents for Norway, Qatar, the United States, the United Kingdom, Malaysia, Japan and the broader Middle East — and sets the result against the 2025-26 Commonwealth Budget.
+**About this report.** *Australia's Gas Export Tax Revenue: The Definitive Accounting* is published by Instats as a public-interest policy document. It draws together the main public source materials on Australia's offshore-gas fiscal regime — Treasury Final Budget Outcomes, ATO Corporate Tax Transparency, DISR Resources and Energy Quarterly, the Callaghan and Henry Reviews, Senate Estimates Hansard, Budget 2026-27, and the equivalent fiscal-architecture documents for Norway, Qatar, the United States, the United Kingdom, Malaysia, Japan and the broader Middle East — and sets the result against the current Commonwealth Budget.
 
 **Read online (one-click web edition).** A live web edition of this report — same content, same charts — is hosted at **<https://mzyphur.github.io/gas-tax/>**. Open it in any browser, share it as a link.
 
-**Citation.** Zyphur, M. J. (2026). *Australia's Gas Export Tax Revenue: The Definitive Accounting.* Instats Policy Series, v{{VERSION}}. [github.com/mzyphur/gas-tax](https://github.com/mzyphur/gas-tax). ORCID: [0000-0003-3237-7892](https://orcid.org/0000-0003-3237-7892). DOI: forthcoming via CrossRef (see `CITATION.cff`).
+**Citation.** Zyphur, M. J. (2026). *Australia's Gas Export Tax Revenue: The Definitive Accounting.* Instats Policy Series, v3.2.0. [github.com/mzyphur/gas-tax](https://github.com/mzyphur/gas-tax). ORCID: [0000-0003-3237-7892](https://orcid.org/0000-0003-3237-7892). DOI: forthcoming via CrossRef (see `CITATION.cff`).
 
 **Public audit package.** The report source, numerical manifest, chart code, rendered charts, cleaned evidence dossiers, and release artefacts are available at **[github.com/mzyphur/gas-tax](https://github.com/mzyphur/gas-tax)**. Additional working files are retained privately by Instats. The [latest GitHub Release](https://github.com/mzyphur/gas-tax/releases/latest) packages the report in Microsoft Word, HTML, and PDF formats.
 
@@ -123,26 +123,26 @@ Instats &nbsp;·&nbsp; [instats.org](https://instats.org) &nbsp;·&nbsp; [suppor
 
 
 
-Treasury forecasts that in the 2025-26 financial year Australia will collect approximately **A$1.5–1.95 billion** from the Petroleum Resource Rent Tax (PRRT), the headline federal tax on offshore gas extraction. That forecast was confirmed under oath in Senate Estimates in February 2026. The figure has been revised downward since the March 2025 Budget Paper 1 forecast of A$1.95 bn; the Senate Estimates testimony cited A$1.5 bn as the working estimate. In the same year, Australia will collect **A$2.7 billion in excise on beer**.[^pocock_senate]
+Treasury now estimates that Australia will collect **A$1.4 billion** from the Petroleum Resource Rent Tax (PRRT) in 2025-26 and **A$1.9 billion** in 2026-27, the first Budget year after the release of Budget 2026-27. In the same two years, Australia is expected to collect **A$2.71 billion** and **A$2.81 billion** in excise on beer.[^pocock_senate][^bp1_table_4_7] The February 2026 Senate Estimates exchange was therefore not overtaken by the new Budget. The 2026-27 papers lift PRRT in the near term, but beer excise still beats PRRT in every forward-estimates year to 2029-30.
 
 Australia is the world's second-largest LNG exporter, shipping roughly 80 million tonnes a year worth A$64–92 billion. Yet it collects more tax from beer drinkers than it does in PRRT — the headline federal rent tax on offshore gas exports. This document explains why. It is a forensic accounting of the four heads of revenue — PRRT, company income tax, state royalties, and the grandfathered North West Shelf royalty. It then compares Australia with Norway, Qatar, the United States, the United Kingdom, Malaysia, Japan as a destination market, and the conventional comparators (beer, fuel, tobacco, HECS) inside Australia's own budget.
 
 It is also, deliberately, a fair-minded steelmanning of the industry's defence — back-loading by design, A$300+ billion of capital expenditure (capex), oil-indexed long-term contracts — followed by an honest critique of what stands and what does not. The 2023 PRRT deductions cap, which Treasury forecast would raise A$2.4 billion over the forward estimates, was outweighed by oil-price and FX parameter revisions at MYEFO 2023-24 (PRRT receipts revised down A$0.8 bn for 2023-24 and A$2.4 bn over the four years to 2026-27), with FY2023-24 and FY2024-25 outcomes both A$1.2–1.3 bn below the May 2023 forecast.[^prrt_cap_wipeout] Chevron made its first-ever PRRT payment in August 2025.[^chevron_first_prrt]
 
-A 25 per cent levy on the gross value of LNG exports would raise approximately **A$17 billion per year**.[^ai_25pc] That is the model advanced by the Australia Institute and the Australian Council of Trade Unions, and backed by Senator David Pocock. Set against the 2025-26 Commonwealth Budget, that is not rounding error. At long-run steady-state costings, a single year's gas tax revenue would fund four reforms: the Productivity Commission's universal childcare model (+A$4.7 bn/yr), universal dental Medicare (A$7.8 bn/yr at the 2022 Parliamentary Budget Office (PBO) costing), 90 per cent bulk-billing (A$1.7 bn/yr), and mental health Better Access expansion (A$1.5 bn/yr — indicative; see §3 dossier). Those four programs total A$15.7 bn, leaving A$1.1–1.3 bn for hospital top-ups and Indigenous health. A faster dental rollout (A$11.5 bn/yr in the transition years per the 2025 PBO update) would consume the full A$17 bn.[^budget_25_26][^pc_childcare][^greens_dental][^strengthening_medicare]
+A 25 per cent levy on the gross value of LNG exports would raise approximately **A$17 billion per year**.[^ai_25pc] That is the model advanced by the Australia Institute and the Australian Council of Trade Unions, and backed by Senator David Pocock. Set against Budget 2026-27, that is not rounding error. It is **2.13 per cent of total receipts**, **2.04 per cent of total expenses**, **53.9 per cent of the underlying cash deficit**, roughly equal to annual Child Care Subsidy spending, close to the annual JobSeeker income-support line, and almost **nine times** projected PRRT receipts for 2026-27.[^budget_26_27][^bp1_expenses]
 
 The three claims that most often get distorted in this debate, with verdicts:
 
 1. **"Australians pay more tax on beer than companies pay in PRRT."** <span class="verdict true">TRUE</span> This is true every year since 2019-20 on a straight PRRT-vs-beer-excise comparison. It was also confirmed by Treasury officials in Senate Economics Estimates questioning by Senator David Pocock in February 2026, as reported on the Australian Community Media wire and fact-checked TRUE by *The Point*.[^pocock_senate]
 
-2. **"The Japanese government collects more tax on Australian gas than Australia does."** <span class="verdict mixed">MIXED</span> On the strictest primary-source calculation, Japan's JPY 1,860/tonne Petroleum and Coal Tax applied to 25.1 Mt of 2024 LNG imports from Australia yields approximately **A$412 million a year** in fuel-specific tax at import (`25.1 Mt × 1860 JPY × 0.00883 AUD/JPY`). That is below Australia's A$1.4 billion PRRT total. But the *offshore-LNG share* of Australian PRRT is close to zero. Offshore LNG projects have paid effectively zero PRRT to date, and Chevron made its first ever PRRT payment in August 2025. On a per-tonne LNG basis, Japan's downstream tax of **A$16.42/t** therefore exceeds Australia's upstream rent capture of ~A$0/t from the offshore LNG projects.[^denniss_japan][^japan_dossier]
+2. **"The Japanese government collects more tax on Australian gas than Australia does."** <span class="verdict mixed">MIXED</span> On the strictest primary-source calculation, Japan's JPY 1,860/tonne Petroleum and Coal Tax applied to 25.1 Mt of 2024 LNG imports from Australia yields approximately **A$412 million a year** in fuel-specific tax at import (`25.1 Mt × 1860 JPY × 0.00883 AUD/JPY`). That is below Australia's A$1.4 billion PRRT total. But the *offshore-LNG share* of Australian PRRT is close to zero. Offshore LNG projects have paid effectively zero PRRT over their lifetimes, with Chevron only entering the PRRT payer pool in August 2025. On a per-tonne LNG basis, Japan's downstream tax of **A$16.42/t** therefore exceeds Australia's upstream rent capture of ~A$0/t from the offshore LNG projects.[^denniss_japan][^japan_dossier]
 
-3. **"The gas industry pays A$21.9 billion a year in 'taxes and royalties'."** <span class="verdict decomposed">DECOMPOSED</span> This is the AEP/industry headline for 2024-25. The breakdown: A$13.5 billion is company income tax, A$6.6 billion is state royalties + excise + fees, and only **A$1.35 billion is PRRT**. Royalties, the Australia Institute notes, are not a tax — they are "a purchase price for petroleum resources owned by the community."[^aep_july2025][^campbell_debunked]
+3. **"The gas industry pays A$21.9 billion a year in 'taxes and royalties'."** <span class="verdict decomposed">DECOMPOSED</span> This is the AEP/industry headline for 2024-25. The breakdown: A$13.5 billion is company income tax, A$6.6 billion is state royalties + excise + fees, only **A$1.35 billion is PRRT**, and the remainder is other industry taxes. Royalties, the Australia Institute notes, are not a tax — they are "a purchase price for petroleum resources owned by the community."[^aep_july2025][^campbell_debunked]
 
 The three points the debate consistently gets wrong:
 
 - **PRRT is not a royalty.** It is a rent tax, designed to apply only after cost recovery + uplift. The two instruments do not substitute, and Australia is unusual in applying one without the other for offshore production.
-- **Per-tonne state take, not total revenue, is the like-for-like comparison.** The conservative measure apportions each country's total petroleum revenue by its gas-share of production volume, using RBA-verified 2026-05-11 FX rates of 1 USD = 1.384 AUD and 1 NOK = 0.130 AUD. On that basis, Norway collects roughly **A$491 per tonne of LNG-equivalent gas**, Qatar roughly **A$725**, Malaysia A$682, the United States offshore roughly A$61, and Australia roughly **A$49**. Australia's figure combines PRRT, state royalties and the NWS Commonwealth grant; the offshore-Commonwealth-waters-only figure is closer to A$25–30/t. On total petroleum revenue divided by gas volume only — the *upper-bound* expression — Norway reaches about A$950/t and Qatar about A$1,520/t. The qualitative ordering and the ~10–15× per-tonne ratio against Australia survive any reasonable methodology choice.[^international_dossier]
+- **Per-tonne state take, not total revenue, is the like-for-like comparison.** The conservative measure apportions each country's total petroleum revenue by its gas-share of production volume, using RBA-verified 2026-05-11 FX rates of 1 USD = 1.384 AUD and 1 NOK = 0.130 AUD. On that basis, Norway collects roughly **A$491 per tonne of LNG-equivalent gas**, Qatar roughly **A$725**, Malaysia A$682, the United States offshore roughly A$61, and Australia roughly **A$49**. Australia's figure combines PRRT, state royalties and the NWS Commonwealth grant; the offshore-Commonwealth-waters-only figure is closer to A$25–30/t. On total petroleum revenue divided by gas volume only — the *upper-bound* expression — Norway reaches about A$950/t and Qatar about A$1,520/t. The qualitative ordering and the ~10–15× per-tonne ratio against Australia are robust across the methodology choices tested in the dossier.[^international_dossier]
 - **"PRRT will eventually deliver" is a defensible claim — but at the price points the Callaghan Review modelled.** The price points required to make the back-loading argument work are higher than the prices Treasury is now forecasting. That is why PRRT receipts have repeatedly missed upside forecasts since 2014-15 — through the LNG-boom build-out and again under the 2023 deductions cap — despite LNG export volumes more than quadrupling over the period.[^prrt_dossier][^callaghan]
 
 The rest of this document walks through the evidence.
@@ -157,7 +157,7 @@ The rest of this document walks through the evidence.
 
 Australia's fiscal take from gas exports flows through four separate channels:
 
-- **Petroleum Resource Rent Tax (PRRT).** A 40 per cent federal tax on the economic rents — the "super profits" — of offshore petroleum projects, after cost recovery + uplift. It applies in offshore Commonwealth waters, where royalties generally do not. After 2019, onshore Coal Seam Gas (CSG-LNG) no longer sat inside PRRT. PRRT raised **A$1.42 billion in 2024-25** and is forecast at A$1.95 billion in 2025-26, declining to A$1.45 billion by 2028-29.[^bp1_table_4_7]
+- **Petroleum Resource Rent Tax (PRRT).** A 40 per cent federal tax on the economic rents — the "super profits" — of offshore petroleum projects, after cost recovery + uplift. It applies in offshore Commonwealth waters, where royalties generally do not. After 2019, onshore Coal Seam Gas (CSG-LNG) no longer sat inside PRRT. PRRT raised **A$1.42 billion in 2024-25** and is now estimated at A$1.40 billion in 2025-26, A$1.90 billion in 2026-27, and A$1.25 billion by 2029-30.[^bp1_table_4_7]
 
 - **Corporate income tax.** Companies also pay the standard 30 per cent rate on taxable income. For LNG operators in Australia this has been close to zero for many years. The ATO Corporate Tax Transparency Report repeatedly shows major exporters paying zero or near-zero corporate tax against multi-billion-dollar revenues. The industry's own AEP figure for 2024-25 is **A$13.5 billion** — up sharply from the pre-Ukraine baseline of ~A$2.6 billion/year (the trend reflects oil-indexed LNG prices, not structural reform).[^aep_july2025][^campbell_debunked]
 
@@ -178,8 +178,8 @@ PRRT collections have moved roughly in line with oil production, but have yet to
 
 Figure 1 is the chart that captures the central problem.
 
-![Figure 1: PRRT historical cash receipts and forward estimates, A$ million, FY2010-11 to FY2028-29](../charts/png/01_prrt_revenue_history.png)
-*Figure 1. PRRT cash receipts did not rise with the LNG boom. The 2022-23 spike was a Russian-invasion oil-price event, not structural reform. The FY2024-25 outcome of A$1.42 billion came in A$1.23 billion below the May 2024 Budget forecast — despite the 2023 deductions cap supposedly taking effect. Sources: Treasury Final Budget Outcomes FY2010-11 to FY2024-25; Budget Paper 1 2025-26 Table 4.7.*
+![Figure 1: PRRT historical cash receipts and forward estimates, A$ million, FY2010-11 to FY2029-30](../charts/png/01_prrt_revenue_history.png)
+*Figure 1. PRRT cash receipts did not rise with the LNG boom. The 2022-23 spike was a Russian-invasion oil-price event, not structural reform. Budget 2026-27 lifts the 2026-27 estimate to A$1.90 billion on higher oil prices and production volumes, then has receipts fading to A$1.25 billion by 2029-30. Sources: Treasury Final Budget Outcomes FY2010-11 to FY2024-25; Budget Paper 1 2026-27 Statement 5 Table 5.7.*
 
 The annual numbers tell a stark story. PRRT cash receipts averaged **~A$1.1 billion per year through the LNG-boom era** (2014-15 to 2020-21) — *lower* than the early 2010s average of ~A$1.4 billion — despite LNG export volumes more than quadrupling over the same period (Figure 10).[^prrt_dossier]
 
@@ -286,7 +286,7 @@ Treasury confirmed:
 
 > *"Taxes on beer were expected to be A$2.7 billion in 2025-26, while taxes from PRRT were expected to be A$1.5 billion."*
 
-Pocock's follow-up — the line that went viral, reaching ~10 million Instagram views in days:
+Pocock's follow-up — the line that reached a large social-media audience and became a focal point of the public debate:
 
 > *"How do we live in a country, one of the biggest gas exporters in the world, and we're getting more tax from beer than PRRT?"*[^pocock_senate]
 
@@ -299,15 +299,15 @@ How do we live in a country, one of the biggest gas exporters in the world, and 
 
 ### 2.2 The wider comparator picture
 
-Beer is the cleanest, most rhetorically effective comparator, but it is not the only one. Figure 5 plots PRRT against beer excise across six years.
+Beer is the cleanest, most rhetorically effective comparator, but it is not the only one. Figure 5 plots PRRT against beer excise across the latest actual and forward-estimates window.
 
-![Figure 5: Beer excise vs PRRT receipts, A$ bn, FY2020-21 to FY2025-26 forecast](../charts/png/05_beer_vs_prrt.png)
-*Figure 5. Beer excise vs PRRT, FY2020-21 to FY2025-26 (forecast). Beer beat PRRT in every year shown, including narrowly in the Ukraine-spike year of 2022-23 (beer A$2.60 bn vs PRRT A$2.29 bn). Sources: Treasury Final Budget Outcomes; Budget Paper 1 2025-26; Senate Estimates February 2026 testimony.*
+![Figure 5: Beer excise vs PRRT receipts, A$ bn, FY2020-21 to FY2029-30 forecast](../charts/png/05_beer_vs_prrt.png)
+*Figure 5. Beer excise vs PRRT, FY2020-21 to FY2029-30. Beer beats PRRT in every year shown, including narrowly in the Ukraine-spike year of 2022-23 and through the Budget 2026-27 forward estimates. Sources: Treasury Final Budget Outcomes; Budget Paper 1 2026-27 Statement 5 Table 5.7; Senate Estimates February 2026 testimony.*
 
 The wider comparison picture (Figure 6) puts PRRT against the other major Commonwealth revenue lines.
 
-![Figure 6: PRRT in 2025-26 vs other Australian federal revenue lines — beer excise, fuel excise, tobacco excise, HECS repayments, major bank levy](../charts/png/06_comparators_bar.png)
-*Figure 6. PRRT (A$1.95 bn in 2025-26) is below fuel excise, below tobacco, below total alcohol excise, below HECS/HELP repayments, and below beer excise alone. Source: Budget Paper 1 2025-26 Table 4.7; ATO Taxation Statistics (HECS).*
+![Figure 6: PRRT in 2026-27 vs other Australian federal revenue lines — beer excise, fuel excise, tobacco excise, HECS repayments, major bank levy](../charts/png/06_comparators_bar.png)
+*Figure 6. PRRT (A$1.90 bn in 2026-27) is below fuel excise, below tobacco, below total alcohol excise, below HECS/HELP repayments, below the major bank levy, and below beer excise alone. Source: Budget Paper 1 2026-27 Statement 5 Table 5.7; ATO Taxation Statistics (HECS).*
 
 ### 2.3 The Dissenting Report and the HECS/nurses extensions
 
@@ -325,11 +325,11 @@ The Greg Jericho / Jack Thrower analysis (Australia Institute, February 2024) ex
 
 > *"In the seven years to 2022-23 the government collected a total of $14,962 million more in HECS/HELP than it did from the PRRT — equivalent to 168% more in tax from HECS/HELP than PRRT."*[^jericho_thrower_hecs]
 
-That is: HECS/HELP — i.e. former students paying back their education debt — has raised, in cumulative terms, **2.68 times what PRRT has raised** over the past seven years.
+That is: a 2024 analysis found that HECS/HELP — i.e. former students paying back their education debt — had raised, in cumulative terms to 2022-23, **2.68 times what PRRT had raised** over the preceding seven years.
 
 The Senator Matt Canavan rebuttal (Facebook, February 2026) — that adding Woodside's company tax would push gas-industry total tax above beer excise — is correct only for 2022-23 (the Ukraine windfall year). Independent fact-check (*The Point*, 17 Feb 2026) verdict: **TRUE for Pocock's framing on a PRRT-only basis.**[^thepoint_factcheck]
 
-The bottom line for this section: every year for at least the last six (including the 2021-23 price-spike years on a cash-receipts basis), Australians have paid more excise on their beer than the gas industry has paid in PRRT. In 2025-26 the gap will be A$1.2 billion.
+The bottom line for this section: every year for at least the last decade (including the 2021-23 price-spike years on a cash-receipts basis), Australians have paid more excise on their beer than the gas industry has paid in PRRT. In 2026-27, the Budget gap is A$0.91 billion; by 2029-30, Treasury expects beer excise to reach A$3.10 billion while PRRT falls to A$1.25 billion.[^bp1_table_4_7]
 
 ---
 
@@ -358,8 +358,8 @@ The most damaging comparison Australia loses, however, is not the domestic one. 
 ![Figure 3: Per-tonne state take from LNG-equivalent gas, gas-only attribution — Qatar A$725, Malaysia A$682, Norway A$491, USA offshore A$61, Australia A$49](../charts/png/03_per_tonne_state_take.png)
 *Figure 3. Government petroleum revenue per tonne of LNG-equivalent exported, 2024, in AUD. Sources: ATO Corporate Tax Transparency (Australia); Norwegian Petroleum / NPD (Norway); IMF Country Report 25/47, Qatar Ministry of Finance (Qatar); BOEM / DOI (USA); PETRONAS Integrated Report 2024 (Malaysia). FX conversions per `sources/fx_rates.md`.*
 
-![Figure 12: Annual government petroleum revenue, A$ bn — Norway A$91.3, Qatar A$65.7, Malaysia A$25.6, USA A$22.8, Australia A$17.5 all-heads](../charts/png/12_aud_international_revenue.png)
-*Figure 12. Same picture, expressed as annual government revenue rather than per-tonne. Norway extracts A$91.3 bn/year from petroleum activity (state petroleum net cash flow 2024, NOK 702 bn × 0.130); Qatar A$65.7 bn (hydrocarbon revenue 2024, US$47.5 bn × 1.384); Australia approximately A$4 bn from rent + royalty instruments alone, or A$17.5 bn including LNG-attributable corporate income tax (red bar). Sources as in Figure 3, all converted to AUD at the rates documented in `sources/fx_rates.md`.*
+![Figure 12: Annual government petroleum revenue, A$ bn — Norway A$91.3, Qatar A$65.7, Malaysia A$25.6, USA A$22.8, Australia A$4.0 rent and royalty](../charts/png/12_aud_international_revenue.png)
+*Figure 12. Same picture, expressed as annual government revenue rather than per-tonne. Norway extracts A$91.3 bn/year from petroleum activity (state petroleum net cash flow 2024, NOK 702 bn × 0.130); Qatar A$65.7 bn (hydrocarbon revenue 2024, US$47.5 bn × 1.384); Australia approximately A$4 bn from rent + royalty instruments alone. Including LNG-attributable corporate income tax would put Australia's all-heads figure at approximately A$17.5 bn. Sources as in Figure 3, all converted to AUD at the rates documented in `sources/fx_rates.md`.*
 
 ### 3.1 Norway — the gold standard
 
@@ -472,7 +472,7 @@ What does hold up — and what the Institute's argument resolves to once unpacke
 - **Japan: ~A$16 per tonne** of LNG specifically, collected at import as Petroleum and Coal Tax (JPY 1,860 × 0.00883 AUD/JPY).
 - **Australia (PRRT) from offshore LNG projects specifically: ~A$0 per tonne.** (Most LNG projects have paid zero PRRT in their lifetime; the PRRT receipts that do flow are largely from legacy oil-producing assets, not LNG.)
 
-The cleanest defensible statement for a public policy report is: *Japan extracts ~A$16 per tonne of fuel-specific tax on Australian LNG at import; Australia's PRRT on the offshore LNG projects that produced it is effectively zero.* The reason the per-tonne comparison is the like-for-like one — not the total-PRRT-vs-total-Japan-tax comparison — is that Japan's tax is applied to LNG volume specifically, while Australia's PRRT receipts come overwhelmingly from legacy oil-producing assets rather than from the LNG projects that produced the gas Japan is importing. Volume-weighting at the LNG-specific layer is the only way to compare the two regimes on the same gas. That survives strict scrutiny — see Figure 11.
+The cleanest defensible statement for a public policy report is: *Japan extracts ~A$16 per tonne of fuel-specific tax on Australian LNG at import; Australia's PRRT on the offshore LNG projects that produced it is effectively zero.* The reason the per-tonne comparison is cleaner than the total-PRRT-vs-total-Japan-tax comparison is that Japan's tax is applied to LNG volume specifically, while Australia's PRRT receipts come overwhelmingly from legacy oil-producing assets rather than from the LNG projects that produced the gas Japan is importing. Volume-weighting at the LNG-specific layer is the like-for-like comparison used here — see Figure 11.
 
 ![Figure 11: Downstream buyer-country tax per tonne of Australian LNG, A$ — Japan A$16.42, South Korea A$14.80, Taiwan A$0, China A$0, Australia (upstream) A$0](../charts/png/11_buyer_country_tax.png)
 *Figure 11. Per-tonne tax extracted by Australia's major LNG buyer countries (Japan, South Korea, Taiwan, China) at the import end, compared with Australia's per-tonne PRRT from the offshore LNG projects that produced the gas. Sources: Japan MOF Petroleum and Coal Tax (document 333.pdf); South Korea KRW 12/kg individual consumption tax plus KRW 3,800/tonne import surcharge, with Australian-origin customs duty at 0% under KAFTA; China and Taiwan apply no fuel-specific tax. PRRT-on-offshore-LNG figure ~zero per Treasury 2023 statement.*
@@ -582,53 +582,53 @@ The Australia Institute's three substantive critiques of the AEP framing also st
 
 The Australia Institute / ACTU benchmark estimate is that a 25 per cent levy on the gross value of LNG exports would raise approximately **A$17 billion per year** in additional Commonwealth revenue.[^ai_25pc] This is the headline policy proposal from the Greens, the ACTU, the Australia Institute, IEEFA Australia, and most cross-bench independents (as a 25 per cent flat rate).
 
-Compared with the 2025-26 Commonwealth Budget, delivered by Treasurer Jim Chalmers on 25 March 2025, A$17 billion is:[^budget_25_26]
+Compared with Budget 2026-27, delivered by Treasurer Jim Chalmers on 12 May 2026, A$17 billion is:[^budget_26_27]
 
-- **2.3 per cent of total Commonwealth receipts** (A$735 billion).
-- **2.2 per cent of total Commonwealth expenses** (A$786 billion).
-- **40 per cent of the 2025-26 underlying cash deficit** (A$42.1 billion).
-- **1/3 of total 2025-26 defence spending** (A$51.5 billion); ~1/5 of the AUKUS end-of-decade defence trajectory (~A$80–100 bn/yr by 2034-35).
-- **2.4× tobacco excise** (A$7.05 billion).
-- **8.7× current PRRT** (A$1.95 billion).
-- **Equivalent to total Commonwealth Child Care Subsidy spending** (A$16.2 billion).
-- **Roughly equal to the entire Family Tax Benefit system** (A$17.9 billion).
+- **2.13 per cent of total Commonwealth receipts** (A$798.1 billion).
+- **2.04 per cent of total Commonwealth expenses** (A$833.3 billion).
+- **53.9 per cent of the 2026-27 underlying cash deficit** (A$31.5 billion).
+- **32.7 per cent of total 2026-27 defence spending** (A$52.1 billion); ~1/5 of the AUKUS end-of-decade defence trajectory (~A$80–100 bn/yr by 2034-35).
+- **4.8× tobacco excise** (A$3.56 billion).
+- **8.9× current PRRT** (A$1.90 billion).
+- **Roughly equal to total Commonwealth Child Care Subsidy spending** (A$16.9 billion).
+- **Close to annual JobSeeker income support** (A$18.3 billion) and Support for Families (A$18.1 billion).[^bp1_expenses]
 
 <blockquote class="pullquote">
-A$17 billion a year is 2.3 per cent of Commonwealth receipts, equal to total Child Care Subsidy spending, roughly equal to the entire Family Tax Benefit system, and 8.7× current PRRT.
-<cite>2025-26 Commonwealth Budget, Budget Paper 1 (March 2025); ACTU/Australia Institute 25 per cent LNG export levy estimate</cite>
+A$17 billion a year is 2.13 per cent of Commonwealth receipts, roughly equal to annual Child Care Subsidy spending, more than half the 2026-27 underlying cash deficit, and almost nine times current PRRT.
+<cite>Budget 2026-27, Budget Paper 1; ACTU/Australia Institute 25 per cent LNG export levy estimate</cite>
 </blockquote>
 
-The substantive question is what one year's gas tax revenue would *buy* — using primary-source costings of canonical reform proposals. The answer, in one chart:
+The substantive question is what one year's gas tax revenue would *mean* inside the Budget — using current Budget aggregates and primary-source costings of canonical reform proposals. The answer, in one chart:
 
-![Figure 4: What A$17 bn/yr buys at long-run steady-state costings — universal childcare A$4.7 bn, universal dental A$7.8 bn, 90% bulk-billing A$1.7 bn, mental health Better Access A$1.5 bn (indicative), buffer A$1.3 bn](../charts/png/04_what_17b_buys.png)
-*Figure 4. A single year of a 25 per cent LNG export tax (A$17 bn) fully funds the Productivity Commission's universal childcare model, universal dental Medicare (Greens / PBO costing), the 90 per cent bulk-billing GP rollout, and an indicative Better Access expansion, leaving roughly A$1.3 bn; the Better Access line should be confirmed by Parliamentary Library / PBO costing before program design (see §5.3). Sources: Productivity Commission Sep 2024; Greens / PBO costing ECR547 2022; BP1 Statement 3 p. 67; Department of Health (indicative Better Access estimate).*
+![Figure 4: A$17 bn/yr in the current Budget — compared with PRRT, beer excise, childcare, JobSeeker and the underlying cash deficit](../charts/png/04_what_17b_buys.png)
+*Figure 4. A$17 billion per year is not a marginal line item in Budget 2026-27. It is roughly equal to annual Child Care Subsidy spending, close to JobSeeker income support and Support for Families, and more than half the underlying cash deficit. Sources: Budget 2026-27, Budget Paper 1 Statements 5 and 6; ACTU/Australia Institute 25 per cent LNG export levy estimate.*
 
 ### 5.1 Childcare — universal access
 
-The **Productivity Commission's *A path to universal early childhood education and care*** (September 2024) costs the universal access reform at +A$4.7 billion per year on top of the current A$14 billion Child Care Subsidy base.[^pc_childcare] That takes total Commonwealth childcare spend to roughly A$17.4 billion a year, almost exactly one year of gas tax revenue. The reform delivers every child aged 0–5 a minimum 30 hours / 3 days a week of high-quality early childhood education and care (ECEC), 48 weeks a year.
+The **Productivity Commission's *A path to universal early childhood education and care*** (September 2024) costs the universal access reform at +A$4.7 billion per year on top of the existing Child Care Subsidy base.[^pc_childcare] Budget 2026-27 puts Child Care Subsidy program spending at approximately **A$16.9 billion** in 2026-27.[^bp1_expenses] That means one year of the 25 per cent LNG export levy is roughly the size of the entire annual subsidy line, before any dynamic labour-force participation effects. The reform delivers every child aged 0–5 a minimum 30 hours / 3 days a week of high-quality early childhood education and care (ECEC), 48 weeks a year.
 
 The Grattan Institute's *Cheaper Childcare* (2020) costed a 95 per cent targeted subsidy at +A$5 billion/year and a 90 per cent universal subsidy at +A$10 billion/year, with a projected GDP boost of A$24 billion/year from workforce participation effects.[^grattan_childcare]
 
 ### 5.2 University, TAFE, and HECS-HELP
 
-Total HECS/HELP debt outstanding in 2023-24 was **A$81.05 billion**.[^hecs_debt] The Albanese government's 2024-25 MYEFO measure cut 20 per cent off all outstanding HELP debt — A$16+ billion erased. Commonwealth higher-education expense in 2025-26 is A$12.14 billion; VET is A$2.67 billion; total Commonwealth tertiary spend is ~A$14.8 billion/year.
+Total HECS/HELP debt outstanding in 2023-24 was **A$81.05 billion**.[^hecs_debt] The Albanese government's 2024-25 MYEFO measure cut 20 per cent off all outstanding HELP debt — A$16+ billion erased. The higher-education comparison therefore remains a capital-stock comparison rather than a direct annual Budget line: one A$17 billion year is about one-fifth of the 2023-24 outstanding HELP balance, or roughly the size of the one-off 20 per cent HELP-debt reduction.
 
 The **Universities Accord Final Report (Feb 2024)** identified the funding needed to meet the 80-per-cent-tertiary-qualification target by 2050.[^uni_accord] It called for an A$10 billion Higher Education Future Fund (HEFF; 50/50 Commonwealth/universities) for infrastructure. It also called for a Gonski-style needs-based teaching funding model lifting overall teaching funding by ~11 per cent (~A$1.3 billion/year), plus increased research funding.
 
-**A$17 billion a year covers either:** (a) the entire Commonwealth tertiary system at current levels with A$2 billion to spare, OR (b) the Accord recommendations + permanent fee-free TAFE + a substantial HECS rate reduction, OR (c) the full HECS/HELP debt balance wiped out in ~5 years.
+**A$17 billion a year is comparable to annual Commonwealth tertiary spending.** It would cover the Accord recommendations + permanent fee-free TAFE + a substantial HECS rate reduction, or wipe out the full HECS/HELP debt balance in roughly five years.
 
 ### 5.3 Medicare expansion
 
-Total Commonwealth health spending in 2025-26 is **A$124.8 billion** (Budget Paper 1 Table 5.8).[^bp1_health] The major items are Medical Benefits A$35.2 bn, PBS A$21.6 bn, and public hospitals A$33.9 bn. Then comes the relatively small **federal dental services line at A$326 million**.[^bp1_health]
+Total Commonwealth health spending in 2026-27 is **A$136.9 billion** (Budget Paper 1 Statement 6 Table 6.3). The major medical-services line is **A$37.6 billion** and the Pharmaceutical Benefits program is **A$23.4 billion**. The federal dental-services line remains tiny by comparison, at **A$335 million** in 2026-27.[^bp1_health]
 
 Canonical reform costings:
 
 - **Universal Dental Medicare (Greens / Parliamentary Budget Office costing ECR547, 2022 election):** A$77.6 bn over ten years = **A$7.76 bn/year on average**. The 2025-update version costs ~A$46 bn over four years = **~A$11.5 bn/year** as the program transitions to steady state. The report uses A$8 bn/year as a long-run reference, but a faster rollout (A$11.5 bn/yr) is also plausible.[^greens_dental]
 - **90 per cent bulk-billing GP target (the *Strengthening Medicare* package in the 2025-26 Budget):** **A$8.4 bn over five years ≈ A$1.7 bn/year**.[^strengthening_medicare]
 - **PBS co-payment reduction from A$31.60 to A$25 (1 January 2026):** A$784.6 million over four years.[^strengthening_medicare]
-- **Mental health Better Access expansion (10 → 20 Medicare-rebated sessions per year):** estimate ~A$1.5 bn/year. This is an order-of-magnitude estimate and would benefit from a Parliamentary Library / PBO costing.
+- **Mental health Better Access expansion (10 → 20 Medicare-rebated sessions per year):** indicative estimate ~A$1.5 bn/year.
 
-**A$17 billion a year covers the long-run-cost version of all four** (A$4.7 + A$7.76 + A$1.7 + ~A$1.5 = ~A$15.7 bn, leaving ~A$1.3 bn for hospital top-ups and Indigenous health). Three of those four costings are primary-sourced (PC universal childcare; PBO ECR547 universal dental; BP1 Statement 3 90 per cent bulk-billing). The Better Access expansion is an order-of-magnitude estimate and should be confirmed against a Parliamentary Library / PBO costing before being relied on for a final program design. The faster-rollout version of dental (A$11.5 bn/yr in transition) would consume the A$17 bn entirely; in that case the buffer disappears but every program still fits.
+**A$17 billion a year covers the long-run-cost version of all four**, but not simultaneously at the faster dental-rollout cost (A$4.7 + A$7.76 + A$1.7 + ~A$1.5 = ~A$15.7 bn, leaving ~A$1.3 bn for hospital top-ups and Indigenous health). Three of those four costings are primary-sourced (PC universal childcare; PBO ECR547 universal dental; BP1 Statement 3 90 per cent bulk-billing). The Better Access expansion is an order-of-magnitude estimate and should be confirmed against a Parliamentary Library / PBO costing before being relied on for a final program design. At the faster dental-rollout cost of ~A$11.5 bn/yr, the combined package would exceed A$17 bn unless another item were deferred or scaled.
 
 ### 5.4 Housing
 
@@ -636,7 +636,7 @@ The **Housing Australia Future Fund** is an A$10 billion capital fund delivering
 
 ### 5.5 Energy bill relief — the irony
 
-The 2024-25 Commonwealth Energy Bill Relief Fund cost roughly A$3 billion (rebates to consumers for high energy bills). Australian households received subsidies for the high cost of gas — gas that Australia gives to multinational exporters effectively royalty-free in Commonwealth waters. A 25 per cent export tax would generate roughly 5–6 times the cost of the rebate scheme, every year.
+The 2024-25 Commonwealth Energy Bill Relief Fund cost roughly A$3 billion (rebates to consumers for high energy bills). Australian households received subsidies for the high cost of gas — while gas extracted from Commonwealth waters is exported without a conventional royalty. A 25 per cent export tax would generate roughly 5–6 times the cost of the rebate scheme, every year.
 
 ### 5.6 The Norwegian counterfactual — a sovereign wealth fund
 
@@ -650,11 +650,11 @@ If A$17 billion a year were deposited into a sovereign wealth fund earning a **4
 
 (At Norway's higher post-2009 realised return of ~6 per cent, the 30-year figure would be approximately A$1.34 trillion; both are illustrative.)
 
-For comparison, the Norway GPFG took 30 years (1996–2025) to reach NOK 21,268 billion (~A$2.77 trillion) — built from petroleum revenues at a comparable rate of accumulation.[^norway_gpfg]
+For comparison, the Norway GPFG took 30 years (1996–2025) to reach NOK 21,268 billion (~A$2.77 trillion). That is a scale benchmark, not a claim that Australia had the same production mix, prices, tax base, or investment-return path.[^norway_gpfg]
 
 ### 5.7 Defence and AUKUS
 
-The 2025-26 Defence portfolio is A$51.5 billion. AUKUS Pillar 1 — the Virginia-class and SSN-AUKUS submarine program — is a 30-year commitment, peaking at roughly A$15 billion/year by the mid-2030s. **One A$17 billion year of gas tax revenue covers ~14 months of AUKUS Pillar 1.** Framed differently, the full 30-year AUKUS commitment can be funded from 22 years of A$17 billion/year.[^budget_dossier]
+The 2026-27 Defence function is A$52.1 billion. AUKUS Pillar 1 — the Virginia-class and SSN-AUKUS submarine program — is a 30-year commitment, peaking at roughly A$15 billion/year by the mid-2030s. **One A$17 billion year of gas tax revenue is 32.7 per cent of the annual Defence function and covers roughly 14 months of AUKUS Pillar 1 at the mid-2030s annual run-rate.** Framed differently, the full 30-year AUKUS commitment can be funded from roughly 22 years of A$17 billion/year.[^budget_dossier]
 
 This is not an argument for or against AUKUS. It is an argument that the revenue Australia is currently *not* collecting from offshore gas is a major part of the country's fiscal capacity.
 
@@ -704,9 +704,9 @@ Australia's Future Fund was established in 2006 and has done well — but it is 
 
 Australia is the world's second-largest LNG exporter. It collects more revenue from its citizens' beer than it does from offshore gas. It collects less per tonne LNG than the United States, less than Malaysia, roughly 15 times less than Qatar, and roughly 10 times less than Norway — an order of magnitude either way on the gas-only attribution that Part 3 lays out. Its sovereign wealth fund balance per citizen is roughly one-fortieth of Norway's.
 
-The political debate is now about three options: a deepened PRRT (a Norwegian-style cash-flow-neutral, high-rate rent tax), a royalty (the US/Qatar model), or a flat 25 per cent export levy (the ACTU / Australia Institute model). Each has trade-offs, but the answer cannot be "do nothing". Treasury's forward-estimate PRRT trajectory is *down* from A$1.95 billion in 2025-26 to A$1.45 billion in 2028-29.[^bp1_table_4_7] The 2023 PRRT deductions cap was outweighed by oil-price and FX parameter revisions at MYEFO 2023-24, so the cap did not deliver net new revenue against forward estimates — though Treasury's original A$2.4 bn forecast may still be realised against an unrevised baseline. The Callaghan Review's "PRRT will deliver A$105–230 billion to 2050" projection has not, after eight years, begun to materialise except via the Ukraine oil-price spike.
+The political debate is now about three options: a deepened PRRT (a Norwegian-style cash-flow-neutral, high-rate rent tax), a royalty (the US/Qatar model), or a flat 25 per cent export levy (the ACTU / Australia Institute model). Each has trade-offs, but the answer cannot be "do nothing". Budget 2026-27 now estimates PRRT at A$1.40 billion in 2025-26, A$1.90 billion in 2026-27, then A$1.75 billion, A$1.55 billion and A$1.25 billion over the remaining forward-estimates years.[^bp1_table_4_7] Treasury says the near-term upgrade is driven by higher oil prices and production volumes, but the forward path still fades. The 2023 PRRT deductions cap was outweighed by oil-price and FX parameter revisions at MYEFO 2023-24, so the cap did not deliver net new revenue against forward estimates — though Treasury's original A$2.4 bn forecast may still be realised against an unrevised baseline. The Callaghan Review's "PRRT will deliver A$105–230 billion to 2050" projection has not, after eight years, begun to materialise except via the Ukraine oil-price spike.
 
-The case for reform is stark: **a Norwegian government take per tonne of Australian LNG, applied retroactively only to the past five years, would have funded universal childcare, universal dental, a doubled mental health Better Access (indicative — see Figure 4 caveat), and full HECS-debt elimination. It would also have left A$50 billion in a future generations fund.**
+The case for reform is stark: **as an illustrative arithmetic counterfactual, not a retroactive policy proposal, a Norwegian government take per tonne of Australian LNG applied to the past five years would have funded universal childcare, universal dental, a doubled mental health Better Access expansion (indicative, and not a final program costing), and full HECS-debt elimination. It would also have left A$50 billion in a future generations fund.**
 
 The case against immediate reform is also real: **the existing system was designed to be back-loaded, and the projects it taxes are halfway through a 30-year capital recovery cycle. They have already absorbed two rounds of reform.**
 
@@ -718,12 +718,17 @@ Both sentences are true. The political question is which one matters more in the
 
 | Metric | Value | Source |
 |---|---:|---|
-| PRRT receipts 2025-26 (forecast) | A$1.95 bn | BP1 2025-26 Table 4.7[^bp1_table_4_7] |
+| PRRT receipts 2026-27 (estimate) | A$1.90 bn | BP1 2026-27 Statement 5 Table 5.7[^bp1_table_4_7] |
+| PRRT receipts 2025-26 (estimate) | A$1.40 bn | BP1 2026-27 Statement 5 Table 5.7[^bp1_table_4_7] |
 | PRRT receipts 2024-25 (actual) | A$1.42 bn | FBO 2024-25[^prrt_dossier] |
-| Beer excise 2025-26 (forecast) | A$2.70 bn | Senate Estimates Feb 2026[^pocock_senate] |
+| Beer excise 2026-27 (estimate) | A$2.81 bn | BP1 2026-27 Statement 5 Table 5.7[^bp1_table_4_7] |
+| Beer excise 2029-30 (estimate) | A$3.10 bn | BP1 2026-27 Statement 5 Table 5.7[^bp1_table_4_7] |
 | HECS/HELP repayments 2023-24 | A$5.10 bn | ATO Taxation Statistics[^international_dossier] |
-| Tobacco excise 2025-26 | A$7.05 bn | BP1 2025-26 Table 4.7[^bp1_table_4_7] |
-| Fuel excise 2025-26 (gross) | A$27.32 bn | BP1 2025-26 Table 4.7[^bp1_table_4_7] |
+| Tobacco excise 2026-27 | A$3.56 bn | BP1 2026-27 Statement 5 Table 5.7[^bp1_table_4_7] |
+| Fuel excise 2026-27 (gross) | A$27.88 bn | BP1 2026-27 Statement 5 Table 5.7[^bp1_table_4_7] |
+| Total Commonwealth receipts 2026-27 | A$798.1 bn | BP1 2026-27 Statement 5 Table 5.1[^budget_26_27] |
+| Total Commonwealth expenses 2026-27 | A$833.3 bn | BP1 2026-27 Statement 6 Table 6.1[^bp1_expenses] |
+| Underlying cash deficit 2026-27 | A$31.5 bn | BP1 2026-27 Statement 3 / Budget aggregates[^budget_26_27] |
 | LNG export value 2022-23 | A$92.24 bn | DISR REQ Dec 2024[^prrt_dossier] |
 | LNG export value 2023-24 | A$68.59 bn | DISR REQ Dec 2024[^prrt_dossier] |
 | Australian LNG export volume 2024 | ~82 Mt | DISR; international dossier 04 |
@@ -754,7 +759,9 @@ Both sentences are true. The political question is which one matters more in the
 
 This appendix records public-facing changes to the report and the audit package. The public package is limited to the material needed to inspect the report's factual claims and rendered outputs.
 
-**v3.1.0 (this version)** is the current public release. The substantive public changes are: South Korea's buyer-country LNG tax comparator is updated to **A$14.80 per tonne** on a power-generation basis, with a footnote explaining why city-gas LNG would imply a higher weighted average; the PRRT history series is placed explicitly on a **cash receipts** basis, with FY2021-22 corrected from A$2.166 billion accrual revenue to A$1.638 billion cash receipts; public charts and release artefacts are regenerated; and the public repository is narrowed to an evidence-and-publication package.
+**v3.2.0 (this version)** is the current public release. The substantive public changes are: the report is refreshed against Budget 2026-27; PRRT and beer-excise forward estimates are updated through 2029-30; the Budget-scale chart is rebuilt around current receipts, expenses, deficit and program-cost comparators; Appendix A is updated with current Budget values; source dossiers are updated for Budget 2026-27; and public charts and release artefacts are regenerated.
+
+**v3.1.0** updated South Korea's buyer-country LNG tax comparator to **A$14.80 per tonne** on a power-generation basis, with a footnote explaining why city-gas LNG would imply a higher weighted average; placed the PRRT history series explicitly on a **cash receipts** basis, with FY2021-22 corrected from A$2.166 billion accrual revenue to A$1.638 billion cash receipts; regenerated public charts and release artefacts; and narrowed the public repository to an evidence-and-publication package.
 
 **v3.0.12 and earlier** contain the pre-v3.1 publication history. As of v3.1.0, the public package is intentionally limited to the report, source manuscript, numerical manifest, chart code/assets, source dossiers, release artefacts, and citation metadata. This preserves public accountability for factual claims while keeping the repository focused on evidence and publication.
 
@@ -789,7 +796,9 @@ Additional working files are retained outside the public repository for Instats'
 
 [^ai_25pc]: Australia Institute live tracker, https://gas.australiainstitute.org.au/ — confirmed A$17 bn/year flow estimate; A$63.8 bn cumulative since 1 July 2022. Underlying paper: Saunders & Campbell, *Government revenue from LNG exports: Australia vs Qatar* (May 2025).
 
-[^budget_25_26]: Commonwealth Budget 2025-26, *Budget Strategy and Outlook* (Budget Paper 1), 25 March 2025. https://budget.gov.au/
+[^budget_26_27]: Commonwealth of Australia, *Budget 2026-27*, delivered 12 May 2026. Budget homepage: https://budget.gov.au/ ; Budget Paper 1, Statement 5: Revenue, Table 5.1 and Table 5.7: https://budget.gov.au/content/bp1/download/bp1_bs-5.pdf ; Budget Paper 1, Statement 3: Fiscal Strategy and Outlook: https://budget.gov.au/content/bp1/download/bp1_bs-3.pdf
+
+[^budget_25_26]: Commonwealth Budget 2025-26, *Budget Strategy and Outlook* (Budget Paper 1), 25 March 2025. https://archive.budget.gov.au/2025-26/index.htm
 
 [^pc_childcare]: Productivity Commission, *A path to universal early childhood education and care*, September 2024. https://www.pc.gov.au/inquiries/completed/childhood
 
@@ -811,11 +820,11 @@ Additional working files are retained outside the public repository for Instats'
 
 [^international_dossier]: Primary sources: Norwegian Petroleum Directorate (annual state petroleum cash-flow tables); IMF Country Report 25/47 (Qatar); US BOEM / DOI ONRR statistics; HMRC oil & gas tax receipts (United Kingdom); PETRONAS Integrated Report 2024 (Malaysia); Australia Institute / DISR Resources and Energy Quarterly (Australia). FX conversions per `sources/fx_rates.md` (RBA F11.1 2026-05-11). Full per-country working and primary-URL log: this repository, `research/04_international_comparison.md`.
 
-[^prrt_dossier]: Primary sources: Treasury Final Budget Outcome reports FY2010-11 to FY2024-25 (archived at https://archive.budget.gov.au/<year>/fbo/); 2025-26 Commonwealth Budget, Budget Paper 1, Statement 4 (https://archive.budget.gov.au/2025-26/index.htm); Petroleum Resource Rent Tax Assessment Act 1987 (Cth); Callaghan Review of the PRRT (April 2017, Treasury, https://treasury.gov.au/sites/default/files/2019-03/R2016-001_PRRT_final_report.pdf). Full source-by-source primary-URL log and per-year reconciliation: this repository, `research/01_prrt_history.md`.
+[^prrt_dossier]: Primary sources: Treasury Final Budget Outcome reports FY2010-11 to FY2024-25 (archived at https://archive.budget.gov.au/<year>/fbo/); Budget 2026-27 Budget Paper 1 Statement 5 Table 5.7 (https://budget.gov.au/content/bp1/download/bp1_bs-5.pdf); Petroleum Resource Rent Tax Assessment Act 1987 (Cth); Callaghan Review of the PRRT (April 2017, Treasury, https://treasury.gov.au/sites/default/files/2019-03/R2016-001_PRRT_final_report.pdf). Full source-by-source primary-URL log and per-year reconciliation: this repository, `research/01_prrt_history.md`.
 
 [^callaghan]: Mike Callaghan AM, *Petroleum Resource Rent Tax Review: Final Report*, Australian Treasury, 13 April 2017. https://treasury.gov.au/sites/default/files/2019-03/R2016-001_PRRT_final_report.pdf
 
-[^bp1_table_4_7]: Budget Paper 1 2025-26, Table 4.7 "(cash) receipts", p. 103. https://budget.gov.au/content/bp1/index.htm
+[^bp1_table_4_7]: Budget Paper 1 2026-27, Statement 5, Table 5.7 "Australian Government general government (cash) receipts", p. 208. PRRT estimates: 2025-26 A$1,400m; 2026-27 A$1,900m; 2027-28 A$1,750m; 2028-29 A$1,550m; 2029-30 A$1,250m. Beer excise estimates: 2026-27 A$2,810m; 2029-30 A$3,100m. Direct PDF: https://budget.gov.au/content/bp1/download/bp1_bs-5.pdf
 
 [^corp_tax_royalties_dossier]: Primary sources: ATO Corporate Tax Transparency reports (machine-readable releases at https://data.gov.au/data/dataset/c2524c87-cea4-4636-acac-599a82048a26); Treasury Final Budget Outcome 2023-24 (https://archive.budget.gov.au/2023-24/fbo/download/00_fbo_2023-24.pdf); Queensland Budget 2025-26 Budget Paper 2 (https://budget.qld.gov.au/files/Budget-2025-26-BP2-Revenue.pdf); Australia Institute working papers on Western Australian and Queensland LNG taxation. Full source-by-source primary-URL log and entity-level reconciliation: this repository, `research/02_corporate_tax_and_royalties.md`.
 
@@ -875,9 +884,11 @@ Additional working files are retained outside the public repository for Instats'
 
 [^uni_accord]: *Australian Universities Accord Final Report*, February 2024, prepared by the Hon. Mary O'Kane AC FRS et al. for the Department of Education. https://www.education.gov.au/australian-universities-accord
 
-[^bp1_health]: Budget Paper 1 2025-26 Statement 5, Table 5.8 — Commonwealth health spending breakdown. https://budget.gov.au/content/bp1/index.htm
+[^bp1_expenses]: Budget Paper 1 2026-27, Statement 6. Expense comparators use tables as appropriate: Table 6.1.3 for top-20 program lines such as Medical Benefits, Pharmaceutical Benefits, JobSeeker Income Support, Support for Families, Child Care Subsidy and Fuel Tax Credits; Table 6.3 for function totals such as Defence and Health; and Tables 6.8-6.9 for relevant subfunction/component cross-checks. Total expenses 2026-27 = A$833.262bn; Defence = A$52.055bn; Health = A$136.918bn; Social security and welfare = A$308.737bn; JobSeeker Income Support = A$18.304bn; Child Care Subsidy program = A$16.917bn; Support for Families = A$18.148bn. Direct PDF: https://budget.gov.au/content/bp1/download/bp1_bs-6.pdf
 
-[^budget_dossier]: Primary sources: 2025-26 Commonwealth Budget, Budget Paper 1 (https://archive.budget.gov.au/2025-26/bp1/download/bp1_2025-26.pdf); Treasury Final Budget Outcome 2024-25 (https://archive.budget.gov.au/2024-25/fbo/download/00_fbo_2024-25.pdf); Productivity Commission *A path to universal early childhood education and care* (September 2024); Greens / Parliamentary Budget Office costing ECR547 (universal dental Medicare, 2022); Australia Institute submission to the Senate Select Committee on the Taxation of Gas Resources (https://australiainstitute.org.au/wp-content/uploads/2026/04/P1999-Australia-Institute-Submission-to-Select-Committee-on-the-Taxation-of-Gas-Resources-updated.pdf). Items flagged UNVERIFIED in the dossier (mental-health Better Access expansion at ~A$1.5 bn/yr; PBS co-payment full abolition; permanent fee-free TAFE recurrent cost) are explicitly so noted in the body. Full reconciliation: this repository, `research/06_budget_modelling.md`.
+[^bp1_health]: Budget Paper 1 2026-27 Statement 6 Tables 6.1.3, 6.3 and 6.8 — Commonwealth health spending breakdown. Medical Benefits program/component = A$37.563bn; Pharmaceutical Benefits program = A$23.448bn; the broader pharmaceutical benefits and services subfunction = A$24.636bn; dental services = A$335m; total Health function = A$136.918bn. Direct PDF: https://budget.gov.au/content/bp1/download/bp1_bs-6.pdf
+
+[^budget_dossier]: Primary sources: Budget 2026-27 Budget Paper 1 Statements 3, 5 and 6 (https://budget.gov.au/); Treasury Final Budget Outcome 2024-25 (https://archive.budget.gov.au/2024-25/fbo/download/00_fbo_2024-25.pdf); Productivity Commission *A path to universal early childhood education and care* (September 2024); Greens / Parliamentary Budget Office costing ECR547 (universal dental Medicare, 2022); Australia Institute submission to the Senate Select Committee on the Taxation of Gas Resources (https://australiainstitute.org.au/wp-content/uploads/2026/04/P1999-Australia-Institute-Submission-to-Select-Committee-on-the-Taxation-of-Gas-Resources-updated.pdf). Items flagged UNVERIFIED in the dossier (mental-health Better Access expansion at ~A$1.5 bn/yr; PBS co-payment full abolition; permanent fee-free TAFE recurrent cost) are explicitly so noted in the body. Full reconciliation: this repository, `research/06_budget_modelling.md`.
 
 [^norway_gpfg]: Norges Bank Investment Management, Government Pension Fund Global Annual Report 2024. https://www.nbim.no/en/
 

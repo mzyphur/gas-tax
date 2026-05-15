@@ -53,11 +53,10 @@ def main() -> None:
         label = f"A${t:.0f} bn" if t > 0 else "A$0"
         if t > 0 and t < 0.5:
             label = "A$6 m"
-        # Tax labels render in accent red to make "zero across the
-        # board" the chart's visual punchline (§13 — one element /
-        # consistent purpose per chart).
-        ax.text(xi + w/2, max(t, 0) + 1.2, label, ha="center", fontsize=10,
-                color=COLORS["accent"], weight="bold")
+        tax_y = 0.62 if t == 0 else max(t, 0) + 1.1
+        tax_colour = COLORS["accent"] if label == "A$6 m" else COLORS["ink"]
+        ax.text(xi + w/2, tax_y, label, ha="center", fontsize=10,
+                color=tax_colour, weight="bold")
 
     ax.annotate(
         "Six APPEA members combined:\n"

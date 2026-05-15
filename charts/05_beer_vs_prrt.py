@@ -3,8 +3,8 @@
 Headline: Australians pay more tax on their beer than the gas industry pays
 under the PRRT - every year, including this one.
 
-Data: Treasury Final Budget Outcomes + Budget Paper 1 2025-26 + Senate
-Estimates Feb 2026 testimony confirmation (Treasury officials).
+Data: Treasury Final Budget Outcomes + Budget Paper 1 2026-27 Statement 5,
+Table 5.7 + Senate Estimates Feb 2026 testimony confirmation.
 """
 
 from __future__ import annotations
@@ -22,19 +22,18 @@ SVG = Path(__file__).parent / "svg"
 
 def main() -> None:
     V = load_values()["beer_vs_prrt_aud_bn"]
-    fy_keys = ["20-21", "21-22", "22-23", "23-24", "24-25", "25-26"]
-    years = ["2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26f"]
+    fy_keys = ["20-21", "21-22", "22-23", "23-24", "24-25", "25-26", "26-27", "27-28", "28-29", "29-30"]
+    years = ["2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26e", "2026-27e", "2027-28e", "2028-29e", "2029-30e"]
     beer = [V["beer"][k] for k in fy_keys]
     prrt = [V["prrt"][k] for k in fy_keys]
-    # Accent red reserved for the single emphasised bar (the 2025-26 PRRT
-    # forecast - the year named in the headline) per public style guide
-    # Section 13. Other PRRT bars use primary blue; beer bars use neutral
-    # mid grey throughout.
+    # Accent red reserved for the final forward-estimates PRRT bar so the
+    # chart lands on the current Budget's fade-out path. Other PRRT bars
+    # use primary blue; beer bars use neutral mid grey throughout.
     EMPHASIS_IDX = len(years) - 1
 
     x = np.arange(len(years))
     w = 0.38
-    fig, ax = plt.subplots(figsize=(11, 5.6))
+    fig, ax = plt.subplots(figsize=(12, 5.6))
     ax.bar(x - w/2, beer, width=w, color=COLORS["neutral_mid"])
     prrt_cols = [COLORS["accent"] if i == EMPHASIS_IDX else COLORS["primary"]
                  for i in range(len(years))]
@@ -47,9 +46,9 @@ def main() -> None:
                 color=COLORS["ink"])
 
     ax.set_xticks(x)
-    ax.set_xticklabels(years, fontsize=10)
+    ax.set_xticklabels(years, fontsize=8.5, rotation=25, ha="right")
     ax.set_ylabel("Revenue (A$ billion)")
-    ax.set_ylim(0, 3.4)
+    ax.set_ylim(0, 3.9)
     set_chart_title(ax, "Australians pay more tax on beer than the gas industry pays in PRRT - every year.")
 
     # Direct labels at the FIRST bar of each series (left edge), not
@@ -60,16 +59,13 @@ def main() -> None:
             color=COLORS["neutral_dark"])
     ax.text(x[0] + w/2, prrt[0] + 0.18, "PRRT (oil + gas)",
             ha="center", va="bottom", fontsize=10, fontweight="semibold",
-            color=COLORS["accent"])
+            color=COLORS["primary"])
 
-    # Pull-quote box moved up and right-edge-aligned so it sits above
-    # the last-year bars (where the headline year is) rather than
-    # collide with the series labels at the chart's left edge.
+    # Pull-quote kept short enough to sit inside the plot area.
     ax.annotate(
         'Senator Pocock to Treasury, Senate Estimates Feb 2026:\n'
-        '"How do we live in a country, one of the biggest gas exporters\n'
-        ' in the world, and we\'re getting more tax from beer than PRRT?"',
-        xy=(5, 2.7), xytext=(2.7, 3.05),
+        '"...we\'re getting more tax from beer than PRRT?"',
+        xy=(6, 2.81), xytext=(4.05, 3.42),
         fontsize=9, color=COLORS["ink"], style="italic", ha="left",
         bbox=dict(boxstyle="square,pad=0.5", fc="none", ec=COLORS["ink_soft"], lw=0.5),
     )
