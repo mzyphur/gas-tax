@@ -54,7 +54,7 @@ Instats publishes the report source, numerical manifest, chart code, rendered ch
 | **Read online** | **<https://mzyphur.github.io/gas-tax/>** |
 | Microsoft Word (.docx) | [Latest release ->](https://github.com/mzyphur/gas-tax/releases/latest) |
 | PDF | [Latest release ->](https://github.com/mzyphur/gas-tax/releases/latest) |
-| Web edition | [`docs/index.html`](docs/index.html) for Pages; [`final/report.html`](final/report.html) for repository-relative rendering |
+| Web edition | [`docs/index.html`](docs/index.html) for Pages; HTML and PDF builds attached to the [latest release](https://github.com/mzyphur/gas-tax/releases/latest) |
 | Markdown source | [`drafts/report.md`](drafts/report.md) |
 
 **Citation.** Zyphur, M. J. (2026). *Australia's Gas Export Tax Revenue: The Definitive Accounting.* Instats Policy Series, v3.2.0. <https://github.com/mzyphur/gas-tax>. ORCID: [0000-0003-3237-7892](https://orcid.org/0000-0003-3237-7892). DOI: forthcoming via CrossRef.

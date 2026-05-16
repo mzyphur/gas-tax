@@ -1,15 +1,16 @@
-# FX rate reference table — v1.1 (verified against RBA on 2026-05-11)
+# FX rate reference table — v3.2.0 (verified against RBA on 2026-05-11)
 
 All figures in this report are expressed in **Australian dollars (AUD)**.
 Where a primary source publishes a figure in another currency, the
 conversion uses the rate published in this table.
 
-## Reference rates (used throughout the report — v1.1)
+## Reference rates (used throughout the report — v3.2.0)
 
 These rates have been verified directly against the **Reserve Bank of
 Australia, Statistical Table F11.1 (Exchange Rates — Daily)** on
 2026-05-11. The earlier v1.0 of this report used 1 USD = 1.55 AUD;
-the public v1.1 package corrects that value.
+the v1.1 release corrected that value, and v3.2.0 carries the
+corrected rates forward unchanged.
 
 | Currency | A$1 buys | A$ per 1 unit | Notes |
 |---|---:|---:|---|
@@ -21,15 +22,17 @@ the public v1.1 package corrects that value.
 | NOK | (not published by RBA daily) | **0.130** | Cross-rate via USD: 1 USD ≈ 7.0 NOK (Norges Bank) × 1.384 = 9.68 NOK/AUD → 1 NOK ≈ A$0.130 (verified independently against Norges Bank's USD/NOK fix). |
 | QAR (Qatari riyal) | 2.63 | **0.380** | Pegged to USD at 3.64 QAR/USD; cross-rate 3.64/1.384 = 2.63. |
 
-## Sensitivity to FX correction in v1.1
+## Sensitivity to the v1.1 FX correction (history)
 
-Every figure in the v1.0 draft that used 1 USD = 1.55 AUD is now
-multiplied by 0.893 (= 1.384 / 1.55) to give the corrected v1.1 figure.
-For NOK conversions, the correction is from 0.144 to 0.130 (× 0.903).
+Every figure in the v1.0 draft that used 1 USD = 1.55 AUD was, from
+v1.1 onward, multiplied by 0.893 (= 1.384 / 1.55) to give the
+corrected figure. For NOK conversions, the correction is from 0.144
+to 0.130 (× 0.903). The v3.2.0 package carries these corrected
+rates forward unchanged.
 
-### Worked examples after v1.1 correction
+### Worked examples (v1.1 correction, retained as audit trail)
 
-| Native figure | × rate | AUD figure (v1.1) | (v1.0 was) |
+| Native figure | × rate | AUD figure (current) | (v1.0 was) |
 |---|---|---|---|
 | Norway 2024 state petroleum: NOK 702 bn¹ | × 0.130 | **A$91.3 bn** | (was A$98 bn at NOK 680 + 0.144) |
 | Norway GPFG end-2025: NOK 21,268 bn | × 0.130 | **A$2.77 trillion** | (was A$3.07 tn) |
@@ -55,8 +58,8 @@ For NOK conversions, the correction is from 0.144 to 0.130 (× 0.903).
 | 25% LNG export tax revenue (AI / ACTU estimate) | (already AUD) | **A$17 bn/year** | (unchanged; the AI uses its own model) |
 
 ¹ Norway 2024 actual outcome per *Statsbudsjettet 2026* is NOK 702 bn,
-not the NOK 680 bn estimate originally released October 2024. v1.1
-adopts the actual outcome figure.
+not the NOK 680 bn estimate originally released October 2024. The
+report has used the actual outcome figure since v1.1.
 
 ## Sensitivity
 
@@ -80,5 +83,5 @@ published daily-fix table; verified independently against Norges Bank.
 
 ## Citation
 Cite this file as: Zyphur, M. (2026). *FX rate reference table*. In
-*Australia's gas export tax revenue: the definitive accounting* v1.1.
+*Australia's gas export tax revenue: the definitive accounting* v3.2.0.
 Instats Policy Series. https://github.com/mzyphur/gas-tax/blob/main/sources/fx_rates.md

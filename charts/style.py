@@ -39,6 +39,8 @@ shim for older scripts; new or touched charts should rely on captions.
 
 from __future__ import annotations
 
+from pathlib import Path
+
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
@@ -69,8 +71,24 @@ COLORS = {
 CHART_TITLES: dict[str, str] = {}
 
 
+def _ensure_output_dirs() -> None:
+    """Create charts/png and charts/svg if they don't already exist.
+
+    All chart scripts in this directory save to these two siblings; only
+    chart_01 historically mkdir'd `charts/png/` at module top, so running
+    any chart_02..chart_12 on a fresh checkout before chart_01 would
+    fail with FileNotFoundError on the first savefig. Centralising the
+    mkdir here removes that asymmetry — every script that calls
+    apply_style() now has its output directories guaranteed.
+    """
+    charts_dir = Path(__file__).resolve().parent
+    (charts_dir / "png").mkdir(parents=True, exist_ok=True)
+    (charts_dir / "svg").mkdir(parents=True, exist_ok=True)
+
+
 def apply_style() -> None:
     """Apply the Instats chart style globally — public style guide §8.4."""
+    _ensure_output_dirs()
     mpl.rcParams.update({
         # Layout
         "figure.figsize":       (10, 5.5),
