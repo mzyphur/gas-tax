@@ -203,7 +203,7 @@ Why? Three reasons.
 | **Wheatstone LNG** | Chevron | A$40 bn (US$29 bn, 2011) | **A$47 bn** (US$34 bn)[^wheatstone] |
 | **Pluto Train 2 + Scarborough** | Woodside | A$16.6 bn (US$12 bn, 2021) | A$17.3 bn (US$12.5 bn, ≥86% complete mid-2025)[^scarborough] |
 
-Across 2010–2020, Australia's LNG buildout absorbed roughly **A$300–350 billion of private capital** (industry figure), or about **A$429 billion** (Wood Mackenzie's US$310 billion estimate × 1.384). All of it deductible under PRRT.[^industry_steelman]
+Across 2010–2020, Australia's LNG buildout absorbed roughly **A$300–350 billion of private capital** (industry figure), or about **A$429 billion** (Wood Mackenzie's US$310 billion estimate × 1.384). All of it deductible under PRRT.[^industry_case]
 
 ### 1.3 The 2023 deductions cap — a worked example in fiscal under-delivery
 
@@ -443,7 +443,7 @@ HMRC receipts, in AUD (1 GBP = 1.879 AUD, RBA F11.1 fix 2026-05-11):
 
 EPL receipts fell 20 per cent year on year in 2024-25 due to lower energy prices and reduced production. UK gas is mostly piped to continental Europe; it is not a major LNG exporter. Even so, the Energy Profits Levy (EPL) is the cleanest contemporary international template for a windfall tax and is repeatedly cited by Australian reformers.
 
-The industry often argues that high taxes kill investment, and the UK gives it some evidence. The UK industry says the EPL is killing investment: 4 wells were drilled in 2024, a record low, and Stifel and OBR analysis warned of a £10 bn / A$18.79 bn revenue overestimate to 2030. But Norway's 78 per cent regime coincides with **NOK 275 bn (~A$35.75 bn) of 2025 petroleum sector investment** and Equinor planning 26 wildcat wells in 2026. The difference is design. Norway pairs the 78 per cent rate with immediate cash-flow deductions; the UK EPL was implemented alongside the removal of the 29 per cent investment allowance. Same headline rate, opposite investment trajectories.[^industry_steelman]
+The industry often argues that high taxes kill investment, and the UK gives it some evidence. The UK industry says the EPL is killing investment: 4 wells were drilled in 2024, a record low, and Stifel and OBR analysis warned of a £10 bn / A$18.79 bn revenue overestimate to 2030. But Norway's 78 per cent regime coincides with **NOK 275 bn (~A$35.75 bn) of 2025 petroleum sector investment** and Equinor planning 26 wildcat wells in 2026. The difference is design. Norway pairs the 78 per cent rate with immediate cash-flow deductions; the UK EPL was implemented alongside the removal of the 29 per cent investment allowance. Same headline rate, opposite investment trajectories.[^industry_case]
 
 ### 3.5 Malaysia — production-sharing contracts via PETRONAS
 
@@ -529,7 +529,7 @@ About 75 per cent of Australian LNG is sold under long-term, oil-indexed contrac
 
 ### 4.3 "Norway proves a high rate doesn't deter investment — IF the design is cash-flow neutral"
 
-Norway's 78 per cent regime is paired with immediate cash-flow deductions and continental-shelf-wide loss consolidation. Equinor's organic capex was US$10.2 bn in 2023, US$13.5 bn in 2024, with US$10.6 bn projected for 2025. Norway is drilling 26 wildcat wells in 2026.[^industry_steelman]
+Norway's 78 per cent regime is paired with immediate cash-flow deductions and continental-shelf-wide loss consolidation. Equinor's organic capex was US$10.2 bn in 2023, US$13.5 bn in 2024, with US$10.6 bn projected for 2025. Norway is drilling 26 wildcat wells in 2026.[^industry_case]
 
 This strengthens the industry's argument against a flat 25 per cent revenue tax: the headline rate is not the whole story. Taxing total sales is materially different from taxing only rent, especially for producers selling under oil-indexed contracts at depressed prices. But it also weakens the industry's *other* argument, that high rates kill investment. Norway falsifies that claim when the design specifics are right.
 
@@ -546,7 +546,7 @@ The Australian oil and gas industry is the second-highest corporate taxpayer in 
 <cite>Samantha McCulloch, CEO, Australian Energy Producers, July 2025 media release</cite>
 </blockquote>
 
-Source note: Australian Energy Producers July 2025 media release.[^industry_steelman]
+Source note: Australian Energy Producers July 2025 media release.[^industry_case]
 
 Woodside Energy frames it the same way.[^woodside_46pct]
 
@@ -818,7 +818,7 @@ Additional working files are retained outside the public repository for Instats'
 
 [^aep_july2025]: Australian Energy Producers, "Media release: Australian oil & gas industry delivers record $22 billion in taxes and royalties to government revenues in 2024-25", 27 July 2025. https://energyproducers.au/news/all_news/media-release-australian-oil-gas-industry-delivers-record-22-billion-in-taxes-and-royalties-to-government-revenues-in-2024-25
 
-[^woodside_46pct]: Woodside Energy, *2024 Annual Tax Contribution Report* and accompanying media note. CEO Meg O'Neill, verbatim: "Our Australian all-in effective tax rate for 2024 was 46%. Put simply, for every A$100 of taxable profit, A$46 of taxes apply." Verbatim extraction from the Woodside 2023-24 tax media release captured in `research/05_industry_steelman.md` line 107. The 46 per cent figure aggregates company income tax (A$2.26 bn), PRRT (A$795.5 m), and state royalties; the rent-only sub-component is the A$795.5 m PRRT line.
+[^woodside_46pct]: Woodside Energy, *2024 Annual Tax Contribution Report* and accompanying media note. CEO Meg O'Neill, verbatim: "Our Australian all-in effective tax rate for 2024 was 46%. Put simply, for every A$100 of taxable profit, A$46 of taxes apply." Verbatim extraction from the Woodside 2023-24 tax media release captured in `research/05_industry_case.md` line 107. The 46 per cent figure aggregates company income tax (A$2.26 bn), PRRT (A$795.5 m), and state royalties; the rent-only sub-component is the A$795.5 m PRRT line.
 
 [^campbell_debunked]: Rod Campbell, *Gas industry claims debunked: Tax payment claims in context*, Australia Institute, May 2024. https://australiainstitute.org.au/wp-content/uploads/2024/06/The-Australia-Institute-Gas-industry-claims-debunked-Web.pdf
 
@@ -836,15 +836,15 @@ Additional working files are retained outside the public repository for Instats'
 
 [^callaghan_deductions]: Callaghan Review Figure 2.3 "Total deductible expenditure" — series rises from ~A$50 bn in 2002 to ~A$300 bn in 2015-16.
 
-[^gorgon]: Chevron Australia, *Gorgon project overview* (operator project page, https://www.chevron.com/what-we-do/energy/oil-and-natural-gas/assets/gorgon); cost-overrun trajectory (US$37 bn 2009 FID → US$54 bn) triangulated via offshore-energy trade press and Black Ridge Research / Wikipedia project profiles. Operators do not publish a single audited "final project cost" in statutory filings; the figures here are the industry / trade-press triangulation. Full source log: `research/05_industry_steelman.md`.
+[^gorgon]: Chevron Australia, *Gorgon project overview* (operator project page, https://www.chevron.com/what-we-do/energy/oil-and-natural-gas/assets/gorgon); cost-overrun trajectory (US$37 bn 2009 FID → US$54 bn) triangulated via offshore-energy trade press and Black Ridge Research / Wikipedia project profiles. Operators do not publish a single audited "final project cost" in statutory filings; the figures here are the industry / trade-press triangulation. Full source log: `research/05_industry_case.md`.
 
-[^ichthys]: INPEX Australia, *Ichthys LNG project page* (operator project page, https://www.inpex.com.au/projects/ichthys-lng/); cost-overrun trajectory (US$34 bn 2012 FID → ~US$45 bn) triangulated via NS Energy and *Business News* "Ichthys hit by another cost blow out" trade-press coverage. Industry / trade-press triangulation as for Gorgon. Full source log: `research/05_industry_steelman.md`.
+[^ichthys]: INPEX Australia, *Ichthys LNG project page* (operator project page, https://www.inpex.com.au/projects/ichthys-lng/); cost-overrun trajectory (US$34 bn 2012 FID → ~US$45 bn) triangulated via NS Energy and *Business News* "Ichthys hit by another cost blow out" trade-press coverage. Industry / trade-press triangulation as for Gorgon. Full source log: `research/05_industry_case.md`.
 
-[^wheatstone]: Chevron Australia, *Wheatstone project overview* (operator project page, https://www.chevron.com/what-we-do/energy/oil-and-natural-gas/assets/wheatstone); cost-overrun trajectory (US$29 bn 2011 FID → US$34 bn) triangulated via *Oil & Gas Journal* "Wheatstone LNG project costs skyrocket" and *Offshore Energy* "Chevron's Wheatstone LNG project to cost US$5 billion more". Industry / trade-press triangulation as for Gorgon. Full source log: `research/05_industry_steelman.md`.
+[^wheatstone]: Chevron Australia, *Wheatstone project overview* (operator project page, https://www.chevron.com/what-we-do/energy/oil-and-natural-gas/assets/wheatstone); cost-overrun trajectory (US$29 bn 2011 FID → US$34 bn) triangulated via *Oil & Gas Journal* "Wheatstone LNG project costs skyrocket" and *Offshore Energy* "Chevron's Wheatstone LNG project to cost US$5 billion more". Industry / trade-press triangulation as for Gorgon. Full source log: `research/05_industry_case.md`.
 
-[^scarborough]: Woodside, *Scarborough Energy Project and Pluto Train 2* (operator project page, https://www.woodside.com/what-we-do/growth-projects/Scarborough-Energy-Project); US$12 bn 2021 FID is the operator's announced figure; the US$12.5 bn / ≥86% complete mid-2025 update is from Woodside investor briefings reported in the offshore-energy trade press. Industry / trade-press triangulation as for Gorgon. Full source log: `research/05_industry_steelman.md`.
+[^scarborough]: Woodside, *Scarborough Energy Project and Pluto Train 2* (operator project page, https://www.woodside.com/what-we-do/growth-projects/Scarborough-Energy-Project); US$12 bn 2021 FID is the operator's announced figure; the US$12.5 bn / ≥86% complete mid-2025 update is from Woodside investor briefings reported in the offshore-energy trade press. Industry / trade-press triangulation as for Gorgon. Full source log: `research/05_industry_case.md`.
 
-[^industry_steelman]: Primary sources: Australian Energy Producers (AEP), *Tax factsheet 2024-25* (July 2025, https://energyproducers.au/hubfs/AEP-Tax-Factsheet-250725.pdf) and *Industry delivers record A$22 bn* media release (https://energyproducers.au/news/all_news/media-release-australian-oil-gas-industry-delivers-record-22-billion-in-taxes-and-royalties-to-government-revenues-in-2024-25); ACIL Allen, *Economic contribution of the Australian oil and gas industry, 2023* (https://acilallen.com.au/uploads/projects/767/ACILAllen_GEAEconomicContribution2023.pdf); the ANGE Association explanatory note on PRRT timing (https://angeassociation.com/fact-check/do-lng-pay-tax-in-australia/). Full reconstruction of industry claim → primary source → critique mapping: this repository, `research/05_industry_steelman.md`.
+[^industry_case]: Primary sources: Australian Energy Producers (AEP), *Tax factsheet 2024-25* (July 2025, https://energyproducers.au/hubfs/AEP-Tax-Factsheet-250725.pdf) and *Industry delivers record A$22 bn* media release (https://energyproducers.au/news/all_news/media-release-australian-oil-gas-industry-delivers-record-22-billion-in-taxes-and-royalties-to-government-revenues-in-2024-25); ACIL Allen, *Economic contribution of the Australian oil and gas industry, 2023* (https://acilallen.com.au/uploads/projects/767/ACILAllen_GEAEconomicContribution2023.pdf); the ANGE Association explanatory note on PRRT timing (https://angeassociation.com/fact-check/do-lng-pay-tax-in-australia/). Full reconstruction of industry claim → primary source → critique mapping: this repository, `research/05_industry_case.md`.
 
 [^chalmers_2023]: Treasurer Jim Chalmers, "Changes to the Petroleum Resource Rent Tax", media release. https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/changes-petroleum-resource-rent-tax . ATO PRRT deductions cap guidance: https://www.ato.gov.au/businesses-and-organisations/business-bulletins-newsroom/prrt-deductions-cap-now-law
 

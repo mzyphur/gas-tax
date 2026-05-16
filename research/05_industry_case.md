@@ -1,8 +1,8 @@
-# Industry Steelman: The Strongest Version of the Gas Industry's Case Against Higher Australian Gas Tax
+# Industry case: the strongest version of the gas industry's argument against higher Australian gas tax
 
 **Prepared:** 2026-05-11
 **Author:** Senior policy research analyst
-**Purpose:** Steelman the strongest possible version of the gas industry's argument before critiquing it. This is the case the industry would make, in its own words, with its own data, presented in its strongest framing. Critique appears only in Section 9.
+**Purpose:** Set out the strongest possible version of the gas industry's argument before critiquing it. This is the case the industry would make, in its own words, with its own data, presented in its strongest framing. Critique appears only in Section 9.
 
 > **Note on verification:** Every numerical claim in Sections 1–8 is followed by the URL of the primary source and (where the source was extractable) a verbatim quote. Where a source was retrievable only through reportage (e.g. PDF blocked by Cloudflare or returned by a search engine snippet rather than the source itself), the citation flags this.
 
@@ -75,7 +75,7 @@ The industry's most factually robust claim is that Australia's LNG buildout was 
 | **Wheatstone LNG** | Chevron | USD 29 bn (2011 FID) | **USD 34 bn** | Module delivery delays; "decision to proceed when only 15% of engineering was complete."[^11] |
 | **Pluto Train 2 + Scarborough** | Woodside | USD 12 bn (Nov 2021 FID) | USD 12.5 bn (≥86% complete mid-2025) | First LNG cargo targeted late 2026.[^12] |
 
-### 2.3 The steelman of the back-loading argument
+### 2.3 The strongest back-loading argument
 
 The argument is **internally coherent**:
 1. PRRT taxes economic rent — i.e. returns *above* cost recovery.
@@ -148,7 +148,7 @@ The factual core of the **counter**-argument is the LNG-netback / domestic-price
 
 The East Coast Gas Code anchors a **"reasonable price" of A$12/GJ** for gas from currently operational fields; the price cap continues until at least July 2025.[^16]
 
-### 4.3 The steelman of the supply-security argument
+### 4.3 The strongest supply-security argument
 
 Even granting the netback/domestic gap, the industry's case has a defensible core:
 - Australian gas reserves are not infinite; replacing depletion requires new FIDs.
@@ -203,7 +203,7 @@ Industry typically cites the UK as showing that windfall taxes destroy investmen
 - UK exploration hit a **record low of 4 wells drilled in 2024**.[^22]
 - Some analysts (Stifel) warn the EPL has *"undermined the UK's energy security and deterred future investment"* and that the OBR has overestimated tax receipts through 2030 by **£10 bn**.[^22]
 
-The honest steelman: **headline rate is not the full story**. Norway pairs 78% with cash-flow deductions and immediate write-off; UK paired 78% with **removal** of the 29% investment allowance. The same headline rate produces different results depending on deduction structure.
+The strongest version of the argument: **headline rate is not the full story**. Norway pairs 78% with cash-flow deductions and immediate write-off; UK paired 78% with **removal** of the 29% investment allowance. The same headline rate produces different results depending on deduction structure.
 
 ### 6.4 Australia-specific evidence
 
