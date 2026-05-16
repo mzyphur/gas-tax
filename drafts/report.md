@@ -10,7 +10,7 @@ INSTATS POLICY SERIES &nbsp;·&nbsp; May 2026
 ## *The Definitive Accounting*
 
 ::: abstract
-How much does Australia actually collect from its gas exports? And what does that look like next to a beer, a HECS debt, a Norwegian sovereign wealth fund, or the choices in the current Commonwealth Budget? **The short answer: less than the country collects from beer; about a tenth of what Norway collects per tonne; and roughly A$17 billion a year less than a 25 per cent export tax would raise — a sum roughly equal to annual Child Care Subsidy spending and more than half the 2026-27 underlying cash deficit.**
+How much does Australia actually collect from its gas exports? And what does that look like compared with beer excise, HECS debt, a Norwegian sovereign wealth fund, and choices in the current Commonwealth Budget? **The short answer: less than the country collects from beer; about a tenth of what Norway collects per tonne; and roughly A$17 billion a year less than a 25 per cent export tax would raise. That sum is roughly equal to annual Child Care Subsidy spending and more than half the 2026-27 underlying cash deficit.**
 :::
 
 ::: author
@@ -28,7 +28,7 @@ Instats &nbsp;·&nbsp; [instats.org](https://instats.org) &nbsp;·&nbsp; [suppor
 
 **About this report.** *Australia's Gas Export Tax Revenue: The Definitive Accounting* is published by Instats as a public-interest policy document. It draws together the main public source materials on Australia's offshore-gas fiscal regime — Treasury Final Budget Outcomes, ATO Corporate Tax Transparency, DISR Resources and Energy Quarterly, the Callaghan and Henry Reviews, Senate Estimates Hansard, Budget 2026-27, and the equivalent fiscal-architecture documents for Norway, Qatar, the United States, the United Kingdom, Malaysia, Japan and the broader Middle East — and sets the result against the current Commonwealth Budget.
 
-**Read online (one-click web edition).** A live web edition of this report — same content, same charts — is hosted at **<https://mzyphur.github.io/gas-tax/>**. Open it in any browser, share it as a link.
+**Read online (one-click web edition).** A live web edition of this report — same content, same charts — is hosted at **<https://mzyphur.github.io/gas-tax/>**. It opens in any browser and can be shared as a link.
 
 **Citation.** Zyphur, M. J. (2026). *Australia's Gas Export Tax Revenue: The Definitive Accounting.* Instats Policy Series, v3.2.0. [github.com/mzyphur/gas-tax](https://github.com/mzyphur/gas-tax). ORCID: [0000-0003-3237-7892](https://orcid.org/0000-0003-3237-7892). DOI: forthcoming via CrossRef (see `CITATION.cff`).
 
@@ -39,6 +39,8 @@ Instats &nbsp;·&nbsp; [instats.org](https://instats.org) &nbsp;·&nbsp; [suppor
 **Currency convention.** All figures in Australian dollars (A$) unless explicitly marked. Foreign-currency primary-source figures are converted at the RBA F11.1 daily fix on 2026-05-11: **1 USD = 1.384 AUD; 1 NOK = 0.130 AUD; 1 GBP = 1.879 AUD; 1 JPY = 0.00883 AUD; 1 KRW = 0.0009365 AUD; 1 RM = 0.353 AUD** (NOK cross-derived via Norges Bank — not in the RBA daily-fix table). Native figures are retained in parentheses where the audit trail benefits. Qualitative findings are robust to ±10 per cent FX variation.
 
 **Methodology summary.** Public audit materials include the source manuscript, numerical manifest, chart scripts, rendered charts, source dossiers, and primary-source footnotes. The author is responsible for every numerical claim, interpretation, and recommendation.
+
+**AI assistance disclosure.** Research review, drafting, code/release checks, and copy-editing used assistance from OpenAI GPT-5.5/Codex, Anthropic Claude Opus 4.7/Claude Code agents, and Google Gemini 3 Flash Preview. The author is responsible for all claims, source interpretation, caveats, calculations, and final wording.
 
 :::
 
@@ -123,11 +125,11 @@ Instats &nbsp;·&nbsp; [instats.org](https://instats.org) &nbsp;·&nbsp; [suppor
 
 
 
-Treasury now estimates that Australia will collect **A$1.4 billion** from the Petroleum Resource Rent Tax (PRRT) in 2025-26 and **A$1.9 billion** in 2026-27, the first Budget year after the release of Budget 2026-27. In the same two years, Australia is expected to collect **A$2.71 billion** and **A$2.81 billion** in excise on beer.[^pocock_senate][^bp1_table_4_7] The February 2026 Senate Estimates exchange was therefore not overtaken by the new Budget. The 2026-27 papers lift PRRT in the near term, but beer excise still beats PRRT in every forward-estimates year to 2029-30.
+Treasury now estimates that Australia will collect **A$1.4 billion** from the Petroleum Resource Rent Tax (PRRT) in 2025-26 and **A$1.9 billion** in 2026-27, the 2026-27 Budget year in the new papers. In the same two years, Australia is expected to collect **A$2.71 billion** and **A$2.81 billion** in excise on beer.[^pocock_senate][^bp1_table_4_7] The February 2026 Senate Estimates exchange was therefore not overtaken by the new Budget. The 2026-27 papers lift PRRT in the near term, but beer excise still beats PRRT in every forward-estimates year to 2029-30.
 
 Australia is the world's second-largest LNG exporter, shipping roughly 80 million tonnes a year worth A$64–92 billion. Yet it collects more tax from beer drinkers than it does in PRRT — the headline federal rent tax on offshore gas exports. This document explains why. It is a forensic accounting of the four heads of revenue — PRRT, company income tax, state royalties, and the grandfathered North West Shelf royalty. It then compares Australia with Norway, Qatar, the United States, the United Kingdom, Malaysia, Japan as a destination market, and the conventional comparators (beer, fuel, tobacco, HECS) inside Australia's own budget.
 
-It is also, deliberately, a fair-minded steelmanning of the industry's defence — back-loading by design, A$300+ billion of capital expenditure (capex), oil-indexed long-term contracts — followed by an honest critique of what stands and what does not. The 2023 PRRT deductions cap, which Treasury forecast would raise A$2.4 billion over the forward estimates, was outweighed by oil-price and FX parameter revisions at MYEFO 2023-24 (PRRT receipts revised down A$0.8 bn for 2023-24 and A$2.4 bn over the four years to 2026-27), with FY2023-24 and FY2024-25 outcomes both A$1.2–1.3 bn below the May 2023 forecast.[^prrt_cap_wipeout] Chevron made its first-ever PRRT payment in August 2025.[^chevron_first_prrt]
+It also sets out the strongest version of the industry's defence — back-loading by design, A$300+ billion of capital expenditure (capex), oil-indexed long-term contracts — followed by an honest critique of what stands and what does not. The 2023 PRRT deductions cap, which Treasury forecast would raise A$2.4 billion over the forward estimates, was outweighed by oil-price and FX parameter revisions at MYEFO 2023-24 (PRRT receipts revised down A$0.8 bn for 2023-24 and A$2.4 bn over the four years to 2026-27), with FY2023-24 and FY2024-25 outcomes both A$1.2–1.3 bn below the May 2023 forecast.[^prrt_cap_wipeout] Chevron made its first-ever PRRT payment in August 2025.[^chevron_first_prrt]
 
 A 25 per cent levy on the gross value of LNG exports would raise approximately **A$17 billion per year**.[^ai_25pc] That is the model advanced by the Australia Institute and the Australian Council of Trade Unions, and backed by Senator David Pocock. Set against Budget 2026-27, that is not rounding error. It is **2.13 per cent of total receipts**, **2.04 per cent of total expenses**, **53.9 per cent of the underlying cash deficit**, roughly equal to annual Child Care Subsidy spending, close to the annual JobSeeker income-support line, and almost **nine times** projected PRRT receipts for 2026-27.[^budget_26_27][^bp1_expenses]
 
@@ -179,18 +181,18 @@ PRRT collections have moved roughly in line with oil production, but have yet to
 Figure 1 is the chart that captures the central problem.
 
 ![Figure 1: PRRT historical cash receipts and forward estimates, A$ million, FY2010-11 to FY2029-30](../charts/png/01_prrt_revenue_history.png)
-*Figure 1. PRRT cash receipts did not rise with the LNG boom. The 2022-23 spike was a Russian-invasion oil-price event, not structural reform. Budget 2026-27 lifts the 2026-27 estimate to A$1.90 billion on higher oil prices and production volumes, then has receipts fading to A$1.25 billion by 2029-30. Sources: Treasury Final Budget Outcomes FY2010-11 to FY2024-25; Budget Paper 1 2026-27 Statement 5 Table 5.7.*
+*Figure 1. PRRT cash receipts did not rise with the LNG boom. The 2022-23 spike was an oil-price spike following Russia's invasion of Ukraine, not structural reform. Budget 2026-27 lifts the 2026-27 estimate to A$1.90 billion on higher oil prices and production volumes, then has receipts fading to A$1.25 billion by 2029-30. Sources: Treasury Final Budget Outcomes FY2010-11 to FY2024-25; Budget Paper 1 2026-27 Statement 5 Table 5.7.*
 
 The annual numbers tell a stark story. PRRT cash receipts averaged **~A$1.1 billion per year through the LNG-boom era** (2014-15 to 2020-21) — *lower* than the early 2010s average of ~A$1.4 billion — despite LNG export volumes more than quadrupling over the same period (Figure 10).[^prrt_dossier]
 
 ![Figure 10: Australia LNG export volume vs PRRT receipts, FY2014-15 to FY2024-25](../charts/png/10_lng_volume_vs_prrt.png)
-*Figure 10. Australia's LNG export volume went from about 19 million tonnes a year in 2010-11 to about 82 million tonnes in 2024-25 — a quadrupling. PRRT cash receipts went sideways. Sources: DISR Resources and Energy Quarterly (LNG volume); Treasury Final Budget Outcomes (PRRT cash receipts).*
+*Figure 10. Australia's LNG export volume went from about 19 million tonnes a year in 2010-11 to about 82 million tonnes in 2024-25 — a quadrupling. PRRT cash receipts remained broadly flat. Sources: DISR Resources and Energy Quarterly (LNG volume); Treasury Final Budget Outcomes (PRRT cash receipts).*
 
 Why? Three reasons.
 
 **First**, PRRT is back-loaded by design. It taxes economic rent only after a project has recovered its accumulated deductible expenditure. Those deductions also receive an "uplift" — in effect, interest added to the spending: the long-term bond rate plus 5 percentage points for general expenditure, plus 15 percentage points for exploration expenditure. The exploration rate was set in 1988 and never reduced, even after transferability of exploration expenditure between projects was introduced in 1991.[^callaghan_uplift]
 
-**Second**, the deduction stockpile compounded into something the system could not absorb. The Callaghan Review's Figure 2.3 showed the industry-wide stock of carried-forward deductible expenditure climbing from about A$50 billion in 2002 to roughly **A$300 billion by 2015-16**.[^callaghan_deductions] Each year, the unused stock grew with uplift. At LTBR + 15pp for exploration, that stock compounded faster than most reasonable project rates of return. The system was, by design, running away from its own tax base.
+**Second**, the deduction stockpile compounded into something the system could not absorb. The Callaghan Review's Figure 2.3 showed the industry-wide stock of carried-forward deductible expenditure climbing from about A$50 billion in 2002 to roughly **A$300 billion by 2015-16**.[^callaghan_deductions] Each year, the unused stock grew with uplift. At LTBR + 15pp for exploration, that stock compounded faster than most reasonable project rates of return. By design, the stockpile was growing faster than the tax system could absorb.
 
 **Third**, the major offshore LNG projects entered production with cost blow-outs that made the deduction shield worse. The cost figures below are industry / trade-press project-cost estimates triangulated from operator project pages, the offshore-energy trade press and standard project-cost trackers; operators do not publish a single audited "final project cost" line in their statutory filings (capex is aggregated into segment-level reporting):
 
@@ -264,13 +266,13 @@ The WA Budget Papers show the trajectory clearly:
 
 *Source: Western Australia Budget Paper 3.[^corp_tax_royalties_dossier]*
 
-The decline reflects field depletion: NWS production is past peak and will not be replaced. Meanwhile, **WA's own state petroleum royalty** — applied to the tiny share of WA gas production in state waters, not Commonwealth waters — raised just A$16 million in 2022-23, A$20 million in 2023-24, A$33 million in 2024-25. Trivial.
+The decline reflects field depletion: NWS production is past peak and will not be replaced. Meanwhile, **WA's own state petroleum royalty** — applied to the tiny share of WA gas production in state waters, not Commonwealth waters — raised just A$16 million in 2022-23, A$20 million in 2023-24, A$33 million in 2024-25. In fiscal terms, that is very small.
 
 **Queensland** is materially different because of CSG-LNG. Onshore coal seam gas exported through Curtis Island (APLNG, QCLNG, GLNG) generates state royalties — A$1,705 million in 2023-24, projected to decline to A$1,083 million by 2028-29 as global LNG prices normalise.[^corp_tax_royalties_dossier]
 
 **The Northern Territory** raised A$315 million across all royalty categories in 2024-25 (not all from gas).
 
-The structural feature here is simple: **offshore federal-waters LNG — which is the bulk of Australia's LNG export volume — generates negligible royalty revenue.** Royalties were abolished in favour of PRRT. PRRT then proceeded not to collect.
+The structural feature here is simple: **offshore federal-waters LNG — which is the bulk of Australia's LNG export volume — generates negligible royalty revenue.** Royalties were abolished in favour of PRRT. PRRT then collected very little from that base.
 
 ---
 
@@ -353,7 +355,7 @@ qualitative findings are robust to ±10 per cent FX variation.
 
 :::
 
-The most damaging comparison Australia loses, however, is not the domestic one. It is the international one. Per tonne of LNG-equivalent exported, Australia is an order-of-magnitude outlier among the world's major gas exporters.
+The sharper comparison, however, is not domestic but international. Per tonne of LNG-equivalent exported, Australia is an order-of-magnitude outlier among the world's major gas exporters.
 
 ![Figure 3: Per-tonne state take from LNG-equivalent gas, gas-only attribution — Qatar A$725, Malaysia A$682, Norway A$491, USA offshore A$61, Australia A$49](../charts/png/03_per_tonne_state_take.png)
 *Figure 3. Government petroleum revenue per tonne of LNG-equivalent exported, 2024, in AUD. Sources: ATO Corporate Tax Transparency (Australia); Norwegian Petroleum / NPD (Norway); IMF Country Report 25/47, Qatar Ministry of Finance (Qatar); BOEM / DOI (USA); PETRONAS Integrated Report 2024 (Malaysia). FX conversions per `sources/fx_rates.md`.*
@@ -371,7 +373,7 @@ Norway's regime is the most-cited and the most uncomfortable comparator for Aust
 - **67 per cent state ownership of Equinor** — the Norwegian state directly receives that share of all dividends.
 - **Carbon tax on offshore gas** of NOK 2.21 per Sm³ in 2025.
 
-Critically — and this is the part the Australian industry argument usually skips — Norway's system is **cash-flow neutral**. Companies can deduct investments immediately (since the 2022 reform; previously via accelerated depreciation), and losses can be consolidated across the continental shelf rather than ring-fenced at project level. A project that makes financial sense before tax still makes financial sense after tax. The 78 per cent rate is high, but the design does not punish marginal projects.
+Critically — and this is the design point often missing from Australian comparisons — Norway's system is **cash-flow neutral**. Companies can deduct investments immediately (since the 2022 reform; previously via accelerated depreciation), and losses can be consolidated across the continental shelf rather than ring-fenced at project level. A project that makes financial sense before tax still makes financial sense after tax. The 78 per cent rate is high, but the design does not punish marginal projects.
 
 Norway's state net cash flow from petroleum activities, in AUD (FX = 0.130 AUD/NOK; 2024 actual per *Statsbudsjettet 2026*):[^international_dossier]
 
@@ -495,7 +497,7 @@ The collective UAE sovereign wealth fund AUM (ADIA + Mubadala + ADQ) is now of o
 
 ### BOX 1 · How this Part is constructed
 
-This Part steelmans the industry's published defence of the current
+This Part sets out the industry's strongest published defence of the current
 fiscal arrangements. Every claim restated below is drawn from a
 named primary source — Australian Energy Producers media releases
 and submissions, Wood Mackenzie / KPMG / Deloitte commissioned
@@ -503,7 +505,7 @@ reports, and on-the-record statements from Woodside, Chevron, and
 Santos in Senate Estimates Hansard. The strongest available form
 of each pillar is presented first, with footnoted citations; the
 critique that follows in §4.6 *only* engages with what the
-industry has actually argued — not strawman versions.
+industry has actually argued — not weaker versions of the argument.
 
 :::
 
@@ -541,8 +543,10 @@ Industry's headline number. The two industry framings most often quoted, verbati
 
 <blockquote class="pullquote">
 The Australian oil and gas industry is the second-highest corporate taxpayer in Australia, accounting for one in every ten company tax dollars paid.
-<cite>Samantha McCulloch, CEO, Australian Energy Producers, July 2025 media release[^industry_steelman]</cite>
+<cite>Samantha McCulloch, CEO, Australian Energy Producers, July 2025 media release</cite>
 </blockquote>
+
+Source note: Australian Energy Producers July 2025 media release.[^industry_steelman]
 
 Woodside Energy frames it the same way.[^woodside_46pct]
 
@@ -566,7 +570,7 @@ Three industry claims survive serious examination:
 
 And three claims do not:
 
-1. **The "A$21.9 billion" headline is real but not a rent figure.** Company income tax at 30 per cent is what every Australian company pays. The relevant question for the gas-tax debate is rent capture, not company tax — and on that measure (PRRT) the industry pays A$1.35 billion, not A$21.9 billion.
+1. **The "A$21.9 billion" headline is real, but it is not evidence of rent capture.** Company income tax at 30 per cent is what every Australian company pays. The relevant question for the gas-tax debate is rent capture, not company tax — and on that measure (PRRT) the industry pays A$1.35 billion, not A$21.9 billion.
 2. **"One in ten company tax dollars" is correct but uninformative.** Same point: company tax is not the rent.
 3. **"Investment will flee" is structurally weak.** Norway and the UK both sit at 78 per cent total tax but with opposite investment trajectories. The variable is design, not headline rate. Australia has the option of a Norwegian-style high-rate-cash-flow-neutral design — that's a separate question from whether the rate should rise.
 
@@ -702,7 +706,7 @@ Australia's Future Fund was established in 2006 and has done well — but it is 
 
 ## Conclusion
 
-Australia is the world's second-largest LNG exporter. It collects more revenue from its citizens' beer than it does from offshore gas. It collects less per tonne LNG than the United States, less than Malaysia, roughly 15 times less than Qatar, and roughly 10 times less than Norway — an order of magnitude either way on the gas-only attribution that Part 3 lays out. Its sovereign wealth fund balance per citizen is roughly one-fortieth of Norway's.
+Australia is the world's second-largest LNG exporter. It collects more revenue from its citizens' beer than it does from offshore gas. It collects less per tonne of LNG than the United States, less than Malaysia, roughly 15 times less than Qatar, and roughly 10 times less than Norway under the gas-only attribution that Part 3 lays out. Its sovereign wealth fund balance per citizen is roughly one-fortieth of Norway's.
 
 The political debate is now about three options: a deepened PRRT (a Norwegian-style cash-flow-neutral, high-rate rent tax), a royalty (the US/Qatar model), or a flat 25 per cent export levy (the ACTU / Australia Institute model). Each has trade-offs, but the answer cannot be "do nothing". Budget 2026-27 now estimates PRRT at A$1.40 billion in 2025-26, A$1.90 billion in 2026-27, then A$1.75 billion, A$1.55 billion and A$1.25 billion over the remaining forward-estimates years.[^bp1_table_4_7] Treasury says the near-term upgrade is driven by higher oil prices and production volumes, but the forward path still fades. The 2023 PRRT deductions cap was outweighed by oil-price and FX parameter revisions at MYEFO 2023-24, so the cap did not deliver net new revenue against forward estimates — though Treasury's original A$2.4 bn forecast may still be realised against an unrevised baseline. The Callaghan Review's "PRRT will deliver A$105–230 billion to 2050" projection has not, after eight years, begun to materialise except via the Ukraine oil-price spike.
 

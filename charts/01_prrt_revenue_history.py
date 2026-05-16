@@ -71,7 +71,7 @@ def main() -> None:
     may_fc    = H["may2024_budget_forecast_for_2425_aud_bn"]
     ax.annotate(
         f"FY{last_outcome} outcome: A${last_v_bn:.2f} bn —\n"
-        f"A${below_fc:.2f} bn BELOW May 2024\n"
+        f"A${below_fc:.2f} bn below May 2024\n"
         f"Budget forecast of A${may_fc:.2f} bn",
         xy=(last_outcome_idx, receipts[last_outcome_idx]),
         xytext=(last_outcome_idx - 3.25, 2010),

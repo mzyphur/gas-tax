@@ -63,7 +63,7 @@ def main() -> None:
 
     # Single red callout at the FY 14-15 inflection — the rhetorical
     ax1.annotate(
-        "FY14-15: LNG quadruples\n"
+        "FY2014-15 to FY2024-25:\nLNG volume quadruples\n"
         f"({volume_mt[0]} → {volume_mt[-1]} Mt over the\n"
         "decade) — PRRT does not",
         xy=(2, 24), xytext=(0.3, 60),

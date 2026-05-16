@@ -94,11 +94,9 @@
   hanging-punctuation: first last;
 }
 
-
 .instats-report td, .instats-report th, .instats-report .stat, .instats-report .keyfacts .num, .instats-report .figure-num, .instats-report .tablewrap td, .instats-report .tablewrap th {
   font-variant-numeric: tabular-nums;
 }
-
 
 .instats-report p, .instats-report li, .instats-report blockquote, .instats-report dd {
   text-wrap: pretty;
@@ -116,7 +114,6 @@
   padding: 56px 36px 96px 36px;
 }
 
-
 .instats-report .cover {
   background: var(--cover-bg);
 
@@ -131,7 +128,6 @@
 }
 
 .instats-report .cover > * { padding-left: 0; padding-right: 0; }
-
 
 .instats-report .cover::after {
   margin-left: -56px;
@@ -149,7 +145,6 @@
   height: auto;
   margin: 56px 0 28px 0;
 }
-
 
 .instats-report .cover .kicker {
   font-family: var(--display);
@@ -176,7 +171,6 @@
   max-width: 18ch;
 }
 
-
 .instats-report .cover h2 {
   font-family: var(--serif);
   font-size: 1.55rem;
@@ -189,7 +183,6 @@
   font-weight: 400;
   letter-spacing: -0.005em;
 }
-
 
 .instats-report .cover .abstract {
   font-family: var(--serif);
@@ -204,7 +197,6 @@
 }
 .instats-report .cover .abstract p { max-width: none; margin: 0; font-family: inherit; font-style: inherit; font-size: inherit; color: inherit; }
 
-
 .instats-report .cover .author {
   font-family: var(--display);
   font-size: 0.95rem;
@@ -218,7 +210,6 @@
 .instats-report .cover .author p { margin: 0; max-width: none; font-family: inherit; font-size: inherit; color: inherit; }
 .instats-report .cover .author strong { color: var(--instats-primary); font-weight: 700; }
 
-
 .instats-report .cover::after {
   content: "";
   display: block;
@@ -226,7 +217,6 @@
   height: 48px;
   background: var(--instats-primary);
 }
-
 
 .instats-report .cover .cover-band {
   display: flex;
@@ -247,7 +237,6 @@
 }
 
 .instats-report .cover:has(.cover-band)::after { display: none; }
-
 
 .instats-report .colophon {
   background: var(--rule-soft);
@@ -277,7 +266,6 @@
   text-underline-offset: 2px;
 }
 
-
 .instats-report .exec {
   background: var(--paper-tint, var(--instats-bg));
   margin: 56px -52px;
@@ -285,7 +273,6 @@
   border-top: 1px solid var(--rule);
   border-bottom: 1px solid var(--rule);
 }
-
 
 .instats-report .exec-kicker {
   display: block;
@@ -312,7 +299,6 @@
   margin: 0 0 24px 0;
 }
 
-
 .instats-report .exec > p:first-of-type {
   margin: 0 0 8px 0;
   font-style: normal;
@@ -322,7 +308,6 @@
   color: inherit;
   max-width: none;
 }
-
 
 .instats-report .exec > h2:first-of-type + p, .instats-report .exec .lede {
   font-family: var(--serif);
@@ -334,9 +319,7 @@
   max-width: 60ch;
 }
 
-
 .instats-report .exec p { max-width: 60ch; }
-
 
 .instats-report .exec ol {
   counter-reset: verdict;
@@ -368,7 +351,6 @@
   .instats-report .exec ol > li { padding-left: 44px; }
 }
 
-
 .instats-report .callout {
   border: 1px solid var(--rule);
   padding: 24px 28px;
@@ -386,7 +368,6 @@
   margin: 0 0 12px 0;
   font-weight: 700;
 }
-
 
 .instats-report .verdict, .instats-report .verdict-pill {
   display: inline-block;
@@ -409,7 +390,6 @@
 .instats-report .verdict.false, .instats-report .verdict-pill.false     { background: color-mix(in srgb, #963A2C 22%, white); color: #963A2C; }
 .instats-report .verdict.decomposed, .instats-report .verdict-pill.decomposed{ background: color-mix(in srgb, var(--instats-secondary) 22%, white); color: var(--instats-primary); }
 
-
 .instats-report blockquote.pullquote, .instats-report .pullquote {
   position: relative;
   font-family: var(--serif);
@@ -423,7 +403,6 @@
   background: transparent;
   max-width: none;
 }
-
 
 .instats-report blockquote.pullquote::before, .instats-report .pullquote::before {
   content: "";
@@ -448,7 +427,6 @@
   color: var(--ink-soft);
 }
 
-
 .instats-report .toc {
   font-family: var(--display);
   font-size: 0.95rem;
@@ -459,7 +437,6 @@
   padding: 32px 36px;
   line-height: 1.5;
 }
-
 
 .instats-report .toc h1 {
   font-family: var(--display);
@@ -473,7 +450,6 @@
   border-bottom: 2px solid var(--instats-primary);
 }
 
-
 .instats-report .toc h4 {
   font-family: var(--display);
   font-weight: 700;
@@ -483,7 +459,6 @@
   color: var(--instats-primary);
   margin: 18px 0 4px 0;
 }
-
 
 .instats-report .toc a, .instats-report .toc a:visited {
   color: inherit;
@@ -496,7 +471,6 @@
   border-bottom-color: var(--instats-primary);
   outline: none;
 }
-
 
 .instats-report .toc ul {
   list-style: none;
@@ -524,7 +498,6 @@
   font-size: 1.1em;
 }
 
-
 .instats-report .toc p {
   margin: 4px 0 4px 18px;
   font-size: 0.95rem;
@@ -532,8 +505,6 @@
   max-width: none;
   line-height: 1.45;
 }
-
-
 
 .instats-report h1 {
   font-family: var(--sans);
@@ -580,7 +551,6 @@
   margin: 22px 0 8px 0;
 }
 
-
 .instats-report p {
   max-width: var(--measure);
   margin: 0 0 14px 0;
@@ -593,7 +563,6 @@
 }
 
 .instats-report li { margin-bottom: 5px; }
-
 
 .instats-report blockquote {
   font-family: var(--serif);
@@ -616,7 +585,6 @@
   color: var(--ink-soft);
   margin-top: 8px;
 }
-
 
 .instats-report table {
   width: 100%;
@@ -643,15 +611,11 @@
 
 .instats-report td.num, .instats-report th.num { text-align: right; font-variant-numeric: tabular-nums; }
 
-
 @media (hover: hover) and (pointer: fine) {
   .instats-report tr:hover td { background: rgba(75, 145, 179, 0.02); }
 }
 
-
-
 .instats-report figure { margin: 40px 0 44px 0; padding: 0; }
-
 
 .instats-report figure.chart {
   margin: 56px 0 64px 0;
@@ -722,7 +686,6 @@
   display: block;
 }
 
-
 .instats-report sup { line-height: 0; vertical-align: baseline; font-size: 100%; }
 .instats-report .footnote-ref, .instats-report sup a, .instats-report .footnote-sep {
   font-family: var(--meta);
@@ -740,7 +703,6 @@
 
 .instats-report sup a:hover, .instats-report .footnote-ref:hover { text-decoration: underline; }
 
-
 .instats-report a {
   color: var(--instats-secondary);
   text-decoration: underline;
@@ -749,7 +711,6 @@
 }
 
 .instats-report a:hover { color: var(--instats-primary); }
-
 
 .instats-report code, .instats-report kbd, .instats-report samp {
   font-family: var(--mono);
@@ -768,7 +729,6 @@
   white-space: pre-wrap;
 }
 
-
 .instats-report .sources, .instats-report .footnotes, .instats-report .footnote {
   font-family: var(--meta);
   font-size: 0.83rem;
@@ -778,7 +738,6 @@
   padding-top: 32px;
   border-top: 1px solid var(--rule);
 }
-
 
 .instats-report .sources ol, .instats-report .footnotes ol, .instats-report .footnote ol {
   padding-left: 2.2em;
@@ -796,12 +755,7 @@
 
 .instats-report .footnotes hr { display: none; }
 
-
-
-
 .instats-report .pagebreak { page-break-after: always; break-after: page; }
-
-
 
 @page {
   size: A4;
@@ -819,7 +773,6 @@
     margin-top: 12pt;
   }
 }
-
 
 @page :first {
   @top-right { content: ""; }
@@ -899,8 +852,6 @@
 
   .instats-report .footnotes a[href^="http"]::after, .instats-report .footnote a[href^="http"]::after, .instats-report .sources a[href^="http"]::after, .instats-report .cover a[href^="http"]::after, .instats-report .colophon a[href^="http"]::after, .instats-report .author a[href^="http"]::after, .instats-report a:has(img)[href^="http"]::after { content: ""; }
 }
-
-
 
 .instats-report .sticky-header {
   position: fixed;
@@ -1030,11 +981,9 @@
   font-weight: 600;
 }
 
-
 @media (min-width: 1408px) {
   .instats-report .sticky-toc { display: block; }
 }
-
 
 @media print {
 
