@@ -1,6 +1,7 @@
 # Machine-readable citation file for github.com/mzyphur/gas-tax.
 # Renders as a "Cite this repository" button in the GitHub repo sidebar.
 # Schema: https://citation-file-format.github.io/
+doi: "10.61700/7p5yeli67e"
 cff-version: 1.2.0
 title: "Australia's Gas Export Tax Revenue: The Definitive Accounting"
 message: "If you use this work, please cite it using the metadata below."
