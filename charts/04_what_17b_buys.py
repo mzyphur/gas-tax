@@ -4,6 +4,12 @@ Headline: One year's 25% LNG export levy is a Budget-scale amount.
 
 Data: Budget Paper 1 2026-27 Statement 5 Table 5.7 and Statement 6
 program tables + Australia Institute / ACTU 25% LNG export-levy estimate.
+
+# red-clusters: 2
+This chart legitimately uses two red-accent clusters by design: the
+A$17 bn LNG-levy bar (the dominant comparator) and the four-program
+total band that the levy could fund. The general-repo v0.22.0 red-accent
+audit gate reads this directive and tolerates the second cluster.
 """
 
 from __future__ import annotations
