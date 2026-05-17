@@ -33,3 +33,9 @@ Icon?
 private/
 *.private.*
 *.internal.*
+
+# Local-only working files that are not part of the public audit package.
+# Listed here by name when an audit confirms they're referenced nowhere in
+# the report / dossiers / chart code (so they're intentionally outside the
+# public surface, not a defect).
+LNG_image.png
