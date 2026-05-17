@@ -30,7 +30,7 @@ Instats &nbsp;·&nbsp; [instats.org](https://instats.org) &nbsp;·&nbsp; [suppor
 
 **Read online (one-click web edition).** A live web edition of this report — same content, same charts — is hosted at **<https://mzyphur.github.io/gas-tax/>**. It opens in any browser and can be shared as a link.
 
-**Citation.** Zyphur, M. J. (2026). *Australia's Gas Export Tax Revenue: The Definitive Accounting.* Instats Policy Series, v3.2.1. [github.com/mzyphur/gas-tax](https://github.com/mzyphur/gas-tax). ORCID: [0000-0003-3237-7892](https://orcid.org/0000-0003-3237-7892). DOI: forthcoming via CrossRef (see `CITATION.cff`).
+**Citation.** Zyphur, M. J. (2026). *Australia's Gas Export Tax Revenue: The Definitive Accounting.* Instats Policy Series, v3.2.2. [github.com/mzyphur/gas-tax](https://github.com/mzyphur/gas-tax). ORCID: [0000-0003-3237-7892](https://orcid.org/0000-0003-3237-7892). DOI: forthcoming via CrossRef (see `CITATION.cff`).
 
 **Public audit package.** The report source, numerical manifest, chart code, rendered charts, cleaned evidence dossiers, and release artefacts are available at **[github.com/mzyphur/gas-tax](https://github.com/mzyphur/gas-tax)**. Additional working files are retained privately by Instats. The [latest GitHub Release](https://github.com/mzyphur/gas-tax/releases/latest) packages the report in Microsoft Word, HTML, and PDF formats.
 
@@ -801,8 +801,6 @@ Additional working files are retained outside the public repository for Instats'
 [^ai_25pc]: Australia Institute live tracker, https://gas.australiainstitute.org.au/ — confirmed A$17 bn/year flow estimate; A$63.8 bn cumulative since 1 July 2022. Underlying paper: Saunders & Campbell, *Government revenue from LNG exports: Australia vs Qatar* (May 2025).
 
 [^budget_26_27]: Commonwealth of Australia, *Budget 2026-27*, delivered 12 May 2026. Budget homepage: https://budget.gov.au/ ; Budget Paper 1, Statement 5: Revenue, Table 5.1 and Table 5.7: https://budget.gov.au/content/bp1/download/bp1_bs-5.pdf ; Budget Paper 1, Statement 3: Fiscal Strategy and Outlook: https://budget.gov.au/content/bp1/download/bp1_bs-3.pdf
-
-[^budget_25_26]: Commonwealth Budget 2025-26, *Budget Strategy and Outlook* (Budget Paper 1), 25 March 2025. https://archive.budget.gov.au/2025-26/index.htm
 
 [^pc_childcare]: Productivity Commission, *A path to universal early childhood education and care*, September 2024. https://www.pc.gov.au/inquiries/completed/childhood
 

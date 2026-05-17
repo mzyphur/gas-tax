@@ -49,7 +49,7 @@ def main() -> None:
 
     ax.annotate(
         "Australia's offshore LNG projects\nhave paid effectively zero PRRT in\ntheir entire production history",
-        xy=(4, 0.15), xytext=(4.0, 15.2),
+        xy=(4, 0.15), xytext=(4.0, 15.2),  # not-fx (annotation y-coordinate, AUD per tonne LNG axis)
         arrowprops={"arrowstyle": "-", "lw": 0.6, "color": COLORS["ink_soft"]},
         fontsize=9.5, color=COLORS["ink_soft"], ha="center", va="top",
         bbox=dict(boxstyle="square,pad=0.5", fc="none", ec=COLORS["ink_soft"], lw=0.5),
