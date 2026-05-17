@@ -30,7 +30,7 @@ Instats &nbsp;·&nbsp; [instats.org](https://instats.org) &nbsp;·&nbsp; [suppor
 
 **Read online (one-click web edition).** A live web edition of this report — same content, same charts — is hosted at **<https://mzyphur.github.io/gas-tax/>**. It opens in any browser and can be shared as a link.
 
-**Citation.** Zyphur, M. J. (2026). *Australia's Gas Export Tax Revenue: The Definitive Accounting.* Instats Policy Series, v3.2.3. [github.com/mzyphur/gas-tax](https://github.com/mzyphur/gas-tax). ORCID: [0000-0003-3237-7892](https://orcid.org/0000-0003-3237-7892). DOI: forthcoming via CrossRef (see `CITATION.cff`).
+**Citation.** Zyphur, M. J. (2026). *Australia's Gas Export Tax Revenue: The Definitive Accounting.* Instats Policy Series, v3.2.4. [github.com/mzyphur/gas-tax](https://github.com/mzyphur/gas-tax). ORCID: [0000-0003-3237-7892](https://orcid.org/0000-0003-3237-7892). DOI: forthcoming via CrossRef (see `CITATION.cff`).
 
 **Public audit package.** The report source, numerical manifest, chart code, rendered charts, cleaned evidence dossiers, and release artefacts are available at **[github.com/mzyphur/gas-tax](https://github.com/mzyphur/gas-tax)**. Additional working files are retained privately by Instats. The [latest GitHub Release](https://github.com/mzyphur/gas-tax/releases/latest) packages the report in Microsoft Word, HTML, and PDF formats.
 
@@ -125,7 +125,7 @@ Instats &nbsp;·&nbsp; [instats.org](https://instats.org) &nbsp;·&nbsp; [suppor
 
 
 
-Treasury now estimates that Australia will collect **A$1.4 billion** from the Petroleum Resource Rent Tax (PRRT) in 2025-26 and **A$1.9 billion** in 2026-27, the 2026-27 Budget year in the new papers. In the same two years, Australia is expected to collect **A$2.71 billion** and **A$2.81 billion** in excise on beer.[^pocock_senate][^bp1_table_4_7] The February 2026 Senate Estimates exchange was therefore not overtaken by the new Budget. The 2026-27 papers lift PRRT in the near term, but beer excise still beats PRRT in every forward-estimates year to 2029-30.
+Treasury's 2026-27 Budget estimates the Petroleum Resource Rent Tax (PRRT) at **A$1.4 billion** in 2025-26 and **A$1.9 billion** in 2026-27. In the same two years, beer excise is forecast at **A$2.71 billion** and **A$2.81 billion**.[^bp1_table_4_7] Australia's headline federal rent tax on offshore gas collects less revenue than excise on beer in every forward-estimates year through 2029-30, even after the Budget's near-term upward PRRT revision (PRRT then tapers: **A$1.75 bn** in 2027-28, **A$1.55 bn** in 2028-29, **A$1.25 bn** in 2029-30).
 
 Australia is the world's second-largest LNG exporter, shipping roughly 80 million tonnes a year worth A$64–92 billion. Yet it collects more tax from beer drinkers than it does in PRRT — the headline federal rent tax on offshore gas exports. This document explains why. It is a forensic accounting of the four heads of revenue — PRRT, company income tax, state royalties, and the grandfathered North West Shelf royalty. It then compares Australia with Norway, Qatar, the United States, the United Kingdom, Malaysia, Japan as a destination market, and the conventional comparators (beer, fuel, tobacco, HECS) inside Australia's own budget.
 
