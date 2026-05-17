@@ -57,7 +57,7 @@ Instats publishes the report source, numerical manifest, chart code, rendered ch
 | Web edition | [`docs/index.html`](docs/index.html) for Pages; HTML and PDF builds attached to the [latest release](https://github.com/mzyphur/gas-tax/releases/latest) |
 | Markdown source | [`drafts/report.md`](drafts/report.md) |
 
-**Citation.** Zyphur, M. J. (2026). *Australia's Gas Export Tax Revenue: The Definitive Accounting.* Instats Policy Series, v3.2.4. <https://github.com/mzyphur/gas-tax>. ORCID: [0000-0003-3237-7892](https://orcid.org/0000-0003-3237-7892). DOI: forthcoming via CrossRef.
+**Citation.** Zyphur, M. J. (2026). *Australia's Gas Export Tax Revenue: The Definitive Accounting.* Instats Policy Series, v3.2.5. <https://github.com/mzyphur/gas-tax>. ORCID: [0000-0003-3237-7892](https://orcid.org/0000-0003-3237-7892). DOI: forthcoming via CrossRef.
 
 BibTeX:
 
@@ -67,7 +67,7 @@ BibTeX:
   title       = {Australia's Gas Export Tax Revenue: The Definitive Accounting},
   institution = {Instats},
   type        = {Instats Policy Series},
-  number      = {v3.2.4},
+  number      = {v3.2.5},
   year        = {2026},
   url         = {https://github.com/mzyphur/gas-tax},
   note        = {ORCID: 0000-0003-3237-7892. DOI forthcoming via CrossRef.}
