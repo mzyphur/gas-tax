@@ -1,10 +1,20 @@
 """Chart 09: Major LNG exporters — Australian income vs Australian income tax,
 seven years 2014-2020.
 
-Headline: A$216 billion of revenue, A$6 million of income tax. From Santos.
+Headline: A$196 billion of revenue across the six chart entities (ExxonMobil,
+Chevron, Santos, APLNG, Arrow, Senex), with one entity (Santos) paying
+A$6 million of income tax over the period.
 
-Data: ATO Corporate Tax Transparency Reports compiled by the Australia
-Institute ("APPEA members pay no income tax on income of A$138 bn").
+The same data is cited in two other in-document forms with different scopes,
+which are NOT defects — the report distinguishes them deliberately:
+  - the chart annotation aggregates the six chart entities → A$196 bn;
+  - the report body cites the Australia Institute's 5-entity APPEA-member
+    framing ("APPEA members pay no income tax on income of A$138 bn"); and
+  - dossier 02 §A tabulates the full 16-entity Australian LNG-adjacent set
+    that the Tax Transparency Reports cover.
+
+Source: ATO Corporate Tax Transparency Reports compiled by the Australia
+Institute.
 """
 
 from __future__ import annotations
