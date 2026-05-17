@@ -1,15 +1,15 @@
-# FX rate reference table — v3.2.6 (verified against RBA on 2026-05-11)
+# FX rate reference table — v3.2.5 (verified against RBA on 2026-05-11)
 
 All figures in this report are expressed in **Australian dollars (AUD)**.
 Where a primary source publishes a figure in another currency, the
 conversion uses the rate published in this table.
 
-## Reference rates (used throughout the report — v3.2.6)
+## Reference rates (used throughout the report — v3.2.5)
 
 These rates have been verified directly against the **Reserve Bank of
 Australia, Statistical Table F11.1 (Exchange Rates — Daily)** on
 2026-05-11. The earlier v1.0 of this report used 1 USD = 1.55 AUD;
-the v1.1 release corrected that value, and v3.2.6 carries the
+the v1.1 release corrected that value, and v3.2.5 carries the
 corrected rates forward unchanged.
 
 | Currency | A$1 buys | A$ per 1 unit | Notes |
@@ -27,7 +27,7 @@ corrected rates forward unchanged.
 Every figure in the v1.0 draft that used 1 USD = 1.55 AUD was, from
 v1.1 onward, multiplied by 0.893 (= 1.384 / 1.55) to give the
 corrected figure. For NOK conversions, the correction is from 0.144
-to 0.130 (× 0.903). The v3.2.6 package carries these corrected
+to 0.130 (× 0.903). The v3.2.5 package carries these corrected
 rates forward unchanged.
 
 ### Worked examples (v1.1 correction, retained as audit trail)
@@ -83,5 +83,5 @@ published daily-fix table; verified independently against Norges Bank.
 
 ## Citation
 Cite this file as: Zyphur, M. (2026). *FX rate reference table*. In
-*Australia's gas export tax revenue: the definitive accounting* v3.2.6.
+*Australia's gas export tax revenue: the definitive accounting* v3.2.5.
 Instats Policy Series. https://github.com/mzyphur/gas-tax/blob/main/sources/fx_rates.md
