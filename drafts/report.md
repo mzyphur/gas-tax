@@ -26,21 +26,13 @@ Instats &nbsp;·&nbsp; [instats.org](https://instats.org) &nbsp;·&nbsp; [suppor
 
 ::: colophon
 
-**About this report.** *Australia's Gas Export Tax Revenue: The Definitive Accounting* is published by Instats as a public-interest policy document. It draws together the main public source materials on Australia's offshore-gas fiscal regime — Treasury Final Budget Outcomes, ATO Corporate Tax Transparency, DISR Resources and Energy Quarterly, the Callaghan and Henry Reviews, Senate Estimates Hansard, Budget 2026-27, and the equivalent fiscal-architecture documents for Norway, Qatar, the United States, the United Kingdom, Malaysia, Japan and the broader Middle East — and sets the result against the current Commonwealth Budget.
-
-**Read online (one-click web edition).** A live web edition of this report — same content, same charts — is hosted at **<https://mzyphur.github.io/gas-tax/>**. It opens in any browser and can be shared as a link.
-
 **Citation.** Zyphur, M. J. (2026). *Australia's Gas Export Tax Revenue: The Definitive Accounting.* Instats Policy Series, v3.2.4. [github.com/mzyphur/gas-tax](https://github.com/mzyphur/gas-tax). ORCID: [0000-0003-3237-7892](https://orcid.org/0000-0003-3237-7892). DOI: forthcoming via CrossRef (see `CITATION.cff`).
 
-**Public audit package.** The report source, numerical manifest, chart code, rendered charts, cleaned evidence dossiers, and release artefacts are available at **[github.com/mzyphur/gas-tax](https://github.com/mzyphur/gas-tax)**. Additional working files are retained privately by Instats. The [latest GitHub Release](https://github.com/mzyphur/gas-tax/releases/latest) packages the report in Microsoft Word, HTML, and PDF formats.
+**License.** Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). Share and adapt with attribution; commercial reuse requires written permission from the author.
 
-**License.** Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). You may share and adapt the work with attribution. Commercial reuse requires written permission from the author.
+**Currency.** All figures in Australian dollars (A$). Foreign-currency primary-source figures are converted at the RBA F11.1 daily fix on 2026-05-11; the full FX rate table is in [Appendix D](#appendix-d-about-this-report). Native figures are retained in parentheses where the audit trail benefits.
 
-**Currency convention.** All figures in Australian dollars (A$) unless explicitly marked. Foreign-currency primary-source figures are converted at the RBA F11.1 daily fix on 2026-05-11: **1 USD = 1.384 AUD; 1 NOK = 0.130 AUD; 1 GBP = 1.879 AUD; 1 JPY = 0.00883 AUD; 1 KRW = 0.0009365 AUD; 1 RM = 0.353 AUD** (NOK cross-derived via Norges Bank — not in the RBA daily-fix table). Native figures are retained in parentheses where the audit trail benefits. Qualitative findings are robust to ±10 per cent FX variation.
-
-**Methodology summary.** Public audit materials include the source manuscript, numerical manifest, chart scripts, rendered charts, source dossiers, and primary-source footnotes. The author is responsible for every numerical claim, interpretation, and recommendation.
-
-**AI assistance disclosure.** Research review, drafting, code/release checks, and copy-editing used assistance from OpenAI GPT-5.5/Codex, Anthropic Claude Opus 4.7/Claude Code agents, and Google Gemini 3 Flash Preview. The author is responsible for all claims, source interpretation, caveats, calculations, and final wording.
+About this report, the methodology summary, the AI assistance disclosure, and the full FX table are in [Appendix D](#appendix-d-about-this-report). The public audit package — what is and is not in this repository — is described in [Appendix C](#appendix-c-public-source-package). The version history is in [Appendix B](#appendix-b-public-audit-notes-and-version-history).
 
 :::
 
@@ -108,6 +100,7 @@ Instats &nbsp;·&nbsp; [instats.org](https://instats.org) &nbsp;·&nbsp; [suppor
 #### [Appendix A — Headline data table](#appendix-a-headline-data-table_1)
 #### [Appendix B — Public audit notes and version history](#appendix-b-public-audit-notes-and-version-history_1)
 #### [Appendix C — Public source package](#appendix-c-public-source-package_1)
+#### [Appendix D — About this report](#appendix-d-about-this-report_1)
 
 #### [Sources and footnotes](#sources-and-footnotes_1)
 
@@ -128,6 +121,8 @@ Instats &nbsp;·&nbsp; [instats.org](https://instats.org) &nbsp;·&nbsp; [suppor
 Treasury's 2026-27 Budget estimates the Petroleum Resource Rent Tax (PRRT) at **A$1.4 billion** in 2025-26 and **A$1.9 billion** in 2026-27. In the same two years, beer excise is forecast at **A$2.71 billion** and **A$2.81 billion**.[^bp1_table_4_7] Australia's headline federal rent tax on offshore gas collects less revenue than excise on beer in every forward-estimates year through 2029-30, even after the Budget's near-term upward PRRT revision (PRRT then tapers: **A$1.75 bn** in 2027-28, **A$1.55 bn** in 2028-29, **A$1.25 bn** in 2029-30).
 
 Australia is the world's second-largest LNG exporter, shipping roughly 80 million tonnes a year worth A$64–92 billion. Yet it collects more tax from beer drinkers than it does in PRRT — the headline federal rent tax on offshore gas exports. This document explains why. It is a forensic accounting of the four heads of revenue — PRRT, company income tax, state royalties, and the grandfathered North West Shelf royalty. It then compares Australia with Norway, Qatar, the United States, the United Kingdom, Malaysia, Japan as a destination market, and the conventional comparators (beer, fuel, tobacco, HECS) inside Australia's own budget.
+
+This report is written for Australian readers — voters, journalists, parliamentary staff, policy-engaged citizens, and the academic and NGO sector — who want a primary-source-anchored account of how much the country actually collects from its gas exports and how that figure compares with current Budget choices. It is not a campaign document, and it is not a brief for one specific policy lever; it is a forensic accounting. Its purpose is to make the underlying numbers, accounting bases, and comparator frameworks accessible enough that any serious reader can audit the claims themselves and form their own view.
 
 It also sets out the strongest version of the industry's defence — back-loading by design, A$300+ billion of capital expenditure (capex), oil-indexed long-term contracts — followed by an honest critique of what stands and what does not. The 2023 PRRT deductions cap, which Treasury forecast would raise A$2.4 billion over the forward estimates, was outweighed by oil-price and FX parameter revisions at MYEFO 2023-24 (PRRT receipts revised down A$0.8 bn for 2023-24 and A$2.4 bn over the four years to 2026-27), with FY2023-24 and FY2024-25 outcomes both A$1.2–1.3 bn below the May 2023 forecast.[^prrt_cap_wipeout] Chevron made its first-ever PRRT payment in August 2025.[^chevron_first_prrt]
 
@@ -763,7 +758,7 @@ Both sentences are true. The political question is which one matters more in the
 
 This appendix records public-facing changes to the report and the audit package. The public package is limited to the material needed to inspect the report's factual claims and rendered outputs.
 
-**v3.2.4 (this version)** is a focused opening-paragraph fix atop v3.2.3. The executive summary's first paragraph (§The finding) was rewritten because the prior version referenced "the February 2026 Senate Estimates exchange" as if previously established — but the paragraph is the document's opening, with no prior context to anchor that reference. The new opening lands the substantive claim directly (beer excise outstrips PRRT in every forward-estimates year through 2029-30, even after the Budget's near-term upward PRRT revision; PRRT taper after 2026-27: **A$1.75 bn, A$1.55 bn, A$1.25 bn**) without a dangling reference. One `[^pocock_senate]` footnote caller was dropped from this paragraph; the footnote definition is still referenced in §The finding's three-claims block and in §2.1 The beer-versus-PRRT exchange (DOCX footnote callers: 115; definitions after compaction: 117). `sources/fx_rates.md` header version-string sweep extended to v3.2.4. No claim-level numbers change.
+**v3.2.4 (this version)** consolidates three in-place follow-up patches atop v3.2.3, all shipped under the same v3.2.4 release tag because no factual claim or number changes (only framing, structure, and self-identification). (a) The executive summary's first paragraph (§The finding) was rewritten because the prior version referenced "the February 2026 Senate Estimates exchange" as if previously established — but the paragraph is the document's opening, with no prior context to anchor that reference. The new opening lands the substantive claim directly (beer excise outstrips PRRT in every forward-estimates year through 2029-30, even after the Budget's near-term upward PRRT revision; PRRT taper after 2026-27: **A$1.75 bn, A$1.55 bn, A$1.25 bn**) without a dangling reference. One `[^pocock_senate]` footnote caller was dropped from this paragraph; the footnote definition is still referenced in §The finding's three-claims block and in §2.1 The beer-versus-PRRT exchange (DOCX footnote callers: 115; definitions after compaction: 117). (b) Appendix B narrative bumped from "v3.2.3 (this version)" to "v3.2.4 (this version)" and `sources/fx_rates.md` header version-string sweep extended to v3.2.4 — pure self-identification, no other change. (c) On external reviewer recommendation, the front-matter colophon was compressed from ~7 dense paragraphs (About, Read online, Citation, Public audit package, License, Currency, Methodology summary, AI assistance) to 3 short lines (Citation, License, Currency pointer); the longer "behind-the-scenes" prose moved to a new **Appendix D — About this report**, which carries the report-scope description, online-edition pointer, methodology summary, full FX rate table, and AI assistance disclosure. The executive summary §The finding gained a new audience/purpose paragraph (who this is for, what it's for) so the report explicitly states intent before claims. No claim-level numbers or substantive analysis change.
 
 **v3.2.3** consolidates three post-Budget-2026-27 patch rounds atop v3.2.0. v3.2.1 was a doc/script-polish round (`sources/fx_rates.md` version-header sweep, `CITATION.cff` date update, chart-script `mkdir` PNG-output-dir asymmetry fix via `style._ensure_output_dirs()`, README final-report.html link cleanup, `docs/index.instats.manifest.txt` logo dedupe, Chart 09 docstring scope-distinguishing wording fix). v3.2.2 closed two findings surfaced by the verify-publication harness: Chart 11 line 52 FX-scanner false-positive marked `# not-fx`; an orphaned `[^budget_25_26]` footnote definition with zero inline references removed (the Budget 2025-26 content was already cited via `[^strengthening_medicare]`, same primary source, no information loss). v3.2.3 closes the 8-reviewer final pre-publication audit findings: this Appendix B narrative bumped; `charts/04_what_17b_buys.py` `# red-clusters: 2` rationale corrected (the second red cluster is the dashed `axvline` reference line plus its red label, not a four-program total band); `[^angea_factcheck]` body text aligned to the ANGEA primary source's own framing ("taxes, royalties and levies combined", not corporate income tax alone); `[^npd_2025]` URL swapped from a 404'd path (`nbim.no/en/the-fund/key-figures/`) to the canonical `nbim.no/en/`; the body's SWF gap re-stated from "one-fortieth" to "roughly fifty-one times less than Norway's" with recomputed per-resident figures; Australia's population denominator updated to the ABS National, state and territory population September 2025 release (27,724,744 residents at 30 September 2025; released 19 March 2026) — the Future Fund per-resident figure recomputed at **A$9,646** (previously A$10,050 against a rounded 26.6 m base); Norway's population denominator updated to SSB Q4 2025 / 1 January 2026 (5,627,400) — GPFG per-resident recomputed at **A$491,000** (previously A$494,000); Norway's 2024 petroleum net cash flow figure in the international comparison dossier updated from the older NOK 680 bn estimate to the verified actual **NOK 702.2 bn**, citing *Statsbudsjettet 2026* Meld. St. 1 (2025-2026) Table 3.5 page 28 (the body text already carried 702 from v3.2.0; only the dossier needed alignment); Figure 7 (the per-resident SWF chart) regenerated against the new populations and ratio (~51×); the AEP "all other" figure (A$0.5 bn rounded in Figure 8, A$0.49 bn precise in Appendix A) confirmed internally consistent; `sources/fx_rates.md` header version-string sweep extended to v3.2.3. None of these changes invalidates a factual claim in the report; they tighten precision and citation hygiene.
 
@@ -789,6 +784,33 @@ Public materials include:
 - `final/` and `docs/` — release artefacts and web-publication files.
 
 Additional working files are retained outside the public repository for Instats' own audit and future publication work.
+
+---
+
+## Appendix D — About this report
+
+*Australia's Gas Export Tax Revenue: The Definitive Accounting* is published by Instats as a public-interest policy document. It draws together the main public source materials on Australia's offshore-gas fiscal regime — Treasury Final Budget Outcomes, ATO Corporate Tax Transparency, DISR Resources and Energy Quarterly, the Callaghan and Henry Reviews, Senate Estimates Hansard, Budget 2026-27, and the equivalent fiscal-architecture documents for Norway, Qatar, the United States, the United Kingdom, Malaysia, Japan and the broader Middle East — and sets the result against the current Commonwealth Budget.
+
+A live web edition of this report — same content, same charts — is hosted at <https://mzyphur.github.io/gas-tax/>. It opens in any browser and can be shared as a link. The [latest GitHub Release](https://github.com/mzyphur/gas-tax/releases/latest) packages the report in Microsoft Word, HTML, and PDF formats. The full enumerated public audit package is described in Appendix C above.
+
+**Methodology.** Public audit materials include the source manuscript, numerical manifest, chart scripts, rendered charts, source dossiers, and primary-source footnotes. The author is responsible for every numerical claim, interpretation, and recommendation.
+
+**Currency and FX.** All figures in Australian dollars (A$) unless explicitly marked. Foreign-currency primary-source figures are converted at the RBA F11.1 daily fix on 2026-05-11: **1 USD = 1.384 AUD; 1 NOK = 0.130 AUD; 1 GBP = 1.879 AUD; 1 JPY = 0.00883 AUD; 1 KRW = 0.0009365 AUD; 1 RM = 0.353 AUD** (NOK cross-derived via Norges Bank — not in the RBA daily-fix table).
+
+Same rates in tabular form for quick reference:
+
+| Currency | Rate (A$ per 1 unit) | Notes |
+|---|---:|---|
+| USD | **1.384** | RBA F11.1 daily fix |
+| GBP | **1.879** | RBA F11.1 daily fix |
+| JPY | **0.00883** | RBA F11.1 daily fix |
+| RM (Malaysian ringgit) | **0.353** | RBA F11.1 daily fix |
+| KRW (Korean won) | **0.0009365** | RBA F11.1 daily fix |
+| NOK | **0.130** | Cross-rate via Norges Bank — not in the RBA daily-fix table |
+
+Native figures are retained in parentheses where the audit trail benefits. Qualitative findings are robust to ±10 per cent FX variation. The full FX dossier (verification chain, v1.1 correction history, worked examples) is in `sources/fx_rates.md` in the public repository.
+
+**AI assistance disclosure.** Research review, drafting, code/release checks, and copy-editing used assistance from OpenAI GPT-5.5/Codex, Anthropic Claude Opus 4.7/Claude Code agents, and Google Gemini 3 Flash Preview. The author is responsible for all claims, source interpretation, caveats, calculations, and final wording.
 
 ---
 
