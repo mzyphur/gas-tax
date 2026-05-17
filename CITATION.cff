@@ -43,4 +43,9 @@ keywords:
 license: CC-BY-NC-4.0
 date-released: "2026-05-17"
 version: "3.2.5"
-# DOI to be minted through Instats/CrossRef after release.
+# DOI registered against Instats/CrossRef prefix 10.61700. Phase 1
+# lock landed 2026-05-17 (suffix written into this file at line 4,
+# propagated to drafts/report.md colophon + README.md citation +
+# README.md BibTeX). Phase 2 CrossRef-deposit registration is
+# pending API credentials; until that completes, the DOI is reserved
+# in our documents but doi.org has not yet been notified.
