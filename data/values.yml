@@ -255,8 +255,8 @@ beer_vs_prrt_aud_bn:
 # Australia Future Fund vs Norway Government Pension Fund Global
 # ---------------------------------------------------------------------
 swf_aud_per_resident:
-  Norway:             494000
-  Australia_Future:    10050  # A$267.4 bn main Fund balance at 31 Dec 2025 ÷ 26.6 m residents.
+  Norway:             491000  # NOK 21,268 bn × 0.130 AUD/NOK ÷ 5.6274 m residents (SSB Q4 2025 / 1 Jan 2026: 5,627,400). Precise calc: A$491,317.
+  Australia_Future:    9646   # A$267.4 bn main Fund balance at 31 Dec 2025 ÷ 27.72 m residents (ABS National, state and territory population, Sep-2025 release; 27,724,744 at 30 Sep 2025; released 19 March 2026).
 
 # ---------------------------------------------------------------------
 # LNG export volume vs PRRT — Chart 10

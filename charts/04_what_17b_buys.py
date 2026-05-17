@@ -7,8 +7,9 @@ program tables + Australia Institute / ACTU 25% LNG export-levy estimate.
 
 # red-clusters: 2
 This chart legitimately uses two red-accent clusters by design: the
-A$17 bn LNG-levy bar (the dominant comparator) and the four-program
-total band that the levy could fund. The general-repo v0.22.0 red-accent
+A$17 bn LNG-levy bar (the dominant comparator) and the matching red
+dashed axvline reference line at the same value plus its red "A$17.0
+bn/yr reference line" label. The general-repo v0.22.0 red-accent
 audit gate reads this directive and tolerates the second cluster.
 """
 

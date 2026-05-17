@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-05-16T01:11:09.068222</dc:date>
+    <dc:date>2026-05-17T15:07:04.099423</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -43,26 +43,26 @@ L 264.036293 282.816
 L 264.036293 38.908035 
 L 84.036293 38.908035 
 z
-" clip-path="url(#pd26f34ad03)" style="fill: #00547b; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#pc3307872c0)" style="fill: #00547b; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 411.30902 282.816 
 L 591.30902 282.816 
-L 591.30902 277.853905 
-L 411.30902 277.853905 
+L 591.30902 278.024277 
+L 411.30902 278.024277 
 z
-" clip-path="url(#pd26f34ad03)" style="fill: #c5283d; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#pc3307872c0)" style="fill: #c5283d; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
-       <path id="m545929ba3b" d="M 0 0 
+       <path id="mdfea2675c1" d="M 0 0 
 L 0 3 
 " style="stroke: #525560; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m545929ba3b" x="174.036293" y="282.816" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
+       <use xlink:href="#mdfea2675c1" x="174.036293" y="282.816" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
@@ -74,7 +74,7 @@ L 0 3
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#m545929ba3b" x="501.30902" y="282.816" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
+       <use xlink:href="#mdfea2675c1" x="501.30902" y="282.816" style="fill: #525560; stroke: #525560; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
@@ -89,7 +89,7 @@ L 0 3
      <g id="line2d_3">
       <path d="M 58.672656 282.816 
 L 616.672656 282.816 
-" clip-path="url(#pd26f34ad03)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+" clip-path="url(#pc3307872c0)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
      </g>
      <g id="line2d_4"/>
      <g id="text_3">
@@ -98,57 +98,57 @@ L 616.672656 282.816
     </g>
     <g id="ytick_2">
      <g id="line2d_5">
-      <path d="M 58.672656 233.441918 
-L 616.672656 233.441918 
-" clip-path="url(#pd26f34ad03)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+      <path d="M 58.672656 233.140243 
+L 616.672656 233.140243 
+" clip-path="url(#pc3307872c0)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
      </g>
      <g id="line2d_6"/>
      <g id="text_4">
-      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #525560" x="55.172656" y="236.755746" transform="rotate(-0 55.172656 236.755746)">A$100k</text>
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #525560" x="55.172656" y="236.454072" transform="rotate(-0 55.172656 236.454072)">A$100k</text>
      </g>
     </g>
     <g id="ytick_3">
      <g id="line2d_7">
-      <path d="M 58.672656 184.067836 
-L 616.672656 184.067836 
-" clip-path="url(#pd26f34ad03)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+      <path d="M 58.672656 183.464487 
+L 616.672656 183.464487 
+" clip-path="url(#pc3307872c0)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
      </g>
      <g id="line2d_8"/>
      <g id="text_5">
-      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #525560" x="55.172656" y="187.381664" transform="rotate(-0 55.172656 187.381664)">A$200k</text>
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #525560" x="55.172656" y="186.778315" transform="rotate(-0 55.172656 186.778315)">A$200k</text>
      </g>
     </g>
     <g id="ytick_4">
      <g id="line2d_9">
-      <path d="M 58.672656 134.693754 
-L 616.672656 134.693754 
-" clip-path="url(#pd26f34ad03)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+      <path d="M 58.672656 133.78873 
+L 616.672656 133.78873 
+" clip-path="url(#pc3307872c0)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
      </g>
      <g id="line2d_10"/>
      <g id="text_6">
-      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #525560" x="55.172656" y="138.007582" transform="rotate(-0 55.172656 138.007582)">A$300k</text>
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #525560" x="55.172656" y="137.102559" transform="rotate(-0 55.172656 137.102559)">A$300k</text>
      </g>
     </g>
     <g id="ytick_5">
      <g id="line2d_11">
-      <path d="M 58.672656 85.319672 
-L 616.672656 85.319672 
-" clip-path="url(#pd26f34ad03)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+      <path d="M 58.672656 84.112974 
+L 616.672656 84.112974 
+" clip-path="url(#pc3307872c0)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
      </g>
      <g id="line2d_12"/>
      <g id="text_7">
-      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #525560" x="55.172656" y="88.633501" transform="rotate(-0 55.172656 88.633501)">A$400k</text>
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #525560" x="55.172656" y="87.426802" transform="rotate(-0 55.172656 87.426802)">A$400k</text>
      </g>
     </g>
     <g id="ytick_6">
      <g id="line2d_13">
-      <path d="M 58.672656 35.94559 
-L 616.672656 35.94559 
-" clip-path="url(#pd26f34ad03)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
+      <path d="M 58.672656 34.437217 
+L 616.672656 34.437217 
+" clip-path="url(#pc3307872c0)" style="fill: none; stroke: #e8e7e6; stroke-width: 0.5; stroke-linecap: square"/>
      </g>
      <g id="line2d_14"/>
      <g id="text_8">
-      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #525560" x="55.172656" y="39.259419" transform="rotate(-0 55.172656 39.259419)">A$500k</text>
+      <text style="font-size: 9px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #525560" x="55.172656" y="37.751045" transform="rotate(-0 55.172656 37.751045)">A$500k</text>
      </g>
     </g>
     <g id="text_9">
@@ -166,13 +166,13 @@ L 616.672656 282.816
 " style="fill: none; stroke: #525560; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_10">
-    <text style="font-weight: 700; font-size: 12px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #1f2024" x="174.036293" y="32.983146" transform="rotate(-0 174.036293 32.983146)">A$494,000</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #1f2024" x="174.036293" y="32.946945" transform="rotate(-0 174.036293 32.946945)">A$491,000</text>
    </g>
    <g id="text_11">
-    <text style="font-weight: 700; font-size: 12px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #1f2024" x="501.30902" y="271.929015" transform="rotate(-0 501.30902 271.929015)">A$10,050</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #1f2024" x="501.30902" y="272.063186" transform="rotate(-0 501.30902 272.063186)">A$9,646</text>
    </g>
    <g id="text_12">
-    <text style="font-style: italic; font-size: 11px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #1f2024" x="288.581747" y="65.57004" transform="rotate(-0 288.581747 65.57004)">≈ 49× Australia</text>
+    <text style="font-style: italic; font-size: 11px; font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #1f2024" x="288.581747" y="65.732944" transform="rotate(-0 288.581747 65.732944)">≈ 51× Australia</text>
    </g>
   </g>
   <g id="text_13">
@@ -181,7 +181,7 @@ L 616.672656 282.816
   </g>
  </g>
  <defs>
-  <clipPath id="pd26f34ad03">
+  <clipPath id="pc3307872c0">
    <rect x="58.672656" y="7.2" width="558" height="275.616"/>
   </clipPath>
  </defs>

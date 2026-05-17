@@ -10,7 +10,7 @@
 
 Australia is one of the world's two largest LNG exporters by volume but is, by a wide margin, the largest LNG exporter that fails to translate that volume into commensurate state revenue. In 2023-24 the Petroleum Resource Rent Tax (PRRT) — the sole Commonwealth instrument designed to capture economic rent from offshore gas — yielded just **A$1.483 billion** in payable tax across 16 entities,[^1] while the Australian government collected **A$5.1 billion** from HECS/HELP student loan repayments in the same year — more than four times PRRT receipts.[^2]
 
-Compared head-to-head against Norway — the only other OECD LNG exporter with a comparable resource base, a comparable level of legal and contractual sophistication, and a comparable position as a high-trust, market-economy gas supplier to allies — Australia collects roughly two orders of magnitude less petroleum revenue per capita. Norway's 2024 state net cash flow from petroleum was **NOK 680 billion** (approximately **USD 63 billion**)[^3] from a population of **5.59 million**.[^4] Australia's combined federal PRRT plus NWS royalty share for 2023-24 was approximately **A$2.1 billion** (PRRT A$1.483 bn[^1] plus net federal NWS royalty share, with the Commonwealth's gross take c. A$367 million in recent years[^5]) from a population of **27.2 million**.[^6]
+Compared head-to-head against Norway — the only other OECD LNG exporter with a comparable resource base, a comparable level of legal and contractual sophistication, and a comparable position as a high-trust, market-economy gas supplier to allies — Australia collects roughly two orders of magnitude less petroleum revenue per capita. Norway's 2024 state net cash flow from petroleum was **NOK 702.2 billion** (approximately **USD 65 billion**)[^3] from a population of **5.63 million**.[^4] Australia's combined federal PRRT plus NWS royalty share for 2023-24 was approximately **A$2.1 billion** (PRRT A$1.483 bn[^1] plus net federal NWS royalty share, with the Commonwealth's gross take c. A$367 million in recent years[^5]) from a population of **27.72 million**.[^6]
 
 The mechanism for Australia's underperformance is well-understood and structural, not coincidental: a profit-based PRRT with carry-forward uplifts that allowed most offshore LNG mega-projects to defer or eliminate tax liability for decades; no royalty on Commonwealth offshore waters (other than NWS legacy fields); no production-sharing component; no state-equity stake; and no sovereign wealth fund to compound retained rents. Every comparator country in this dossier collects more state revenue per tonne of LNG exported than Australia does, in most cases by a factor of 5 to 50.
 
@@ -29,7 +29,7 @@ Government petroleum revenue is not directly comparable across jurisdictions bec
 | **Malaysia** | 35.7 Mt (Petronas group sales)[^12] | $15.4 bn (RM72.4 bn total Petronas contribution 2024[^13], at ~RM4.7/USD) | 34 | 2024 |
 | **Indonesia** | ~15-16 Mt (Bontang + Tangguh)[^14] | UNVERIFIED — last verified figure was Rp 269 trillion (~$17 bn) for 2022 entire upstream | 280 | 2022 |
 | **Algeria** | 14.5 bcm LNG (~10.6 Mt) 2024[^15] | $45 bn Sonatrach export revenue 2024[^15] (note: this is corporate export revenue, not government take) | 45 | 2024 |
-| **Norway** | ~5-7 Mt LNG only (small share of 124 bcm total gas exports)[^16] | $63 bn state petroleum net cash flow 2024 (NOK 680 bn[^3]) | 5.59 | 2024 |
+| **Norway** | ~5-7 Mt LNG only (small share of 124 bcm total gas exports)[^16] | $65 bn state petroleum net cash flow 2024 (NOK 702.2 bn[^3]) | 5.63 | 2024 |
 | **United Kingdom** | (net gas importer; no significant LNG exports) | £4.5 bn FY2024-25 (~$5.7 bn)[^17] | 67 | 2024-25 |
 
 Note: Norway's gas exports are overwhelmingly piped, not LNG; the 124 bcm total[^16] is approximately equivalent to ~92 Mt of LNG-energy on a heating-value basis, and it is fiscally taxed identically to LNG-bound gas (no distinction in regime). For the per-tonne column below, Norway's full gas export volume is used as the relevant denominator.
@@ -73,11 +73,11 @@ Norway's state net cash flow from petroleum activities:
 |---|---|---|
 | 2022 | 1,457[^20] | Highest in history; reflects post-Ukraine-invasion gas price spike |
 | 2023 | 978[^20] | Includes NOK 474 bn in direct company-tax payments[^20] |
-| **2024** | **680**[^21] | Lower gas-price assumptions |
+| **2024** | **702.2**[^21] | Statsbudsjettet 2026 Meld. St. 1 (2025-2026) Table 3.5 page 28 — verified primary-source actual figure; supersedes the earlier Statsbudsjettet 2025 (Oct 2024) estimate of NOK 680 bn |
 | 2025 (est.) | 656[^19] | Comprising NOK 373.1 bn taxes, NOK 238.9 bn SDFI, NOK 34.6 bn Equinor dividend, NOK 9.2 bn env. tax / area fees[^19] |
 | 2026 (forecast) | 521[^19] | NOK 291.5 bn taxes, NOK 193 bn SDFI, NOK 25.8 bn Equinor dividend, NOK 11 bn env. tax[^19] |
 
-At Q4 2025 prevailing exchange rates (NOK ~10.8 / USD), NOK 680 bn is approximately **USD 63 bn** for 2024 alone. Across the past three years (2022–24), Norway has captured approximately **USD 290 billion** from oil and gas activities, against gross export earnings that — while substantial — are not three times larger than Australia's. The take-share differential, not the gross-revenue differential, drives the per-capita gap.
+At Q4 2025 prevailing exchange rates (NOK ~10.8 / USD), NOK 702.2 bn is approximately **USD 65 bn** for 2024 alone. Across the past three years (2022–24), Norway has captured approximately **USD 290 billion** from oil and gas activities, against gross export earnings that — while substantial — are not three times larger than Australia's. The take-share differential, not the gross-revenue differential, drives the per-capita gap.
 
 ### 2.3 The Government Pension Fund Global (the oil fund)
 
@@ -222,22 +222,22 @@ PSCs in Indonesia and Malaysia typically split production 50:50 to 70:30 in favo
 
 The most striking comparison is on a per-capita basis. Population data:
 
-| Country | Population 2024 (m) | Source |
+| Country | Population (m) | Source |
 |---|---|---|
-| Norway | 5.59 | SSB[^4] |
+| Norway | 5.63 (Q4 2025 / 1 Jan 2026) | SSB[^4] |
 | Qatar | 2.74 (88.4% expatriates, ~318k Qatari citizens) | Multiple[^31] |
-| Australia | 27.2 | ABS[^6] |
+| Australia | 27.72 (30 Sep 2025) | ABS[^6] |
 | US | 335 | US Census |
 
 **Per-capita government petroleum revenue (USD, full residents):**
 
 | Country | Govt petroleum revenue (USD bn) | Population (m) | Per-capita (USD/year) |
 |---|---|---|---|
-| Norway | 63 (2024)[^3] | 5.59 | **~$11,275** |
+| Norway | 65 (2024)[^3] | 5.63 | **~$11,545** |
 | Qatar | 85 (2023 hydrocarbon export rev)[^11] | 2.74 | **~$31,000** |
 | Qatar (per citizen) | 85 | 0.318 | ~$267,000 |
 | Malaysia | 15.4 (2024 Petronas contribution)[^13] | 34 | ~$450 |
-| **Australia (PRRT + NWS fed share, 2023-24)** | **~$1.2 bn** | **27.2** | **~$44** |
+| **Australia (PRRT + NWS fed share, 2023-24)** | **~$1.2 bn** | **27.72** | **~$43** |
 
 **Australia collects approximately 1/250th the petroleum revenue per capita that Norway does, and 1/700th of Qatar's.** Even Malaysia's PSC + dividend regime collects about ten times Australia's federal take per capita.
 
@@ -285,7 +285,7 @@ Norway, Qatar, and even smaller producers like Timor-Leste maintain dedicated pe
 
 | Country | LNG exports (Mt, most recent) | Govt revenue from oil + gas (USD bn) | USD/tonne LNG-eq | Tax regime headline | Source year |
 |---|---|---|---|---|---|
-| **Norway** | ~92 Mt LNG-eq (124 bcm total gas)[^16] | 63 (NOK 680 bn)[^3] | **~$685** | 22% CT + 71.8% special tax = 78% marginal; SDFI direct equity; Equinor dividend; carbon tax; sovereign wealth fund | 2024 |
+| **Norway** | ~92 Mt LNG-eq (124 bcm total gas)[^16] | 65 (NOK 702.2 bn)[^3] | **~$707** | 22% CT + 71.8% special tax = 78% marginal; SDFI direct equity; Equinor dividend; carbon tax; sovereign wealth fund | 2024 |
 | **Qatar** | 77[^27] | 85 (hydrocarbon export rev)[^11] | **~$1,100** | State ownership via QatarEnergy; 83% of all govt revenue from hydrocarbons | 2023 |
 | **United States** | 88.3[^7] | 7 OCS only / 16.45 all federal energy[^8][^9] | **~$79** offshore-only | 16.67% federal royalty + state severance + 21% federal CT; no rent tax | FY2024 |
 | **Malaysia** | 35.7 (Petronas group sales)[^12] | 15.4 (RM 72.4 bn Petronas total contribution)[^13] | **~$430** | Petronas dividend + PSC + corporate tax | 2024 |
@@ -325,13 +325,13 @@ This public dossier preserves the substantive source notes and footnotes needed 
 
 [^2]: The Australia Institute, citing ATO statistics. "in 2023-24 the ATO collected more than four times more from student debt repayments than the PRRT." HECS/HELP revenue $5.1 billion; PRRT revenue $1.1 billion. URL: https://australiainstitute.org.au/post/in-2023-24-australians-paid-more-than-4-times-on-hecs-help-than-gas-companies-did-on-prrt/
 
-[^3]: Government of Norway press release, "Large revenues from the petroleum industry in 2024." "Norway's net cash flow from petroleum activities is estimated to be 680 billion NOK in 2024." URL: https://www.regjeringen.no/en/whats-new/large-revenues-from-the-petroleum-industry-in-2024/id3056427/
+[^3]: Government of Norway, *Statsbudsjettet 2026* (National Budget 2026) Meld. St. 1 (2025-2026) Table 3.5, page 28: Norway's net cash flow from petroleum activities in 2024 was NOK 702.2 billion (actual). This supersedes the earlier NOK 680 bn estimate carried in the *Statsbudsjettet 2025* press release of October 2024. URL: https://www.regjeringen.no/contentassets/989234411f9d439bae33663146367f04/en-gb/pdfs/meld_st_1_chapter_2_and_3.pdf
 
-[^4]: Statistics Norway (SSB), Population statistics. "As of Q3 2024, the population of Norway is 5,585,044. The total population of Norway at the end of 2024 was 5,594,340." URL: https://www.ssb.no/en/befolkning/folketall/statistikk/befolkning
+[^4]: Statistics Norway (SSB), Population statistics. Latest authoritative reading at 1 January 2026 (Q4 2025 release): 5,627,400 persons. URL: https://www.ssb.no/en/befolkning/folketall/statistikk/befolkning
 
 [^5]: Centre for Independent Studies, "Riches from Royalties." "The Commonwealth receives smaller amounts of royalty revenue from the royalties on North West Shelf oil and gas that it shares with WA ($367 million in net terms)." URL: https://www.cis.org.au/publication/riches-from-royalties-how-australias-states-and-territories-depend-on-mining/
 
-[^6]: Australian Bureau of Statistics, National, state and territory population, June 2024. "Australia's population was 27.2 million on 30 June 2024." URL: https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/jun-2024
+[^6]: Australian Bureau of Statistics, National, state and territory population, September 2025 release. Reference date 30 September 2025; released 19 March 2026. Australia's estimated resident population was 27,724,744. URL: https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/sep-2025
 
 [^7]: Energy Analytics Institute and LSEG/Refinitiv via Reuters. "The 2024 total reached 88.3 million tons, which was up from 84.5 million tons a year earlier." URL: https://energy-analytics-institute.org/2025/05/21/us-retains-spot-as-worlds-largest-lng-exporter/
 

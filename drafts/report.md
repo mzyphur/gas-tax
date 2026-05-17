@@ -30,7 +30,7 @@ Instats &nbsp;·&nbsp; [instats.org](https://instats.org) &nbsp;·&nbsp; [suppor
 
 **Read online (one-click web edition).** A live web edition of this report — same content, same charts — is hosted at **<https://mzyphur.github.io/gas-tax/>**. It opens in any browser and can be shared as a link.
 
-**Citation.** Zyphur, M. J. (2026). *Australia's Gas Export Tax Revenue: The Definitive Accounting.* Instats Policy Series, v3.2.2. [github.com/mzyphur/gas-tax](https://github.com/mzyphur/gas-tax). ORCID: [0000-0003-3237-7892](https://orcid.org/0000-0003-3237-7892). DOI: forthcoming via CrossRef (see `CITATION.cff`).
+**Citation.** Zyphur, M. J. (2026). *Australia's Gas Export Tax Revenue: The Definitive Accounting.* Instats Policy Series, v3.2.3. [github.com/mzyphur/gas-tax](https://github.com/mzyphur/gas-tax). ORCID: [0000-0003-3237-7892](https://orcid.org/0000-0003-3237-7892). DOI: forthcoming via CrossRef (see `CITATION.cff`).
 
 **Public audit package.** The report source, numerical manifest, chart code, rendered charts, cleaned evidence dossiers, and release artefacts are available at **[github.com/mzyphur/gas-tax](https://github.com/mzyphur/gas-tax)**. Additional working files are retained privately by Instats. The [latest GitHub Release](https://github.com/mzyphur/gas-tax/releases/latest) packages the report in Microsoft Word, HTML, and PDF formats.
 
@@ -247,7 +247,7 @@ The ATO Corporate Tax Transparency Report has published entity-level total incom
 
 The mechanisms by which multi-tens-of-billions of dollars of revenue become zero taxable income are well-known and lawful. They include project-level ring-fencing, thin capitalisation rules within Australia, large amounts of accelerated depreciation against capex, and aggressive transfer pricing on related-party debt and inter-affiliate gas marketing structures (Chevron Singapore, Shell Swiss/Singapore marketing hubs). Transfer pricing, in plain English, is the setting of internal prices or interest rates between related companies; done aggressively, it can move taxable profit out of Australia. The *Chevron Australia Holdings Pty Ltd v Commissioner of Taxation* [2017] FCAFC 62 appeal is the clean example. The appeal was unanimously dismissed by the Full Federal Court (Allsop CJ, Pagone and Perram JJ) on 21 April 2017. The case concerned **related-party debt** under Division 13 of the ITAA 1936 / Subdivision 815-A of the ITAA 1997 — not transfer pricing on gas sales per se — but its doctrinal significance was the Full Court's rejection of the "orphan theory" of inter-affiliate pricing (i.e. that an Australian subsidiary should be viewed as if it were a stand-alone entity for transfer-pricing purposes). A$340 million in tax was upheld on a US$2.5 billion inter-company loan.[^corp_tax_royalties_dossier][^chevron_fcafc]
 
-The Australia Institute's accumulated framing — five APPEA members with A$138 billion of combined Australian revenue and zero income tax over seven years — is correct and directly verifiable from the ATO data.[^ai_138bn] Post-2022 the headline reversed. 2024 calendar-year corporate income tax payments are now substantial: Chevron A$5 bn, Woodside A$4 bn.[^aep_july2025][^angea_factcheck] But the question is whether that's a structural lift or an oil-price spike — see Part 4.
+The Australia Institute's accumulated framing — five APPEA members with A$138 billion of combined Australian revenue and zero income tax over seven years — is correct and directly verifiable from the ATO data.[^ai_138bn] Post-2022 the headline reversed. 2024 calendar-year contributions to Australian governments — taxes, royalties and levies combined — are now substantial: Chevron A$5 bn, Woodside A$4 bn.[^aep_july2025][^angea_factcheck] But the question is whether that's a structural lift or an oil-price spike — see Part 4.
 
 ### 1.5 State royalties and the NWS grandfathered Commonwealth royalty
 
@@ -385,17 +385,17 @@ Norway's state net cash flow from petroleum activities, in AUD (FX = 0.130 AUD/N
 | 2025 (est.) | 656 | **A$85 bn** |
 | 2026 (forecast) | 521 | **A$68 bn** |
 
-At the **end of 2025, the Government Pension Fund Global was worth NOK 21,268 billion (A$2.77 trillion)** — the world's largest single sovereign wealth fund.[^npd_2025] Per Norwegian resident, that's approximately **A$494,000**.
+At the **end of 2025, the Government Pension Fund Global was worth NOK 21,268 billion (A$2.77 trillion)** — the world's largest single sovereign wealth fund.[^npd_2025] Per Norwegian resident (5.63 million at 1 January 2026), that's approximately **A$491,000**.
 
-Australia's Future Fund — a general-purpose fund, not built from petroleum revenue — held A$267.4 billion at 31 December 2025. Per Australian resident: **A$10,050**.
+Australia's Future Fund — a general-purpose fund, not built from petroleum revenue — held A$267.4 billion at 31 December 2025. Per Australian resident (27.72 million at 30 September 2025): **A$9,646**.
 
 <blockquote class="pullquote">
-At the end of 2025 the Norwegian Government Pension Fund Global was worth A$2.77 trillion — A$494,000 per Norwegian resident. Australia's Future Fund, not built from any single resource, holds A$10,050 per Australian.
+At the end of 2025 the Norwegian Government Pension Fund Global was worth A$2.77 trillion — A$491,000 per Norwegian resident. Australia's Future Fund, not built from any single resource, holds A$9,646 per Australian.
 <cite>Norges Bank Investment Management (GPFG) and the Australian Future Fund Management Agency, end-2025 balances</cite>
 </blockquote>
 
-![Figure 7: Sovereign wealth fund balance per resident, A$ — Norway A$494,000 vs Australia Future Fund A$10,050 (~49× ratio)](../charts/png/07_norway_vs_australia_swf.png)
-*Figure 7. Per-resident sovereign wealth fund AUM, Norway vs Australia, in AUD. Sources: NBIM, GPFG market value at 31 December 2025 (NOK 21,268 bn × 0.130 = A$2.77 trillion); Australian Future Fund Management Agency, end-2025 balance A$267.4 bn. The Norwegian fund was built entirely from petroleum revenue; the Australian fund was not built from any specific resource revenue.*
+![Figure 7: Sovereign wealth fund balance per resident, A$ — Norway A$491,000 vs Australia Future Fund A$9,646 (~51× ratio)](../charts/png/07_norway_vs_australia_swf.png)
+*Figure 7. Per-resident sovereign wealth fund AUM, Norway vs Australia, in AUD. Sources: NBIM, GPFG market value at 31 December 2025 (NOK 21,268 bn × 0.130 = A$2.77 trillion); Australian Future Fund Management Agency, end-2025 balance A$267.4 bn. Populations: SSB Q4 2025 / 1 January 2026 (Norway 5,627,400); ABS National, state and territory population, September 2025 release (Australia 27,724,744). The Norwegian fund was built entirely from petroleum revenue; the Australian fund was not built from any specific resource revenue.*
 
 ### 3.2 Qatar — state ownership replaces tax
 
@@ -691,7 +691,7 @@ This is the Australia Institute / ACTU / Greens position. **Revenue: ~A$17 billi
 
 ### 6.4 Whatever else is done, fund a Norway-style sovereign wealth fund
 
-The gap between Norway's GPFG (**A$2.77 trillion; A$494,000 per Norwegian resident**) and Australia's Future Fund (**A$267.4 billion; A$10,050 per Australian resident**) is **not** primarily explained by Norway being lucky with oil. Norway is unusual in two ways: it ring-fences resource revenue from current spending, and it has done so consistently for 30 years.
+The gap between Norway's GPFG (**A$2.77 trillion; A$491,000 per Norwegian resident**) and Australia's Future Fund (**A$267.4 billion; A$9,646 per Australian resident**) is **not** primarily explained by Norway being lucky with oil. Norway is unusual in two ways: it ring-fences resource revenue from current spending, and it has done so consistently for 30 years.
 
 Australia's Future Fund was established in 2006 and has done well — but it is general-purpose, not a resource fund. A separate Future Generations Fund — fed by gas tax receipts and walled off from current spending — would do for Australia's mineral generation what the GPFG has done for Norway's: convert depletable resource rent into permanent intergenerational wealth.
 
@@ -706,7 +706,7 @@ Australia's Future Fund was established in 2006 and has done well — but it is 
 
 ## Conclusion
 
-Australia is the world's second-largest LNG exporter. It collects more revenue from its citizens' beer than it does from offshore gas. It collects less per tonne of LNG than the United States, less than Malaysia, roughly 15 times less than Qatar, and roughly 10 times less than Norway under the gas-only attribution that Part 3 lays out. Its sovereign wealth fund balance per citizen is roughly one-fortieth of Norway's.
+Australia is the world's second-largest LNG exporter. It collects more revenue from its citizens' beer than it does from offshore gas. It collects less per tonne of LNG than the United States, less than Malaysia, roughly 15 times less than Qatar, and roughly 10 times less than Norway under the gas-only attribution that Part 3 lays out. Its sovereign wealth fund balance per citizen is roughly fifty-one times less than Norway's.
 
 The political debate is now about three options: a deepened PRRT (a Norwegian-style cash-flow-neutral, high-rate rent tax), a royalty (the US/Qatar model), or a flat 25 per cent export levy (the ACTU / Australia Institute model). Each has trade-offs, but the answer cannot be "do nothing". Budget 2026-27 now estimates PRRT at A$1.40 billion in 2025-26, A$1.90 billion in 2026-27, then A$1.75 billion, A$1.55 billion and A$1.25 billion over the remaining forward-estimates years.[^bp1_table_4_7] Treasury says the near-term upgrade is driven by higher oil prices and production volumes, but the forward path still fades. The 2023 PRRT deductions cap was outweighed by oil-price and FX parameter revisions at MYEFO 2023-24, so the cap did not deliver net new revenue against forward estimates — though Treasury's original A$2.4 bn forecast may still be realised against an unrevised baseline. The Callaghan Review's "PRRT will deliver A$105–230 billion to 2050" projection has not, after eight years, begun to materialise except via the Ukraine oil-price spike.
 
@@ -763,7 +763,7 @@ Both sentences are true. The political question is which one matters more in the
 
 This appendix records public-facing changes to the report and the audit package. The public package is limited to the material needed to inspect the report's factual claims and rendered outputs.
 
-**v3.2.0 (this version)** is the current public release. The substantive public changes are: the report is refreshed against Budget 2026-27; PRRT and beer-excise forward estimates are updated through 2029-30; the Budget-scale chart is rebuilt around current receipts, expenses, deficit and program-cost comparators; Appendix A is updated with current Budget values; source dossiers are updated for Budget 2026-27; and public charts and release artefacts are regenerated.
+**v3.2.3 (this version)** consolidates three post-Budget-2026-27 patch rounds atop v3.2.0. v3.2.1 was a doc/script-polish round (`sources/fx_rates.md` version-header sweep, `CITATION.cff` date update, chart-script `mkdir` PNG-output-dir asymmetry fix via `style._ensure_output_dirs()`, README final-report.html link cleanup, `docs/index.instats.manifest.txt` logo dedupe, Chart 09 docstring scope-distinguishing wording fix). v3.2.2 closed two findings surfaced by the verify-publication harness: Chart 11 line 52 FX-scanner false-positive marked `# not-fx`; an orphaned `[^budget_25_26]` footnote definition with zero inline references removed (the Budget 2025-26 content was already cited via `[^strengthening_medicare]`, same primary source, no information loss). v3.2.3 closes the 8-reviewer final pre-publication audit findings: this Appendix B narrative bumped; `charts/04_what_17b_buys.py` `# red-clusters: 2` rationale corrected (the second red cluster is the dashed `axvline` reference line plus its red label, not a four-program total band); `[^angea_factcheck]` body text aligned to the ANGEA primary source's own framing ("taxes, royalties and levies combined", not corporate income tax alone); `[^npd_2025]` URL swapped from a 404'd path (`nbim.no/en/the-fund/key-figures/`) to the canonical `nbim.no/en/`; the body's SWF gap re-stated from "one-fortieth" to "roughly fifty-one times less than Norway's" with recomputed per-resident figures; Australia's population denominator updated to the ABS National, state and territory population September 2025 release (27,724,744 residents at 30 September 2025; released 19 March 2026) — the Future Fund per-resident figure recomputed at **A$9,646** (previously A$10,050 against a rounded 26.6 m base); Norway's population denominator updated to SSB Q4 2025 / 1 January 2026 (5,627,400) — GPFG per-resident recomputed at **A$491,000** (previously A$494,000); Norway's 2024 petroleum net cash flow figure in the international comparison dossier updated from the older NOK 680 bn estimate to the verified actual **NOK 702.2 bn**, citing *Statsbudsjettet 2026* Meld. St. 1 (2025-2026) Table 3.5 page 28 (the body text already carried 702 from v3.2.0; only the dossier needed alignment); Figure 7 (the per-resident SWF chart) regenerated against the new populations and ratio (~51×); the AEP "all other" figure (A$0.5 bn rounded in Figure 8, A$0.49 bn precise in Appendix A) confirmed internally consistent; `sources/fx_rates.md` header version-string sweep extended to v3.2.3. None of these changes invalidates a factual claim in the report; they tighten precision and citation hygiene.
 
 **v3.1.0** updated South Korea's buyer-country LNG tax comparator to **A$14.80 per tonne** on a power-generation basis, with a footnote explaining why city-gas LNG would imply a higher weighted average; placed the PRRT history series explicitly on a **cash receipts** basis, with FY2021-22 corrected from A$2.166 billion accrual revenue to A$1.638 billion cash receipts; regenerated public charts and release artefacts; and narrowed the public repository to an evidence-and-publication package.
 
@@ -852,7 +852,7 @@ Additional working files are retained outside the public repository for Instats'
 
 [^ai_138bn]: Australia Institute, "APPEA members pay no income tax on income of $138 billion." https://australiainstitute.org.au/post/appea-members-pay-no-income-tax-on-income-of-138-billion/
 
-[^angea_factcheck]: ANGEA (Australia New Zealand East Asia Natural Gas Association), "Do LNG companies pay tax in Australia?" — Chevron Australia A$5 bn 2024 company tax; Woodside A$4 bn 2024 company tax. https://angeassociation.com/fact-check/do-lng-pay-tax-in-australia/
+[^angea_factcheck]: ANGEA (Australia New Zealand East Asia Natural Gas Association), "Do LNG companies pay tax in Australia?" — frames Chevron Australia A$5 bn (2024) and Woodside A$4 bn (2024) as total contributions to Australian governments (taxes, royalties and levies combined), not as corporate income tax alone. https://angeassociation.com/fact-check/do-lng-pay-tax-in-australia/
 
 [^pocock_select_committee]: Senate Hansard via OpenAustralia, motion of 12 March 2026. https://www.openaustralia.org.au/senate/?id=2026-03-12.53.2 ; Pocock media release 2 March 2026. https://www.davidpocock.com.au/new_senate_inquiry_proposed_to_examine_the_great_gas_giveaway
 
@@ -864,7 +864,7 @@ Additional working files are retained outside the public repository for Instats'
 
 [^norway_petroleum]: Norwegian Petroleum (norskpetroleum.no), "The Petroleum Tax System." https://www.norskpetroleum.no/en/economy/petroleum-tax/
 
-[^npd_2025]: NBIM, Government Pension Fund Global market value at 31 December 2025. https://www.nbim.no/en/the-fund/key-figures/
+[^npd_2025]: NBIM, Government Pension Fund Global market value at 31 December 2025. https://www.nbim.no/en/
 
 [^qatar_pwc]: PwC Tax Summaries — Qatar, citing Law No. 24 of 2018 and Law No. 3 of 2007 (35% rate on oil/gas operations). https://taxsummaries.pwc.com/qatar
 

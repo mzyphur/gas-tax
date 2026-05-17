@@ -419,7 +419,7 @@ This public dossier preserves the substantive source notes and footnotes needed 
 
 [^31]: Per-resident conversion uses the report FX convention of 1 NOK = A$0.130 and a rounded population denominator of 5.6 million residents. USD media conversions are not used for the headline comparison.
 
-[^32]: Department of Finance, *Future Fund*, https://www.finance.gov.au/government/australian-government-investment-funds/future-fund. Report comparator uses A$267.4bn AUM and a rounded Australian population denominator of 26.6 million residents.
+[^32]: Department of Finance, *Future Fund*, https://www.finance.gov.au/government/australian-government-investment-funds/future-fund. Report comparator uses A$267.4 bn AUM and the ABS September 2025 quarterly population estimate of 27,724,744 residents (released 19 March 2026).
 
 [^33]: BP1 Statement 1 "Budget Overview", p. 8: "delivering more sustainable funding outcomes for defence projects, while delivering a generational investment in the Australian Defence Force's posture, capability and structure with $50.3 billion in additional funding over the decade".
 
