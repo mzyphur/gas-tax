@@ -1,14 +1,13 @@
 """Shared chart style for Instats policy documents.
 
-Hard-codes public style guide §8.1 and §8.4 — the matplotlib stylesheet
-the design team agreed on, in the order it appears in the spec:
+Implements the Instats chart style contract — the matplotlib stylesheet
+used across policy documents, in the order the rendered settings appear:
 
-  font.family       Inter (with Helvetica Neue / Arial Narrow fallbacks)
-                    Note: public style guide §3.1 codifies Inter as the
-                    chart-annotation typeface; this differs from the
-                    HTML body which uses Source Serif 4. Charts use the
-                    metadata family because axis labels / annotations
-                    are small-size metadata, not body prose.
+  font.family       Inter
+                    Fallbacks: Helvetica Neue, Helvetica, Arial,
+                    DejaVu Sans. All in-chart text is metadata
+                    typography; body/display families live outside the
+                    PNG/SVG in captions and surrounding document text.
   font.size         10
   axes.titlesize    14
   axes.titleweight  600
@@ -33,19 +32,16 @@ for any tooling that wants to enumerate them but does not draw on
 the figure.
 
 Source lines are NOT rendered in the PNG (§8.2) — the markdown
-caption supplies them. `add_footer()` remains a no-op compatibility
-shim for older scripts; new or touched charts should rely on captions.
+caption supplies them.
 """
 
 from __future__ import annotations
-
-from pathlib import Path
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
 
-# public style guide §8.1 — strict 5-colour policy palette.
+# Instats chart contract — strict 5-colour policy palette.
 # Use these in order, never substituted. Greys are for non-focal data.
 COLORS = {
     # Primary policy-doc palette
@@ -71,24 +67,8 @@ COLORS = {
 CHART_TITLES: dict[str, str] = {}
 
 
-def _ensure_output_dirs() -> None:
-    """Create charts/png and charts/svg if they don't already exist.
-
-    All chart scripts in this directory save to these two siblings; only
-    chart_01 historically mkdir'd `charts/png/` at module top, so running
-    any chart_02..chart_12 on a fresh checkout before chart_01 would
-    fail with FileNotFoundError on the first savefig. Centralising the
-    mkdir here removes that asymmetry — every script that calls
-    apply_style() now has its output directories guaranteed.
-    """
-    charts_dir = Path(__file__).resolve().parent
-    (charts_dir / "png").mkdir(parents=True, exist_ok=True)
-    (charts_dir / "svg").mkdir(parents=True, exist_ok=True)
-
-
 def apply_style() -> None:
-    """Apply the Instats chart style globally — public style guide §8.4."""
-    _ensure_output_dirs()
+    """Apply the Instats chart style globally."""
     mpl.rcParams.update({
         # Layout
         "figure.figsize":       (10, 5.5),
@@ -113,21 +93,21 @@ def apply_style() -> None:
 
         # Title — kept stylable for any chart that still calls
         # ax.set_title, but the convention is to put titles in the
-        # markdown caption (§8.3). 14pt Montserrat 600.
+        # markdown caption. 14pt Inter semibold.
         "axes.titleweight":     "semibold",
         "axes.titlesize":       14,
         "axes.titlepad":        16,
         "axes.titlecolor":      COLORS["ink"],
 
-        # Axis labels — Montserrat 500, 10pt, ink-soft per §8.1
+        # Axis labels — Inter medium, 10pt, ink-soft.
         "axes.labelsize":       10,
         "axes.labelweight":     "medium",
         "axes.labelcolor":      COLORS["ink_soft"],
 
-        # Tick labels — Inter 400, 9pt, ink-soft per §8.1
+        # Tick labels — Inter 400, 9pt, ink-soft.
         # (matplotlib uses font.family globally, so we set it here to
-        # the metadata stack; chart axis labels are also Montserrat
-        # via font.family[0], so axis labels and ticks share the font
+        # the metadata stack; chart axis labels also resolve through
+        # font.family[0], so axis labels and ticks share the font
         # family — the size + weight differentiation does the work.)
         "xtick.labelsize":      9,
         "ytick.labelsize":      9,
@@ -147,16 +127,9 @@ def apply_style() -> None:
         "legend.frameon":       False,
         "legend.borderaxespad": 0,
 
-        # Typography — Inter first for annotations and tick labels per
-        # public style guide §3.1 (metadata family). Display sans
-        # (Montserrat) follows so axis labels rendered via the chart's
-        # own font-family override still resolve correctly. The change
-        # finding — every chart was previously rendering all annotation
-        # text in DejaVu Sans (the matplotlib system default) when
-        # Montserrat wasn't available on the build machine. Inter is
-        # with macOS Sonoma+, Windows 11 with the optional WebUI font
-        # pack, and most Linux distros via fonts-inter) and the
-        # fallback chain after Inter is the spec metadata stack.
+        # Typography — Inter first for annotations and tick labels.
+        # Fallbacks stay broad so reviewer machines without Inter still
+        # render cleanly instead of falling back to matplotlib defaults.
         "font.family":          ["Inter", "Helvetica Neue",
                                  "Helvetica", "Arial", "DejaVu Sans"],
         "font.size":            10,
@@ -174,7 +147,7 @@ def set_chart_title(ax, text: str) -> None:
     """Register a chart title without drawing it on the figure.
 
     Chart titles belong in the markdown caption frame, not in the PNG
-    (public style guide §8.3). Use this in chart scripts in place of
+    Use this in chart scripts in place of
     ax.set_title(text); the title text is stored in CHART_TITLES under
     a key derived from the calling script's basename so any tooling
     that wants to surface it can.
@@ -199,3 +172,65 @@ def aud(n: float, decimals: int = 1) -> str:
     if abs(n) >= 1e3:
         return f"A${n/1e3:.{decimals}f}k"
     return f"A${n:.{decimals}f}"
+
+
+def save_chart(fig, png_path, svg_path=None) -> None:
+    """Save a chart figure as PNG (+ optional SVG) in Mac-Word-safe form.
+
+    Matplotlib's default `savefig` writes RGBA PNGs (4 channels with an
+    alpha layer). Mac Microsoft Word has documented compatibility issues
+    with alpha-channel PNGs embedded in DOCX: the file opens partially
+    with "Word found unreadable content" and Word offers recovery mode
+    that drops the offending image (confirmed against responsible-ai
+    v1.2.2 → v1.2.3). The build_docx.py pipeline catches this at the
+    post-build stage by flattening RGBA → RGB in every word/media/ PNG;
+    this helper is the SOURCE-side equivalent that chart scripts call
+    so the rendered PNG is Word-safe from the start.
+
+    Behaviour:
+      - Call `fig.savefig(png_path)` (matplotlib's default RGBA save).
+      - If `svg_path` is given, also call `fig.savefig(svg_path)` (SVG
+        unchanged — only the PNG needs the RGBA fix; SVG goes to HTML
+        + web edition where alpha is fine).
+      - Flatten the rendered PNG: open with Pillow, paste onto a white
+        background, re-save as RGB at the same DPI.
+
+    The visual result is identical for charts with white backgrounds
+    (the Instats convention — see `apply_style()`). For charts that
+    intentionally use transparency, the white-background flatten is the
+    closest Word-renderable approximation.
+
+    Usage in a chart script (replaces the manual fig.savefig pair):
+
+        from style import apply_style, COLORS, set_chart_title, save_chart
+        # ... build the chart ...
+        set_chart_title(ax, "Headline finding.")
+        save_chart(fig,
+                   OUT / "01_my_chart.png",
+                   SVG / "01_my_chart.svg")
+    """
+    fig.savefig(png_path)
+    if svg_path is not None:
+        fig.savefig(svg_path)
+
+    try:
+        from PIL import Image
+    except ImportError:
+        # Pillow is a project dependency; if it's missing, skip the
+        # flatten. The build_docx.py post-build gate catches the issue
+        # later. We don't want chart scripts to fail just because Pillow
+        # wasn't installed yet on a fresh dev machine.
+        return
+
+    from pathlib import Path
+    png_path = Path(png_path)
+    with Image.open(png_path) as img:
+        if img.mode == "RGBA":
+            bg = Image.new("RGB", img.size, (255, 255, 255))
+            bg.paste(img, mask=img.split()[3])
+            bg.save(
+                png_path,
+                "PNG",
+                optimize=True,
+                dpi=img.info.get("dpi", (300, 300)),
+            )

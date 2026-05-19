@@ -19,7 +19,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 
-from style import apply_style, COLORS, set_chart_title
+from style import apply_style, COLORS, set_chart_title, save_chart
 from values import load_values
 
 apply_style()
@@ -63,15 +63,16 @@ def main() -> None:
     ax.annotate(
         f"A${R['Australia_all_heads']:.1f} bn if LNG-attributable\ncompany income tax is included",
         xy=(R["Australia_rent_royalty"], aus_y),
-        xytext=(17.0, aus_y + 0.6),
+        xytext=(30.0, aus_y + 0.6),
         arrowprops={"arrowstyle": "-", "lw": 0.6, "color": COLORS["ink_soft"]},
         fontsize=9.5, color=COLORS["ink_soft"], ha="left", va="bottom",
         bbox=dict(boxstyle="square,pad=0.35", fc="none", ec=COLORS["ink_soft"], lw=0.5),
     )
 
     SVG.mkdir(parents=True, exist_ok=True)
-    fig.savefig(OUT / "12_aud_international_revenue.png")
-    fig.savefig(SVG / "12_aud_international_revenue.svg")
+    save_chart(fig,
+               OUT / "12_aud_international_revenue.png",
+               SVG / "12_aud_international_revenue.svg")
     plt.close(fig)
     print("Wrote", OUT / "12_aud_international_revenue.png")
 
