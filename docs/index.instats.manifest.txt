@@ -19,5 +19,5 @@ charts/png/04_what_17b_buys.png  ->  https://mzyphur.github.io/gas-tax/charts/pn
 assets/instats_logo.png  ->  https://mzyphur.github.io/gas-tax/assets/instats_logo.png
 report.instats.css?v=a631af6abcb8  ->  https://mzyphur.github.io/gas-tax/report.instats.css?v=a631af6abcb8
 assets/instats_logo.png  ->  https://mzyphur.github.io/gas-tax/assets/instats_logo.png
-report.pdf  ->  https://mzyphur.github.io/gas-tax/report.pdf
-report.docx  ->  https://mzyphur.github.io/gas-tax/report.docx
+Instats - Australia's Gas Export Tax Revenue.pdf  ->  https://mzyphur.github.io/gas-tax/Instats - Australia's Gas Export Tax Revenue.pdf
+Instats - Australia's Gas Export Tax Revenue.docx  ->  https://mzyphur.github.io/gas-tax/Instats - Australia's Gas Export Tax Revenue.docx
