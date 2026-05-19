@@ -1,6 +1,6 @@
 # Public asset manifest.
 # public_root = https://mzyphur.github.io/gas-tax/
-# count = 20
+# count = 18
 # Listed in document order; one rewrite per line.
 
 assets/instats_logo.png  ->  https://mzyphur.github.io/gas-tax/assets/instats_logo.png
@@ -19,7 +19,5 @@ charts/png/04_what_17b_buys.png  ->  https://mzyphur.github.io/gas-tax/charts/pn
 assets/instats_logo.png  ->  https://mzyphur.github.io/gas-tax/assets/instats_logo.png
 report.instats.css?v=f26da85778f4  ->  https://mzyphur.github.io/gas-tax/report.instats.css?v=f26da85778f4
 assets/instats_logo.png  ->  https://mzyphur.github.io/gas-tax/assets/instats_logo.png
-Instats - Australia's Gas Export Tax Revenue.pdf  ->  https://mzyphur.github.io/gas-tax/Instats - Australia's Gas Export Tax Revenue.pdf
-Instats - Australia's Gas Export Tax Revenue.docx  ->  https://mzyphur.github.io/gas-tax/Instats - Australia's Gas Export Tax Revenue.docx
 Instats - Australia's Gas Export Tax Revenue.pdf  ->  https://mzyphur.github.io/gas-tax/Instats - Australia's Gas Export Tax Revenue.pdf
 Instats - Australia's Gas Export Tax Revenue.docx  ->  https://mzyphur.github.io/gas-tax/Instats - Australia's Gas Export Tax Revenue.docx
