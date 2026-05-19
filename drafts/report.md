@@ -795,6 +795,8 @@ Same rates in tabular form for quick reference:
 
 Native figures are retained in parentheses where the audit trail benefits. Qualitative findings are robust to ±10 per cent FX variation. The full FX dossier (verification chain, v1.1 correction history, worked examples) is in `sources/fx_rates.md` in the public repository.
 
+**About the author.** Michael J. Zyphur is the Director of Instats and a Professor of Quantitative Methods at the University of Queensland. His research is at [Google Scholar](https://scholar.google.com/citations?user=J2VA-RMAAAAJ&hl=en). Contact: [support@instats.org](mailto:support@instats.org).
+
 **AI assistance.** This report used assistance from Anthropic Claude Code (Opus 4.7), OpenAI Codex (GPT-5.5), and Google Gemini (3 Flash Preview) for research review, drafting, code/release checks, and copy-editing. The author is responsible for every factual claim, source interpretation, calculation, caveat, and final wording.
 
 ---
