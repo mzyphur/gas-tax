@@ -78,8 +78,6 @@ The rest of this document walks through the evidence.
 
 \newpage
 
----
-
 ::: toc
 
 # Contents
