@@ -3,36 +3,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Montserrat:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,500&display=swap");
 
 :root {
-
-  --instats-primary:   #00547B;
-  --instats-secondary: #3092B1;
-  --instats-bg:        #F5F5F7;
-  --instats-tag:       #F1F0F1;
+  
+  --instats-primary:   #00547B;   
+  --instats-secondary: #3092B1;   
+  --instats-bg:        #F5F5F7;   
+  --instats-tag:       #F1F0F1;   
   --instats-primary-dk: #003F5C;
   --instats-secondary-lt: #BFE0EC;
 
-
+  
   --ink:        #212529;
   --ink-soft:   #495057;
   --paper:      var(--instats-bg);
   --cover-bg:   #FFFFFF;
-  --accent:     #C5283D;
+  --accent:     #C5283D;  
   --rule:       #DEE2E6;
   --rule-soft:  var(--instats-tag);
   --highlight:  #FFF7E6;
   --quote-bar:  var(--instats-secondary);
   --code-bg:    var(--instats-tag);
 
-
+  
   --serif:      "Source Serif 4", "Charter", "Iowan Old Style", "Georgia", "Times New Roman", serif;
-
-  --sans:       "Montserrat", "Inter", "Helvetica Neue", "Arial Narrow", "Helvetica", "Arial", sans-serif;
+  --sans:       "Montserrat", "Inter", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   --meta:       "Inter", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   --display:    var(--sans);
   --mono:       "JetBrains Mono", "SF Mono", "Menlo", monospace;
   --measure:    68ch;
 
-
+  
   --type-display-xl-size:    54px;
   --type-display-xl-lh:      1.05;
   --type-display-xl-weight:  700;
@@ -87,17 +86,19 @@ body {
   background: var(--paper);
   margin: 0;
   line-height: 1.65;
-
+  
   font-optical-sizing: auto;
-
+  
   font-variant-numeric: oldstyle-nums;
   hanging-punctuation: first last;
 }
+
 
 td, th, .stat, .keyfacts .num, .figure-num,
 .tablewrap td, .tablewrap th {
   font-variant-numeric: tabular-nums;
 }
+
 
 p, li, blockquote, dd {
   text-wrap: pretty;
@@ -115,9 +116,10 @@ h1, h2, h3, h4 {
   padding: 56px 36px 96px 36px;
 }
 
+
 .cover {
   background: var(--cover-bg);
-
+  
   padding: 0 56px;
   margin-bottom: 0;
   border-top: 6px solid var(--instats-primary);
@@ -130,14 +132,9 @@ h1, h2, h3, h4 {
 
 .cover > * { padding-left: 0; padding-right: 0; }
 
-.cover::after {
-  margin-left: -56px;
-  margin-right: -56px;
-}
-
 @media (max-width: 760px) {
   .cover { padding: 0 28px; }
-  .cover::after { margin-left: -28px; margin-right: -28px; }
+  .cover .cover-band { margin-left: -28px; margin-right: -28px; padding-left: 28px; }
 }
 
 .cover .cover-logo img,
@@ -147,6 +144,7 @@ h1, h2, h3, h4 {
   height: auto;
   margin: 56px 0 28px 0;
 }
+
 
 .cover .kicker {
   font-family: var(--display);
@@ -173,9 +171,10 @@ h1, h2, h3, h4 {
   max-width: 18ch;
 }
 
+
 .cover h2 {
   font-family: var(--serif);
-  font-size: 1.55rem;
+  font-size: 1.55rem;            
   font-style: italic;
   line-height: 1.3;
   color: var(--instats-secondary);
@@ -186,10 +185,11 @@ h1, h2, h3, h4 {
   letter-spacing: -0.005em;
 }
 
+
 .cover .abstract {
   font-family: var(--serif);
   font-style: italic;
-  font-size: 1.12rem;
+  font-size: 1.12rem;            
   line-height: 1.55;
   color: var(--ink-soft);
   max-width: 60ch;
@@ -198,6 +198,7 @@ h1, h2, h3, h4 {
   border-left: 2px solid var(--instats-primary);
 }
 .cover .abstract p { max-width: none; margin: 0; font-family: inherit; font-style: inherit; font-size: inherit; color: inherit; }
+
 
 .cover .author {
   font-family: var(--display);
@@ -212,33 +213,31 @@ h1, h2, h3, h4 {
 .cover .author p { margin: 0; max-width: none; font-family: inherit; font-size: inherit; color: inherit; }
 .cover .author strong { color: var(--instats-primary); font-weight: 700; }
 
-.cover::after {
-  content: "";
-  display: block;
-  margin: 56px 0 0 0;
-  height: 48px;
-  background: var(--instats-primary);
-}
 
 .cover .cover-band {
-  display: flex;
-  align-items: center;
-  height: 48px;
   margin: 56px -56px 0 -56px;
-  padding: 0 24px;
+  min-height: 48px;
+  padding: 17px 24px 15px 24px;
   background: var(--instats-primary);
-
-}
-.cover .cover-band-id {
+  color: white;
+  max-width: none;
   font-family: var(--sans);
+  font-size: 0.72rem;
+  line-height: 1;
   font-weight: 700;
-  font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #fff;
 }
 
-.cover:has(.cover-band)::after { display: none; }
+.cover .cover-band p {
+  margin: 0;
+  max-width: none;
+}
+
+.cover .cover-band-id {
+  color: white;
+}
+
 
 .colophon {
   background: var(--rule-soft);
@@ -268,50 +267,30 @@ h1, h2, h3, h4 {
   text-underline-offset: 2px;
 }
 
+
 .exec {
   background: var(--paper-tint, var(--instats-bg));
-  margin: 56px -52px;
+  margin: 56px -52px;            
   padding: 56px 52px 48px;
   border-top: 1px solid var(--rule);
   border-bottom: 1px solid var(--rule);
 }
 
-.exec-kicker {
-  display: block;
+.exec > h2:first-of-type {
+  
   font-family: var(--sans);
   font-weight: 700;
   font-size: 11px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--instats-primary);
-  margin: 0 0 8px 0;
-}
-
-.exec > h2:first-of-type {
-
-  font-family: var(--sans);
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 1.2;
-  letter-spacing: -0.005em;
-  text-transform: none;
-  color: var(--instats-primary);
   border-bottom: 0;
   padding-bottom: 0;
-  margin: 0 0 24px 0;
+  margin: 0 0 28px 0;
 }
 
-.exec > p:first-of-type {
-  margin: 0 0 8px 0;
-  font-style: normal;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  color: inherit;
-  max-width: none;
-}
 
-.exec > h2:first-of-type + p,
+.exec > p:first-of-type,
 .exec .lede {
   font-family: var(--serif);
   font-style: italic;
@@ -322,7 +301,9 @@ h1, h2, h3, h4 {
   max-width: 60ch;
 }
 
+
 .exec p { max-width: 60ch; }
+
 
 .exec ol {
   counter-reset: verdict;
@@ -354,6 +335,7 @@ h1, h2, h3, h4 {
   .exec ol > li { padding-left: 44px; }
 }
 
+
 .callout {
   border: 1px solid var(--rule);
   padding: 24px 28px;
@@ -373,6 +355,7 @@ h1, h2, h3, h4 {
   font-weight: 700;
 }
 
+
 .verdict, .verdict-pill {
   display: inline-block;
   font-family: var(--sans);
@@ -380,43 +363,42 @@ h1, h2, h3, h4 {
   font-size: 11px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  padding: 2px 10px 3px;
+  padding: 4px 10px;
   border-radius: 3px;
   background: var(--instats-tag);
   color: var(--ink);
   margin: 0 4px;
-  vertical-align: baseline;
+  vertical-align: 1px;
 }
 
-.verdict.true,      .verdict-pill.true      { background: color-mix(in srgb, #1F6E47 22%, white); color: #1F6E47; }
+.verdict.true,      .verdict-pill.true      { background: color-mix(in srgb, #1F6E47 18%, white); color: #1F6E47; }
 .verdict.mixed,     .verdict-pill.mixed     { background: color-mix(in srgb, #8C5A12 22%, white); color: #8C5A12; }
 .verdict.false,     .verdict-pill.false     { background: color-mix(in srgb, #963A2C 22%, white); color: #963A2C; }
 .verdict.decomposed,.verdict-pill.decomposed{ background: color-mix(in srgb, var(--instats-secondary) 22%, white); color: var(--instats-primary); }
+
 
 blockquote.pullquote, .pullquote {
   position: relative;
   font-family: var(--serif);
   font-style: italic;
-  font-size: 1.55rem;
+  font-size: 1.55rem;          
   line-height: 1.35;
   color: var(--ink);
   margin: 40px 10% 40px 0;
   padding: 4px 0 4px 24px;
-  border-left: 0;
+  border-left: 0;               
   background: transparent;
   max-width: none;
 }
+
 
 blockquote.pullquote::before, .pullquote::before {
   content: "";
   position: absolute;
   left: 0;
-
-  top: 0.2em;
-  bottom: auto;
-  width: 4px;
-  height: 1.6em;
+  top: 0.2em;                   
+  width: 4px;                   
+  height: 1.5em;
   background: var(--instats-primary);
 }
 blockquote.pullquote cite, .pullquote cite {
@@ -431,6 +413,7 @@ blockquote.pullquote cite, .pullquote cite {
   color: var(--ink-soft);
 }
 
+
 .toc {
   font-family: var(--display);
   font-size: 0.95rem;
@@ -442,10 +425,11 @@ blockquote.pullquote cite, .pullquote cite {
   line-height: 1.5;
 }
 
+
 .toc h1 {
   font-family: var(--display);
   font-weight: 700;
-  font-size: 0.85rem;
+  font-size: 0.85rem;            
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--instats-primary);
@@ -453,6 +437,7 @@ blockquote.pullquote cite, .pullquote cite {
   padding: 0 0 10px 0;
   border-bottom: 2px solid var(--instats-primary);
 }
+
 
 .toc h4 {
   font-family: var(--display);
@@ -464,19 +449,6 @@ blockquote.pullquote cite, .pullquote cite {
   margin: 18px 0 4px 0;
 }
 
-.toc a,
-.toc a:visited {
-  color: inherit;
-  text-decoration: none;
-  border-bottom: 1px dotted transparent;
-  transition: color 120ms ease, border-color 120ms ease;
-}
-.toc a:hover,
-.toc a:focus {
-  color: var(--instats-primary);
-  border-bottom-color: var(--instats-primary);
-  outline: none;
-}
 
 .toc ul {
   list-style: none;
@@ -504,6 +476,7 @@ blockquote.pullquote cite, .pullquote cite {
   font-size: 1.1em;
 }
 
+
 .toc p {
   margin: 4px 0 4px 18px;
   font-size: 0.95rem;
@@ -511,6 +484,8 @@ blockquote.pullquote cite, .pullquote cite {
   max-width: none;
   line-height: 1.45;
 }
+
+
 
 h1 {
   font-family: var(--sans);
@@ -557,6 +532,7 @@ h4 {
   margin: 22px 0 8px 0;
 }
 
+
 p {
   max-width: var(--measure);
   margin: 0 0 14px 0;
@@ -569,6 +545,7 @@ ul, ol {
 }
 
 li { margin-bottom: 5px; }
+
 
 blockquote {
   font-family: var(--serif);
@@ -591,6 +568,7 @@ blockquote cite {
   color: var(--ink-soft);
   margin-top: 8px;
 }
+
 
 table {
   width: 100%;
@@ -617,11 +595,15 @@ th {
 
 td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 
+
 @media (hover: hover) and (pointer: fine) {
   tr:hover td { background: rgba(75, 145, 179, 0.02); }
 }
 
+
+
 figure { margin: 40px 0 44px 0; padding: 0; }
+
 
 figure.chart {
   margin: 56px 0 64px 0;
@@ -693,24 +675,21 @@ p > img + em {
   display: block;
 }
 
-sup { line-height: 0; vertical-align: baseline; font-size: 100%; }
-.footnote-ref,
+
 sup a,
 .footnote-sep {
   font-family: var(--meta);
   color: var(--instats-primary);
   text-decoration: none;
-  font-size: 0.7em;
+  font-size: 0.85em;
   vertical-align: super;
-  position: relative;
-  top: -0.25em;
-  padding: 0 1px;
+  padding: 0 2px;
   font-weight: 600;
-  line-height: 0;
   display: inline;
 }
 
-sup a:hover, .footnote-ref:hover { text-decoration: underline; }
+sup a:hover { text-decoration: underline; }
+
 
 a {
   color: var(--instats-secondary);
@@ -720,6 +699,7 @@ a {
 }
 
 a:hover { color: var(--instats-primary); }
+
 
 code, kbd, samp {
   font-family: var(--mono);
@@ -738,15 +718,17 @@ pre code {
   white-space: pre-wrap;
 }
 
+
 .sources, .footnotes, .footnote {
   font-family: var(--meta);
   font-size: 0.83rem;
   color: var(--ink-soft);
-  line-height: 1.44;
+  line-height: 1.44;        
   margin-top: 80px;
   padding-top: 32px;
   border-top: 1px solid var(--rule);
 }
+
 
 .sources ol, .footnotes ol, .footnote ol {
   padding-left: 2.2em;
@@ -764,38 +746,19 @@ pre code {
 
 .footnotes hr { display: none; }
 
+
+
+
 .pagebreak { page-break-after: always; break-after: page; }
+
 
 @page {
   size: A4;
   margin: 22mm 22mm 25mm 22mm;
-  @top-right {
-    content: "Australia's Gas Export Tax Revenue · Instats Policy Series";
-    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-    font-size: 8.5pt;
-    color: #525560;
-    margin-top: 12mm;
-  }
-  @footnote {
-    border-top: 0.4pt solid #A8AAB1;
-    padding-top: 6pt;
-    margin-top: 12pt;
-  }
-}
-
-@page :first {
-  @top-right { content: ""; }
-  @bottom-center {
-    content: "";
-    background: #00547B;
-    height: 13mm;
-    margin: 12mm 0 0 0;
-    width: 100%;
-  }
 }
 
 @media print {
-
+  
   html, body {
     font-size: 11pt;
     line-height: 1.5;
@@ -807,50 +770,28 @@ pre code {
     print-color-adjust: exact;
   }
 
-
-  .cover {
-    min-height: 250mm;
-  }
-
-  .cover::after {
-    display: none;
-  }
-
-
+  
   .sticky-toc, .progress-bar, .site-nav, nav.navbar, .web-only {
     display: none !important;
   }
 
-
+  
   .wrap { padding: 0; max-width: none; }
 
-
+  
   h1 { break-before: page; }
   h1, h2, h3 { break-after: avoid; }
   figure, .tablewrap, table, blockquote, .colophon, .toc, .callout {
     break-inside: avoid;
   }
 
-  p, li {
-    widows: 3;
-    orphans: 3;
-  }
-
-  figure {
-    break-before: auto;
-    page-break-before: auto;
-    break-after: auto;
-    page-break-after: auto;
-  }
-  .footnotes, .footnote, .sources { break-before: page; }
-
-
+  
   a {
     color: var(--ink);
     text-decoration: underline;
     text-decoration-thickness: 0.5px;
   }
-
+  
   a[href^="http"]::after {
     content: " (" attr(href) ")";
     font-family: var(--meta);
@@ -858,16 +799,18 @@ pre code {
     color: var(--ink-soft);
     word-break: break-all;
   }
-
+  
   .footnotes a[href^="http"]::after,
   .footnote a[href^="http"]::after,
   .sources a[href^="http"]::after,
   .cover a[href^="http"]::after,
   .colophon a[href^="http"]::after,
   .author a[href^="http"]::after,
-
+  
   a:has(img)[href^="http"]::after { content: ""; }
 }
+
+
 
 .sticky-header {
   position: fixed;
@@ -875,7 +818,7 @@ pre code {
   left: 0;
   right: 0;
   height: 56px;
-
+  
   background: #FFFFFF;
   border-bottom: 1px solid var(--rule-soft);
   display: flex;
@@ -887,10 +830,6 @@ pre code {
   transition: transform 0.18s ease;
 }
 .sticky-header.visible { transform: translateY(0); }
-
-.sticky-header.scrolled {
-  box-shadow: 0 1px 0 var(--rule), 0 1px 4px rgba(31, 32, 36, 0.06);
-}
 
 .sticky-header .sh-title {
   font-family: var(--sans);
@@ -915,7 +854,8 @@ pre code {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.sticky-header .sh-download {
+.sticky-header .sh-download,
+.sticky-header .sh-repo {
   font-family: var(--sans);
   font-size: 11px;
   font-weight: 600;
@@ -929,8 +869,27 @@ pre code {
   white-space: nowrap;
   text-decoration: none;
 }
-.sticky-header .sh-download:hover {
+.sticky-header .sh-download:hover,
+.sticky-header .sh-repo:hover {
   background: var(--instats-secondary);
+  color: white;
+}
+
+.sticky-header .sh-download-word {
+  background: var(--instats-secondary);
+}
+.sticky-header .sh-download-word:hover {
+  background: var(--instats-primary);
+}
+
+.sticky-header .sh-repo {
+  background: white;
+  color: var(--instats-primary);
+  border: 1px solid var(--instats-primary);
+  padding: 7px 13px;
+}
+.sticky-header .sh-repo:hover {
+  background: var(--instats-primary);
   color: white;
 }
 
@@ -939,18 +898,18 @@ pre code {
   top: 0;
   left: 0;
   height: 3px;
-  width: 0;
+  width: 0;                          
   background: var(--instats-primary);
-  z-index: 100;
+  z-index: 100;                      
   transition: width 0.06s linear;
   pointer-events: none;
 }
 
 .sticky-toc {
-  display: none;
+  display: none;                     
   position: fixed;
   top: 80px;
-
+  
   left: max(16px, calc((100% - 880px) / 2 - 280px));
   width: 240px;
   max-height: calc(100vh - 160px);
@@ -997,12 +956,14 @@ pre code {
   font-weight: 600;
 }
 
+
 @media (min-width: 1408px) {
   .sticky-toc { display: block; }
 }
 
-@media print {
 
+@media print {
+  
   figure, table, blockquote, .colophon, .toc { page-break-inside: avoid; }
   h1 { page-break-before: always; }
   h2, h3 { page-break-after: avoid; }

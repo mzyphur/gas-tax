@@ -3,36 +3,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Montserrat:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,500&display=swap");
 
 .instats-report {
-
-  --instats-primary:   #00547B;
-  --instats-secondary: #3092B1;
-  --instats-bg:        #F5F5F7;
-  --instats-tag:       #F1F0F1;
+  
+  --instats-primary:   #00547B;   
+  --instats-secondary: #3092B1;   
+  --instats-bg:        #F5F5F7;   
+  --instats-tag:       #F1F0F1;   
   --instats-primary-dk: #003F5C;
   --instats-secondary-lt: #BFE0EC;
 
-
+  
   --ink:        #212529;
   --ink-soft:   #495057;
   --paper:      var(--instats-bg);
   --cover-bg:   #FFFFFF;
-  --accent:     #C5283D;
+  --accent:     #C5283D;  
   --rule:       #DEE2E6;
   --rule-soft:  var(--instats-tag);
   --highlight:  #FFF7E6;
   --quote-bar:  var(--instats-secondary);
   --code-bg:    var(--instats-tag);
 
-
+  
   --serif:      "Source Serif 4", "Charter", "Iowan Old Style", "Georgia", "Times New Roman", serif;
-
-  --sans:       "Montserrat", "Inter", "Helvetica Neue", "Arial Narrow", "Helvetica", "Arial", sans-serif;
+  --sans:       "Montserrat", "Inter", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   --meta:       "Inter", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   --display:    var(--sans);
   --mono:       "JetBrains Mono", "SF Mono", "Menlo", monospace;
   --measure:    68ch;
 
-
+  
   --type-display-xl-size:    54px;
   --type-display-xl-lh:      1.05;
   --type-display-xl-weight:  700;
@@ -87,16 +86,18 @@
   background: var(--paper);
   margin: 0;
   line-height: 1.65;
-
+  
   font-optical-sizing: auto;
-
+  
   font-variant-numeric: oldstyle-nums;
   hanging-punctuation: first last;
 }
 
+
 .instats-report td, .instats-report th, .instats-report .stat, .instats-report .keyfacts .num, .instats-report .figure-num, .instats-report .tablewrap td, .instats-report .tablewrap th {
   font-variant-numeric: tabular-nums;
 }
+
 
 .instats-report p, .instats-report li, .instats-report blockquote, .instats-report dd {
   text-wrap: pretty;
@@ -114,9 +115,10 @@
   padding: 56px 36px 96px 36px;
 }
 
+
 .instats-report .cover {
   background: var(--cover-bg);
-
+  
   padding: 0 56px;
   margin-bottom: 0;
   border-top: 6px solid var(--instats-primary);
@@ -129,14 +131,9 @@
 
 .instats-report .cover > * { padding-left: 0; padding-right: 0; }
 
-.instats-report .cover::after {
-  margin-left: -56px;
-  margin-right: -56px;
-}
-
 @media (max-width: 760px) {
   .instats-report .cover { padding: 0 28px; }
-  .instats-report .cover::after { margin-left: -28px; margin-right: -28px; }
+  .instats-report .cover .cover-band { margin-left: -28px; margin-right: -28px; padding-left: 28px; }
 }
 
 .instats-report .cover .cover-logo img, .instats-report .cover p img {
@@ -145,6 +142,7 @@
   height: auto;
   margin: 56px 0 28px 0;
 }
+
 
 .instats-report .cover .kicker {
   font-family: var(--display);
@@ -171,9 +169,10 @@
   max-width: 18ch;
 }
 
+
 .instats-report .cover h2 {
   font-family: var(--serif);
-  font-size: 1.55rem;
+  font-size: 1.55rem;            
   font-style: italic;
   line-height: 1.3;
   color: var(--instats-secondary);
@@ -184,10 +183,11 @@
   letter-spacing: -0.005em;
 }
 
+
 .instats-report .cover .abstract {
   font-family: var(--serif);
   font-style: italic;
-  font-size: 1.12rem;
+  font-size: 1.12rem;            
   line-height: 1.55;
   color: var(--ink-soft);
   max-width: 60ch;
@@ -196,6 +196,7 @@
   border-left: 2px solid var(--instats-primary);
 }
 .instats-report .cover .abstract p { max-width: none; margin: 0; font-family: inherit; font-style: inherit; font-size: inherit; color: inherit; }
+
 
 .instats-report .cover .author {
   font-family: var(--display);
@@ -210,33 +211,31 @@
 .instats-report .cover .author p { margin: 0; max-width: none; font-family: inherit; font-size: inherit; color: inherit; }
 .instats-report .cover .author strong { color: var(--instats-primary); font-weight: 700; }
 
-.instats-report .cover::after {
-  content: "";
-  display: block;
-  margin: 56px 0 0 0;
-  height: 48px;
-  background: var(--instats-primary);
-}
 
 .instats-report .cover .cover-band {
-  display: flex;
-  align-items: center;
-  height: 48px;
   margin: 56px -56px 0 -56px;
-  padding: 0 24px;
+  min-height: 48px;
+  padding: 17px 24px 15px 24px;
   background: var(--instats-primary);
-
-}
-.instats-report .cover .cover-band-id {
+  color: white;
+  max-width: none;
   font-family: var(--sans);
+  font-size: 0.72rem;
+  line-height: 1;
   font-weight: 700;
-  font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #fff;
 }
 
-.instats-report .cover:has(.cover-band)::after { display: none; }
+.instats-report .cover .cover-band p {
+  margin: 0;
+  max-width: none;
+}
+
+.instats-report .cover .cover-band-id {
+  color: white;
+}
+
 
 .instats-report .colophon {
   background: var(--rule-soft);
@@ -266,50 +265,30 @@
   text-underline-offset: 2px;
 }
 
+
 .instats-report .exec {
   background: var(--paper-tint, var(--instats-bg));
-  margin: 56px -52px;
+  margin: 56px -52px;            
   padding: 56px 52px 48px;
   border-top: 1px solid var(--rule);
   border-bottom: 1px solid var(--rule);
 }
 
-.instats-report .exec-kicker {
-  display: block;
+.instats-report .exec > h2:first-of-type {
+  
   font-family: var(--sans);
   font-weight: 700;
   font-size: 11px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--instats-primary);
-  margin: 0 0 8px 0;
-}
-
-.instats-report .exec > h2:first-of-type {
-
-  font-family: var(--sans);
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 1.2;
-  letter-spacing: -0.005em;
-  text-transform: none;
-  color: var(--instats-primary);
   border-bottom: 0;
   padding-bottom: 0;
-  margin: 0 0 24px 0;
+  margin: 0 0 28px 0;
 }
 
-.instats-report .exec > p:first-of-type {
-  margin: 0 0 8px 0;
-  font-style: normal;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  color: inherit;
-  max-width: none;
-}
 
-.instats-report .exec > h2:first-of-type + p, .instats-report .exec .lede {
+.instats-report .exec > p:first-of-type, .instats-report .exec .lede {
   font-family: var(--serif);
   font-style: italic;
   font-size: 1.2rem;
@@ -319,7 +298,9 @@
   max-width: 60ch;
 }
 
+
 .instats-report .exec p { max-width: 60ch; }
+
 
 .instats-report .exec ol {
   counter-reset: verdict;
@@ -351,6 +332,7 @@
   .instats-report .exec ol > li { padding-left: 44px; }
 }
 
+
 .instats-report .callout {
   border: 1px solid var(--rule);
   padding: 24px 28px;
@@ -369,6 +351,7 @@
   font-weight: 700;
 }
 
+
 .instats-report .verdict, .instats-report .verdict-pill {
   display: inline-block;
   font-family: var(--sans);
@@ -376,43 +359,42 @@
   font-size: 11px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  padding: 2px 10px 3px;
+  padding: 4px 10px;
   border-radius: 3px;
   background: var(--instats-tag);
   color: var(--ink);
   margin: 0 4px;
-  vertical-align: baseline;
+  vertical-align: 1px;
 }
 
-.instats-report .verdict.true, .instats-report .verdict-pill.true      { background: color-mix(in srgb, #1F6E47 22%, white); color: #1F6E47; }
+.instats-report .verdict.true, .instats-report .verdict-pill.true      { background: color-mix(in srgb, #1F6E47 18%, white); color: #1F6E47; }
 .instats-report .verdict.mixed, .instats-report .verdict-pill.mixed     { background: color-mix(in srgb, #8C5A12 22%, white); color: #8C5A12; }
 .instats-report .verdict.false, .instats-report .verdict-pill.false     { background: color-mix(in srgb, #963A2C 22%, white); color: #963A2C; }
 .instats-report .verdict.decomposed, .instats-report .verdict-pill.decomposed{ background: color-mix(in srgb, var(--instats-secondary) 22%, white); color: var(--instats-primary); }
+
 
 .instats-report blockquote.pullquote, .instats-report .pullquote {
   position: relative;
   font-family: var(--serif);
   font-style: italic;
-  font-size: 1.55rem;
+  font-size: 1.55rem;          
   line-height: 1.35;
   color: var(--ink);
   margin: 40px 10% 40px 0;
   padding: 4px 0 4px 24px;
-  border-left: 0;
+  border-left: 0;               
   background: transparent;
   max-width: none;
 }
+
 
 .instats-report blockquote.pullquote::before, .instats-report .pullquote::before {
   content: "";
   position: absolute;
   left: 0;
-
-  top: 0.2em;
-  bottom: auto;
-  width: 4px;
-  height: 1.6em;
+  top: 0.2em;                   
+  width: 4px;                   
+  height: 1.5em;
   background: var(--instats-primary);
 }
 .instats-report blockquote.pullquote cite, .instats-report .pullquote cite {
@@ -427,6 +409,7 @@
   color: var(--ink-soft);
 }
 
+
 .instats-report .toc {
   font-family: var(--display);
   font-size: 0.95rem;
@@ -438,10 +421,11 @@
   line-height: 1.5;
 }
 
+
 .instats-report .toc h1 {
   font-family: var(--display);
   font-weight: 700;
-  font-size: 0.85rem;
+  font-size: 0.85rem;            
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--instats-primary);
@@ -449,6 +433,7 @@
   padding: 0 0 10px 0;
   border-bottom: 2px solid var(--instats-primary);
 }
+
 
 .instats-report .toc h4 {
   font-family: var(--display);
@@ -460,17 +445,6 @@
   margin: 18px 0 4px 0;
 }
 
-.instats-report .toc a, .instats-report .toc a:visited {
-  color: inherit;
-  text-decoration: none;
-  border-bottom: 1px dotted transparent;
-  transition: color 120ms ease, border-color 120ms ease;
-}
-.instats-report .toc a:hover, .instats-report .toc a:focus {
-  color: var(--instats-primary);
-  border-bottom-color: var(--instats-primary);
-  outline: none;
-}
 
 .instats-report .toc ul {
   list-style: none;
@@ -498,6 +472,7 @@
   font-size: 1.1em;
 }
 
+
 .instats-report .toc p {
   margin: 4px 0 4px 18px;
   font-size: 0.95rem;
@@ -505,6 +480,8 @@
   max-width: none;
   line-height: 1.45;
 }
+
+
 
 .instats-report h1 {
   font-family: var(--sans);
@@ -551,6 +528,7 @@
   margin: 22px 0 8px 0;
 }
 
+
 .instats-report p {
   max-width: var(--measure);
   margin: 0 0 14px 0;
@@ -563,6 +541,7 @@
 }
 
 .instats-report li { margin-bottom: 5px; }
+
 
 .instats-report blockquote {
   font-family: var(--serif);
@@ -585,6 +564,7 @@
   color: var(--ink-soft);
   margin-top: 8px;
 }
+
 
 .instats-report table {
   width: 100%;
@@ -611,11 +591,15 @@
 
 .instats-report td.num, .instats-report th.num { text-align: right; font-variant-numeric: tabular-nums; }
 
+
 @media (hover: hover) and (pointer: fine) {
   .instats-report tr:hover td { background: rgba(75, 145, 179, 0.02); }
 }
 
+
+
 .instats-report figure { margin: 40px 0 44px 0; padding: 0; }
+
 
 .instats-report figure.chart {
   margin: 56px 0 64px 0;
@@ -686,22 +670,20 @@
   display: block;
 }
 
-.instats-report sup { line-height: 0; vertical-align: baseline; font-size: 100%; }
-.instats-report .footnote-ref, .instats-report sup a, .instats-report .footnote-sep {
+
+.instats-report sup a, .instats-report .footnote-sep {
   font-family: var(--meta);
   color: var(--instats-primary);
   text-decoration: none;
-  font-size: 0.7em;
+  font-size: 0.85em;
   vertical-align: super;
-  position: relative;
-  top: -0.25em;
-  padding: 0 1px;
+  padding: 0 2px;
   font-weight: 600;
-  line-height: 0;
   display: inline;
 }
 
-.instats-report sup a:hover, .instats-report .footnote-ref:hover { text-decoration: underline; }
+.instats-report sup a:hover { text-decoration: underline; }
+
 
 .instats-report a {
   color: var(--instats-secondary);
@@ -711,6 +693,7 @@
 }
 
 .instats-report a:hover { color: var(--instats-primary); }
+
 
 .instats-report code, .instats-report kbd, .instats-report samp {
   font-family: var(--mono);
@@ -729,15 +712,17 @@
   white-space: pre-wrap;
 }
 
+
 .instats-report .sources, .instats-report .footnotes, .instats-report .footnote {
   font-family: var(--meta);
   font-size: 0.83rem;
   color: var(--ink-soft);
-  line-height: 1.44;
+  line-height: 1.44;        
   margin-top: 80px;
   padding-top: 32px;
   border-top: 1px solid var(--rule);
 }
+
 
 .instats-report .sources ol, .instats-report .footnotes ol, .instats-report .footnote ol {
   padding-left: 2.2em;
@@ -755,38 +740,19 @@
 
 .instats-report .footnotes hr { display: none; }
 
+
+
+
 .instats-report .pagebreak { page-break-after: always; break-after: page; }
+
 
 @page {
   size: A4;
   margin: 22mm 22mm 25mm 22mm;
-  @top-right {
-    content: "Australia's Gas Export Tax Revenue · Instats Policy Series";
-    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-    font-size: 8.5pt;
-    color: #525560;
-    margin-top: 12mm;
-  }
-  @footnote {
-    border-top: 0.4pt solid #A8AAB1;
-    padding-top: 6pt;
-    margin-top: 12pt;
-  }
-}
-
-@page :first {
-  @top-right { content: ""; }
-  @bottom-center {
-    content: "";
-    background: #00547B;
-    height: 13mm;
-    margin: 12mm 0 0 0;
-    width: 100%;
-  }
 }
 
 @media print {
-
+  
   .instats-report {
     font-size: 11pt;
     line-height: 1.5;
@@ -798,50 +764,28 @@
     print-color-adjust: exact;
   }
 
-
-  .instats-report .cover {
-    min-height: 250mm;
-  }
-
-  .instats-report .cover::after {
-    display: none;
-  }
-
-
+  
   .instats-report .sticky-toc, .instats-report .progress-bar, .instats-report .site-nav, .instats-report nav.navbar, .instats-report .web-only {
     display: none !important;
   }
 
-
+  
   .instats-report .wrap { padding: 0; max-width: none; }
 
-
+  
   .instats-report h1 { break-before: page; }
   .instats-report h1, .instats-report h2, .instats-report h3 { break-after: avoid; }
   .instats-report figure, .instats-report .tablewrap, .instats-report table, .instats-report blockquote, .instats-report .colophon, .instats-report .toc, .instats-report .callout {
     break-inside: avoid;
   }
 
-  .instats-report p, .instats-report li {
-    widows: 3;
-    orphans: 3;
-  }
-
-  .instats-report figure {
-    break-before: auto;
-    page-break-before: auto;
-    break-after: auto;
-    page-break-after: auto;
-  }
-  .instats-report .footnotes, .instats-report .footnote, .instats-report .sources { break-before: page; }
-
-
+  
   .instats-report a {
     color: var(--ink);
     text-decoration: underline;
     text-decoration-thickness: 0.5px;
   }
-
+  
   .instats-report a[href^="http"]::after {
     content: " (" attr(href) ")";
     font-family: var(--meta);
@@ -849,9 +793,11 @@
     color: var(--ink-soft);
     word-break: break-all;
   }
-
+  
   .instats-report .footnotes a[href^="http"]::after, .instats-report .footnote a[href^="http"]::after, .instats-report .sources a[href^="http"]::after, .instats-report .cover a[href^="http"]::after, .instats-report .colophon a[href^="http"]::after, .instats-report .author a[href^="http"]::after, .instats-report a:has(img)[href^="http"]::after { content: ""; }
 }
+
+
 
 .instats-report .sticky-header {
   position: fixed;
@@ -859,7 +805,7 @@
   left: 0;
   right: 0;
   height: 56px;
-
+  
   background: #FFFFFF;
   border-bottom: 1px solid var(--rule-soft);
   display: flex;
@@ -871,10 +817,6 @@
   transition: transform 0.18s ease;
 }
 .instats-report .sticky-header.visible { transform: translateY(0); }
-
-.instats-report .sticky-header.scrolled {
-  box-shadow: 0 1px 0 var(--rule), 0 1px 4px rgba(31, 32, 36, 0.06);
-}
 
 .instats-report .sticky-header .sh-title {
   font-family: var(--sans);
@@ -899,7 +841,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.instats-report .sticky-header .sh-download {
+.instats-report .sticky-header .sh-download, .instats-report .sticky-header .sh-repo {
   font-family: var(--sans);
   font-size: 11px;
   font-weight: 600;
@@ -913,8 +855,26 @@
   white-space: nowrap;
   text-decoration: none;
 }
-.instats-report .sticky-header .sh-download:hover {
+.instats-report .sticky-header .sh-download:hover, .instats-report .sticky-header .sh-repo:hover {
   background: var(--instats-secondary);
+  color: white;
+}
+
+.instats-report .sticky-header .sh-download-word {
+  background: var(--instats-secondary);
+}
+.instats-report .sticky-header .sh-download-word:hover {
+  background: var(--instats-primary);
+}
+
+.instats-report .sticky-header .sh-repo {
+  background: white;
+  color: var(--instats-primary);
+  border: 1px solid var(--instats-primary);
+  padding: 7px 13px;
+}
+.instats-report .sticky-header .sh-repo:hover {
+  background: var(--instats-primary);
   color: white;
 }
 
@@ -923,18 +883,18 @@
   top: 0;
   left: 0;
   height: 3px;
-  width: 0;
+  width: 0;                          
   background: var(--instats-primary);
-  z-index: 100;
+  z-index: 100;                      
   transition: width 0.06s linear;
   pointer-events: none;
 }
 
 .instats-report .sticky-toc {
-  display: none;
+  display: none;                     
   position: fixed;
   top: 80px;
-
+  
   left: max(16px, calc((100% - 880px) / 2 - 280px));
   width: 240px;
   max-height: calc(100vh - 160px);
@@ -981,12 +941,14 @@
   font-weight: 600;
 }
 
+
 @media (min-width: 1408px) {
   .instats-report .sticky-toc { display: block; }
 }
 
-@media print {
 
+@media print {
+  
   .instats-report figure, .instats-report table, .instats-report blockquote, .instats-report .colophon, .instats-report .toc { page-break-inside: avoid; }
   .instats-report h1 { page-break-before: always; }
   .instats-report h2, .instats-report h3 { page-break-after: avoid; }
@@ -1011,6 +973,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 12px;
 }
 
 .instats-pdf-download,
@@ -1050,6 +1013,40 @@
 .instats-report .instats-pdf-download:focus-visible {
   outline: 3px solid rgba(48, 146, 177, 0.35);
   outline-offset: 3px;
+}
+
+/* Download Word variant — Instats secondary (teal) so the two
+   download buttons sit side-by-side as visibly distinct affordances. */
+.instats-docx-download,
+.instats-report .instats-docx-download {
+  background: var(--instats-secondary, #3092B1) !important;
+  border-color: var(--instats-secondary, #3092B1);
+  box-shadow: 0 8px 20px rgba(48, 146, 177, 0.18);
+}
+.instats-docx-download:hover,
+.instats-docx-download:focus,
+.instats-report .instats-docx-download:hover,
+.instats-report .instats-docx-download:focus {
+  background: var(--instats-primary, #00547B) !important;
+  border-color: var(--instats-primary, #00547B);
+}
+
+/* GitHub repo button — outlined-on-white so it subordinates to the
+   two download buttons. The repo is the secondary destination
+   (sources, dossiers) for readers who want to audit the report. */
+.instats-repo-link,
+.instats-report .instats-repo-link {
+  background: #FFFFFF !important;
+  color: var(--instats-primary, #00547B) !important;
+  border-color: var(--instats-primary, #00547B);
+  box-shadow: none;
+}
+.instats-repo-link:hover,
+.instats-repo-link:focus,
+.instats-report .instats-repo-link:hover,
+.instats-report .instats-repo-link:focus {
+  background: var(--instats-primary, #00547B) !important;
+  color: #FFFFFF !important;
 }
 
 @media (max-width: 720px) {
