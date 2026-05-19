@@ -13,8 +13,11 @@
   <a href="https://mzyphur.github.io/gas-tax/">
     <img alt="Read online" src="https://img.shields.io/badge/Read%20the%20report%20online-00547B?style=for-the-badge&logo=readthedocs&logoColor=white">
   </a>
-  <a href="https://github.com/mzyphur/gas-tax/releases/latest">
+  <a href="https://github.com/mzyphur/gas-tax/releases/latest/download/report.docx">
     <img alt="Download Microsoft Word" src="https://img.shields.io/badge/Download%20.docx-3092B1?style=for-the-badge&logo=microsoftword&logoColor=white">
+  </a>
+  <a href="https://github.com/mzyphur/gas-tax/releases/latest/download/report.pdf">
+    <img alt="Download PDF" src="https://img.shields.io/badge/Download%20.pdf-00547B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white">
   </a>
 </p>
 
@@ -52,10 +55,13 @@ Instats publishes the report source, numerical manifest, chart code, rendered ch
 | | |
 |---|---|
 | **Read online** | **<https://mzyphur.github.io/gas-tax/>** |
-| Microsoft Word (.docx) | [Latest release ->](https://github.com/mzyphur/gas-tax/releases/latest) |
-| PDF | [Latest release ->](https://github.com/mzyphur/gas-tax/releases/latest) |
-| Web edition | [`docs/index.html`](docs/index.html) for Pages; HTML and PDF builds attached to the [latest release](https://github.com/mzyphur/gas-tax/releases/latest) |
+| Microsoft Word (.docx) | **direct download:** <https://github.com/mzyphur/gas-tax/releases/latest/download/report.docx> |
+| PDF | **direct download:** <https://github.com/mzyphur/gas-tax/releases/latest/download/report.pdf> |
+| HTML | **direct download:** <https://github.com/mzyphur/gas-tax/releases/latest/download/report.html> |
+| Releases page (all versions) | [github.com/mzyphur/gas-tax/releases](https://github.com/mzyphur/gas-tax/releases) |
 | Markdown source | [`drafts/report.md`](drafts/report.md) |
+
+> **Downloading.** Use the direct-download links above (which serve the actual file with the correct `Content-Type`) or the release-page assets. If you click into the `docs/` folder via GitHub's file tree and "Save Link As" on the file there, GitHub serves the *browser preview page* — not the file — and the saved file will not open in Word. Use the direct-download links above instead.
 
 **Citation.** Zyphur, M. J. (2026). *Australia's Gas Export Tax Revenue: The Definitive Accounting.* Instats Policy Series, v3.2.8. <https://github.com/mzyphur/gas-tax>. ORCID: [0000-0003-3237-7892](https://orcid.org/0000-0003-3237-7892). DOI: 10.61700/7p5yeli67e.
 
