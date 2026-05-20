@@ -17,7 +17,7 @@ charts/png/11_buyer_country_tax.png  ->  https://mzyphur.github.io/gas-tax/chart
 charts/png/08_aep_decomposition.png  ->  https://mzyphur.github.io/gas-tax/charts/png/08_aep_decomposition.png
 charts/png/04_what_17b_buys.png  ->  https://mzyphur.github.io/gas-tax/charts/png/04_what_17b_buys.png
 assets/instats_logo.png  ->  https://mzyphur.github.io/gas-tax/assets/instats_logo.png
-report.instats.css?v=e202d1a6f7e7  ->  https://mzyphur.github.io/gas-tax/report.instats.css?v=e202d1a6f7e7
+report.instats.css?v=7189e05ca530  ->  https://mzyphur.github.io/gas-tax/report.instats.css?v=7189e05ca530
 assets/instats_logo.png  ->  https://mzyphur.github.io/gas-tax/assets/instats_logo.png
 Instats - Australia's Gas Export Tax Revenue.pdf  ->  https://mzyphur.github.io/gas-tax/Instats - Australia's Gas Export Tax Revenue.pdf
 Instats - Australia's Gas Export Tax Revenue.docx  ->  https://mzyphur.github.io/gas-tax/Instats - Australia's Gas Export Tax Revenue.docx
