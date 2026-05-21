@@ -12,6 +12,11 @@ the document level: major-version bumps for substantive reframing,
 minor-version bumps for substantive evidence additions, patch
 bumps for fixes and presentation work.
 
+## v3.2.x fix-up — Hero byline: primary role only (2026-05-21)
+
+Removes long-form UQ affiliation from the hero. About-the-author section
+retains the full affiliation. No content findings change.
+
 ## v3.2.x fix-up — Mobile body-width tightening (2026-05-21)
 
 Adds mobile @media rules: .wrap padding 36px → 20px; .exec padding 24px → 16px;
