@@ -12,6 +12,12 @@ the document level: major-version bumps for substantive reframing,
 minor-version bumps for substantive evidence additions, patch
 bumps for fixes and presentation work.
 
+## v3.2.x fix-up — DOCX TOC anchors (2026-05-21)
+
+Rebuilds the public Word artefact with general-repo v0.22.43's hardened
+TOC anchor rewrite. All DOCX table-of-contents entries now resolve to
+their destination headings instead of clicking to the top of the document.
+
 ## v3.2.x fix-up — Hero byline: primary role only (2026-05-21)
 
 Removes long-form UQ affiliation from the hero. About-the-author section
