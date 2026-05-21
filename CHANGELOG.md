@@ -12,6 +12,12 @@ the document level: major-version bumps for substantive reframing,
 minor-version bumps for substantive evidence additions, patch
 bumps for fixes and presentation work.
 
+## v3.2.x fix-up — Mobile body-width tightening (2026-05-21)
+
+Adds mobile @media rules: .wrap padding 36px → 20px; .exec padding 24px → 16px;
+.colophon margins -36px → -20px. Body text on phone viewports now fills
+approximately the same width as the hero.
+
 ## [3.2.8] — 2026-05-19
 
 Public/private boundary cleanup + Mac Word DOCX compatibility fix.
